@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibhava DeFi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+
+<div class="screen" id="loginScreen">
+    <div class="login-card">
+        <h1>VIBHAVA</h1>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">Secure Micro-Lending Portal</p>
+
+        <input id="usernameInput" placeholder="Username" />
+        <input id="passwordInput" type="password" placeholder="Password" />
+        
+        <select id="userTypeInput">
+            <option value="student">Student</option>
+            <option value="farmer">Farmer</option>
+            <option value="business">Small Business</option>
+            <option value="regular">Regular User</option>
+        </select>
+
+        <button onclick="goToFetch()">Access Dashboard</button>
+        <p id="loginMessage" style="font-size: 14px; margin-top: 15px;"></p>
+    </div>
+</div>
+
+<div class="screen hidden" id="fetchScreen">
+    <div class="avatar small"></div>
+    <h2>Verifying Financial Identity...</h2>
+    <p style="color: var(--text-muted); margin-bottom: 20px;">Fetching records from Python backend</p>
+    <button onclick="fetchUser()" style="width: 200px;">PROCEED</button>
+</div>
+
+<div class="screen hidden" id="profileScreen" style="justify-content: flex-start; padding-top: 40px;">
+    
+    <div class="top-bar">
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <div class="avatar tiny"></div>
+            <span id="usernameTop" style="font-weight: 600; font-size: 14px;">USER</span>
+        </div>
+        <button class="logout-btn" onclick="logout()">Exit</button>
+    </div>
+
+    <div class="profile-box" id="profile">
+        </div>
+
+    <div class="bottom-nav">
+        <button onclick="showBorrower()">Borrower</button>
+        <button onclick="showLender()">Lender</button>
+        <button onclick="showCommunity()">Community</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

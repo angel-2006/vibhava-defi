@@ -1,0 +1,2001 @@
+user_id,occupation,monthly_income,income_variance,upi_txn_count,upi_avg_amount,upi_inflow_outflow_ratio,gst_filing_frequency,monthly_revenue,savings_ratio,missed_payments,credit_score,loan_repaid,risk_level,reason
+1,vendor,43755,0.5,405,2774,0.91,1,156031,0.23,5,506,0,High Risk,High missed payments
+2,delivery_agent,50390,0.44,327,2560,1.08,6,196206,0.49,1,555,0,High Risk,Stable financial behavior
+3,freelancer,33711,0.41,67,590,1.75,9,45874,0.26,0,451,0,High Risk,Stable financial behavior
+4,delivery_agent,67993,0.26,61,1699,0.72,3,151007,0.17,5,637,1,Medium Risk,High missed payments
+5,delivery_agent,84696,0.51,229,1995,1.18,2,21301,0.45,2,749,1,Medium Risk,Stable financial behavior
+6,driver,37213,0.35,172,133,1.24,10,78017,0.27,1,473,0,High Risk,Stable financial behavior
+7,freelancer,67784,0.14,295,320,0.55,0,63319,0.32,0,653,1,Medium Risk,Stable financial behavior
+8,freelancer,17421,0.26,271,2341,0.79,2,42455,0.09,4,349,0,High Risk,High missed payments
+9,freelancer,96936,0.57,422,437,1.74,10,155184,0.22,2,831,1,Low Risk,Stable financial behavior
+10,delivery_agent,27727,0.53,100,263,1.75,8,77033,0.47,0,418,0,High Risk,Stable financial behavior
+11,vendor,14358,0.59,120,2915,0.94,8,183217,0.32,1,335,0,High Risk,Stable financial behavior
+12,freelancer,75108,0.41,97,108,1.81,6,126924,0.21,1,692,1,Medium Risk,Stable financial behavior
+13,delivery_agent,42117,0.22,68,1675,1.66,2,52735,0.33,4,490,0,High Risk,High missed payments
+14,driver,98700,0.18,311,2980,1.13,2,92781,0.46,2,835,1,Low Risk,Stable financial behavior
+15,vendor,41910,0.19,133,892,1.62,3,146031,0.17,2,495,0,High Risk,Low savings
+16,driver,65754,0.11,204,1577,1.94,6,148305,0.28,5,635,1,Medium Risk,High missed payments
+17,vendor,72438,0.3,102,1779,1.19,6,128049,0.48,0,679,1,Medium Risk,Stable financial behavior
+18,delivery_agent,39371,0.2,156,172,0.86,11,172783,0.13,5,477,0,High Risk,High missed payments
+19,shopkeeper,61501,0.31,406,1486,1.91,11,25630,0.37,1,627,1,Medium Risk,Stable financial behavior
+20,vendor,70946,0.57,353,1212,1.41,1,85488,0.33,1,674,1,Medium Risk,Stable financial behavior
+21,driver,48467,0.32,184,2536,0.66,11,154278,0.36,4,534,0,High Risk,High missed payments
+22,delivery_agent,27625,0.54,492,611,1.36,4,76289,0.21,4,419,0,High Risk,High missed payments
+23,vendor,43893,0.4,118,2215,1.25,6,38953,0.19,2,506,0,High Risk,Low savings
+24,shopkeeper,86329,0.22,60,1787,1.78,6,120932,0.36,5,750,1,Low Risk,High missed payments
+25,shopkeeper,41007,0.28,192,954,1.3,5,161140,0.15,1,493,0,High Risk,Low savings
+26,freelancer,49532,0.14,241,444,0.88,9,98930,0.24,0,549,0,High Risk,Stable financial behavior
+27,freelancer,64253,0.27,436,1776,1.51,9,21067,0.13,3,637,1,Medium Risk,High missed payments
+28,driver,22323,0.44,427,2973,1.31,11,70658,0.05,0,395,0,High Risk,Low savings
+29,vendor,83379,0.14,118,1766,0.85,7,72165,0.49,4,736,1,Medium Risk,High missed payments
+30,vendor,24210,0.2,72,984,1.36,2,100781,0.24,0,392,0,High Risk,Stable financial behavior
+31,freelancer,26456,0.29,230,1151,1.73,0,160931,0.49,1,410,0,High Risk,Stable financial behavior
+32,vendor,41367,0.59,342,1485,0.54,2,49164,0.11,5,489,0,High Risk,High missed payments
+33,vendor,64624,0.49,58,124,1.45,10,124946,0.31,2,629,1,Medium Risk,Stable financial behavior
+34,shopkeeper,20106,0.47,320,344,1.02,1,147580,0.14,5,364,0,High Risk,High missed payments
+35,freelancer,78008,0.16,436,70,0.94,1,119251,0.41,3,715,1,Medium Risk,High missed payments
+36,delivery_agent,82240,0.49,142,1088,1.09,1,40773,0.4,2,731,1,Medium Risk,Stable financial behavior
+37,freelancer,74315,0.49,66,1284,1.01,4,53939,0.1,3,679,1,Medium Risk,High missed payments
+38,delivery_agent,79249,0.4,203,609,1.75,0,199671,0.46,3,715,1,Medium Risk,High missed payments
+39,shopkeeper,80587,0.6,454,1159,0.91,9,157186,0.14,1,735,1,Medium Risk,Low savings
+40,driver,20756,0.26,377,1222,1.6,3,118475,0.33,1,382,0,High Risk,Stable financial behavior
+41,vendor,78011,0.57,198,421,0.64,9,32818,0.49,4,707,1,Medium Risk,High missed payments
+42,shopkeeper,46378,0.56,426,2077,1.93,4,29335,0.45,4,530,0,High Risk,High missed payments
+43,vendor,14255,0.11,316,867,1.43,1,75008,0.48,3,338,0,High Risk,High missed payments
+44,driver,24484,0.33,471,1224,1.56,4,91745,0.2,5,399,0,High Risk,High missed payments
+45,driver,66549,0.59,377,1214,0.95,9,194220,0.1,4,644,1,Medium Risk,High missed payments
+46,shopkeeper,44503,0.15,155,1142,1.12,3,23577,0.13,1,511,0,High Risk,Low savings
+47,driver,83794,0.37,430,1333,0.84,7,93916,0.28,4,748,1,Medium Risk,High missed payments
+48,delivery_agent,55113,0.59,84,2061,1.9,0,155148,0.41,3,569,0,High Risk,High missed payments
+49,driver,84069,0.38,168,895,1.23,11,183997,0.12,2,746,1,Medium Risk,Low savings
+50,vendor,15249,0.19,63,2041,1.45,4,79314,0.35,5,331,0,High Risk,High missed payments
+51,vendor,29201,0.39,63,570,1.6,10,61205,0.2,5,415,0,High Risk,High missed payments
+52,vendor,68576,0.2,315,420,1.06,11,162167,0.2,0,664,1,Medium Risk,Stable financial behavior
+53,vendor,19686,0.36,189,1492,1.58,9,133583,0.35,4,366,0,High Risk,High missed payments
+54,delivery_agent,63363,0.14,343,150,1.51,0,104715,0.26,5,621,1,Medium Risk,High missed payments
+55,freelancer,10661,0.4,413,710,1.56,9,76680,0.42,1,327,0,High Risk,Stable financial behavior
+56,shopkeeper,54843,0.36,168,1731,1.23,9,48400,0.12,2,573,0,High Risk,Low savings
+57,vendor,70963,0.47,287,292,1.07,3,127345,0.41,1,672,1,Medium Risk,Stable financial behavior
+58,driver,52828,0.42,83,2850,0.83,7,107110,0.08,4,552,0,High Risk,High missed payments
+59,vendor,58604,0.37,218,561,1.74,0,140120,0.14,3,592,0,High Risk,High missed payments
+60,driver,20526,0.44,59,2946,1.41,10,48562,0.35,0,374,0,High Risk,Stable financial behavior
+61,driver,78910,0.17,171,2652,1.17,1,191735,0.43,0,717,1,Medium Risk,Stable financial behavior
+62,vendor,35592,0.4,450,2323,1.92,0,38510,0.16,2,467,0,High Risk,Low savings
+63,delivery_agent,38982,0.19,194,1591,0.57,10,81608,0.2,5,475,0,High Risk,High missed payments
+64,driver,10207,0.56,495,2311,1.78,6,72182,0.29,5,317,0,High Risk,High missed payments
+65,driver,98733,0.13,272,2815,2.0,1,46883,0.15,5,828,1,Low Risk,High missed payments
+66,vendor,78619,0.32,420,2164,1.83,0,186916,0.42,0,725,1,Medium Risk,Stable financial behavior
+67,driver,39328,0.45,306,445,1.72,11,169800,0.4,3,489,0,High Risk,High missed payments
+68,driver,56479,0.33,317,661,1.06,5,31094,0.12,5,580,0,High Risk,High missed payments
+69,vendor,30103,0.15,408,1310,0.85,5,153479,0.26,1,437,0,High Risk,Stable financial behavior
+70,vendor,49891,0.38,53,1907,1.6,9,32644,0.4,5,537,0,High Risk,High missed payments
+71,shopkeeper,20754,0.42,475,819,0.96,1,105834,0.2,3,378,0,High Risk,High missed payments
+72,delivery_agent,91437,0.45,446,1472,0.76,0,128982,0.33,2,794,1,Low Risk,Stable financial behavior
+73,delivery_agent,82982,0.29,403,456,1.68,9,72748,0.07,2,747,1,Medium Risk,Low savings
+74,driver,65922,0.38,155,1922,0.97,2,79021,0.32,0,639,1,Medium Risk,Stable financial behavior
+75,delivery_agent,58231,0.33,134,1553,1.87,9,82651,0.12,3,591,0,High Risk,High missed payments
+76,driver,39301,0.44,263,2744,1.76,4,56807,0.42,1,488,0,High Risk,Stable financial behavior
+77,shopkeeper,72711,0.39,170,2319,1.77,5,185144,0.21,3,676,1,Medium Risk,High missed payments
+78,vendor,51323,0.36,181,1229,1.66,2,189470,0.18,1,553,0,High Risk,Low savings
+79,vendor,28752,0.22,387,703,1.82,8,48669,0.43,1,433,0,High Risk,Stable financial behavior
+80,vendor,92205,0.1,246,2525,1.71,10,181233,0.07,3,795,1,Low Risk,High missed payments
+81,delivery_agent,23395,0.19,68,1231,1.4,4,158354,0.23,4,380,0,High Risk,High missed payments
+82,shopkeeper,95957,0.16,179,1026,0.94,1,46539,0.22,3,810,1,Low Risk,High missed payments
+83,delivery_agent,66273,0.32,61,1489,1.83,9,154379,0.18,1,640,1,Medium Risk,Low savings
+84,delivery_agent,14895,0.41,130,2468,1.76,5,37745,0.46,5,333,0,High Risk,High missed payments
+85,shopkeeper,86559,0.21,379,1417,1.21,11,190505,0.39,2,770,1,Low Risk,Stable financial behavior
+86,shopkeeper,20699,0.57,403,2947,0.56,7,54555,0.08,2,377,0,High Risk,Low savings
+87,shopkeeper,75061,0.1,311,2953,1.46,10,152145,0.37,0,704,1,Medium Risk,Stable financial behavior
+88,shopkeeper,19715,0.49,441,278,0.58,5,52683,0.29,2,374,0,High Risk,Stable financial behavior
+89,vendor,29169,0.41,174,2377,1.89,3,45741,0.46,4,420,0,High Risk,High missed payments
+90,freelancer,26163,0.29,356,1943,1.94,5,173358,0.19,1,413,0,High Risk,Low savings
+91,freelancer,15782,0.13,316,1363,0.78,7,23599,0.31,3,347,0,High Risk,High missed payments
+92,shopkeeper,98177,0.41,496,1120,1.51,7,148513,0.28,3,838,1,Low Risk,High missed payments
+93,freelancer,94328,0.29,490,1024,0.64,9,47293,0.27,4,812,1,Low Risk,High missed payments
+94,freelancer,45585,0.57,432,1788,1.59,1,35389,0.26,2,525,0,High Risk,Stable financial behavior
+95,shopkeeper,40682,0.37,189,807,1.02,7,32318,0.14,1,491,0,High Risk,Low savings
+96,freelancer,57864,0.57,378,370,1.52,5,199947,0.39,2,598,0,High Risk,Stable financial behavior
+97,delivery_agent,94416,0.21,51,2371,1.06,1,23055,0.25,0,802,1,Low Risk,Stable financial behavior
+98,driver,65114,0.46,57,605,0.72,0,141164,0.48,2,626,1,Medium Risk,Stable financial behavior
+99,driver,48067,0.41,299,893,1.11,5,102579,0.17,0,540,0,High Risk,Low savings
+100,shopkeeper,52685,0.47,188,1386,0.67,6,157392,0.36,3,558,0,High Risk,High missed payments
+101,vendor,28073,0.21,173,1436,1.37,9,124817,0.47,1,421,0,High Risk,Stable financial behavior
+102,shopkeeper,46035,0.43,358,717,0.56,4,24642,0.35,5,520,0,High Risk,High missed payments
+103,vendor,74977,0.35,277,2477,1.29,9,29321,0.44,0,701,1,Medium Risk,Stable financial behavior
+104,driver,93362,0.47,59,2808,1.83,7,99968,0.42,2,798,1,Low Risk,Stable financial behavior
+105,shopkeeper,75450,0.26,261,1992,1.76,10,122770,0.21,2,700,1,Medium Risk,Stable financial behavior
+106,delivery_agent,20382,0.55,161,2054,1.82,11,177116,0.32,3,372,0,High Risk,High missed payments
+107,freelancer,14437,0.14,57,1980,1.88,8,173043,0.12,4,329,0,High Risk,High missed payments
+108,vendor,80971,0.5,341,795,0.66,3,129762,0.29,5,724,1,Medium Risk,High missed payments
+109,freelancer,74612,0.53,411,724,0.69,6,134183,0.15,4,691,1,Medium Risk,High missed payments
+110,freelancer,71929,0.51,302,2213,1.34,7,137159,0.38,2,679,1,Medium Risk,Stable financial behavior
+111,shopkeeper,22329,0.36,63,2702,1.84,5,45727,0.29,4,375,0,High Risk,High missed payments
+112,freelancer,35169,0.32,289,1115,1.96,1,173631,0.24,5,455,0,High Risk,High missed payments
+113,delivery_agent,97468,0.6,487,2476,0.57,6,93820,0.17,5,826,1,Low Risk,High missed payments
+114,freelancer,44594,0.21,291,2563,1.03,8,129062,0.5,1,521,0,High Risk,Stable financial behavior
+115,shopkeeper,86957,0.37,391,2377,0.82,4,47476,0.08,4,762,1,Low Risk,High missed payments
+116,delivery_agent,70631,0.44,198,667,1.63,1,162063,0.07,1,665,1,Medium Risk,Low savings
+117,driver,55033,0.45,285,2215,1.46,3,140355,0.15,2,576,0,High Risk,Low savings
+118,freelancer,73133,0.2,355,2406,0.68,2,90047,0.49,2,685,1,Medium Risk,Stable financial behavior
+119,shopkeeper,83165,0.43,216,2197,1.23,3,161868,0.49,2,741,1,Medium Risk,Stable financial behavior
+120,driver,83861,0.51,69,2358,1.53,9,23881,0.34,3,740,1,Medium Risk,High missed payments
+121,driver,62290,0.13,265,1042,1.67,6,35668,0.45,4,619,1,Medium Risk,High missed payments
+122,vendor,41750,0.56,392,1378,0.53,9,185384,0.15,0,506,0,High Risk,Low savings
+123,delivery_agent,50461,0.11,184,1427,1.84,7,48106,0.49,5,546,0,High Risk,High missed payments
+124,freelancer,83800,0.28,442,335,1.35,0,35729,0.11,0,753,1,Low Risk,Low savings
+125,shopkeeper,88222,0.11,178,2425,1.72,7,149354,0.1,2,770,1,Low Risk,Low savings
+126,vendor,34226,0.14,459,2160,1.71,4,90320,0.1,4,457,0,High Risk,High missed payments
+127,delivery_agent,16721,0.56,471,736,0.78,11,74913,0.31,1,362,0,High Risk,Stable financial behavior
+128,vendor,66154,0.28,343,1355,0.67,6,79402,0.4,0,649,1,Medium Risk,Stable financial behavior
+129,delivery_agent,30609,0.31,295,1514,1.58,10,141649,0.22,2,437,0,High Risk,Stable financial behavior
+130,delivery_agent,62130,0.21,238,787,0.73,10,123930,0.49,0,624,1,Medium Risk,Stable financial behavior
+131,freelancer,82909,0.4,93,2736,1.77,0,188354,0.25,0,737,1,Medium Risk,Stable financial behavior
+132,delivery_agent,65249,0.4,135,2008,1.59,1,189290,0.12,5,624,1,Medium Risk,High missed payments
+133,vendor,58895,0.29,93,1944,1.76,0,169022,0.26,0,596,0,High Risk,Stable financial behavior
+134,delivery_agent,15656,0.27,379,2573,0.95,4,79739,0.36,2,349,0,High Risk,Stable financial behavior
+135,freelancer,84520,0.54,424,1535,0.97,5,24507,0.42,5,750,1,Low Risk,High missed payments
+136,freelancer,73740,0.29,495,2150,1.51,9,197375,0.26,2,697,1,Medium Risk,Stable financial behavior
+137,vendor,74309,0.35,427,2851,0.55,8,122552,0.32,3,694,1,Medium Risk,High missed payments
+138,driver,39984,0.24,439,535,1.59,7,99059,0.17,3,494,0,High Risk,High missed payments
+139,driver,83822,0.49,194,1563,1.75,6,175739,0.34,3,743,1,Medium Risk,High missed payments
+140,delivery_agent,15901,0.3,100,2051,1.12,11,155064,0.49,0,349,0,High Risk,Stable financial behavior
+141,shopkeeper,41552,0.36,291,1437,1.65,4,150514,0.07,4,494,0,High Risk,High missed payments
+142,delivery_agent,41055,0.23,343,2506,0.76,2,107680,0.45,2,496,0,High Risk,Stable financial behavior
+143,vendor,47685,0.59,457,1080,0.98,8,45530,0.3,3,539,0,High Risk,High missed payments
+144,vendor,83965,0.25,100,1815,1.96,4,35305,0.16,4,738,1,Medium Risk,High missed payments
+145,vendor,24716,0.49,315,717,1.98,2,129097,0.48,3,400,0,High Risk,High missed payments
+146,vendor,21138,0.31,169,1270,1.27,2,72044,0.27,3,371,0,High Risk,High missed payments
+147,vendor,45298,0.2,249,884,1.9,2,150436,0.2,4,515,0,High Risk,High missed payments
+148,freelancer,61112,0.5,454,925,1.28,5,109363,0.13,3,616,1,Medium Risk,High missed payments
+149,driver,33429,0.27,297,2464,0.94,0,78817,0.16,0,451,0,High Risk,Low savings
+150,vendor,60200,0.53,119,1051,0.9,10,123038,0.42,0,608,1,Medium Risk,Stable financial behavior
+151,shopkeeper,81308,0.56,390,299,1.89,3,66666,0.33,5,730,1,Medium Risk,High missed payments
+152,shopkeeper,58244,0.53,106,1989,0.76,7,177245,0.46,0,594,0,High Risk,Stable financial behavior
+153,shopkeeper,27347,0.12,431,1668,1.37,2,38909,0.15,1,420,0,High Risk,Low savings
+154,shopkeeper,26920,0.49,88,1313,1.33,4,182079,0.1,5,398,0,High Risk,High missed payments
+155,freelancer,41822,0.31,338,2477,1.61,1,164057,0.05,3,497,0,High Risk,High missed payments
+156,shopkeeper,56659,0.54,492,921,1.25,1,42525,0.28,1,594,0,High Risk,Stable financial behavior
+157,vendor,50108,0.42,67,884,0.91,10,132293,0.5,2,544,0,High Risk,Stable financial behavior
+158,delivery_agent,99099,0.52,489,2872,0.75,6,121046,0.36,4,839,1,Low Risk,High missed payments
+159,shopkeeper,17967,0.35,269,968,1.43,9,57403,0.19,2,361,0,High Risk,Low savings
+160,freelancer,21871,0.37,362,1774,1.58,2,188265,0.44,1,388,0,High Risk,Stable financial behavior
+161,freelancer,87452,0.17,293,2552,1.35,4,154902,0.4,0,773,1,Low Risk,Stable financial behavior
+162,shopkeeper,84270,0.49,401,2463,1.61,2,151605,0.06,3,749,1,Medium Risk,High missed payments
+163,delivery_agent,43613,0.31,353,1363,0.71,5,172018,0.42,5,507,0,High Risk,High missed payments
+164,shopkeeper,38179,0.35,347,1947,1.82,9,43504,0.19,3,481,0,High Risk,High missed payments
+165,freelancer,62188,0.49,332,452,1.37,2,130551,0.12,0,622,1,Medium Risk,Low savings
+166,driver,65099,0.4,123,2155,0.69,7,75715,0.15,3,628,1,Medium Risk,High missed payments
+167,vendor,45262,0.2,159,2618,1.19,1,179327,0.26,4,510,0,High Risk,High missed payments
+168,freelancer,88213,0.4,229,1377,1.77,2,56855,0.24,4,766,1,Low Risk,High missed payments
+169,shopkeeper,28268,0.3,475,1188,1.85,7,61721,0.18,4,425,0,High Risk,High missed payments
+170,vendor,87866,0.33,81,259,0.9,7,131597,0.13,2,762,1,Low Risk,Low savings
+171,shopkeeper,96269,0.11,283,1114,1.57,0,192922,0.39,0,823,1,Low Risk,Stable financial behavior
+172,shopkeeper,70545,0.21,331,865,0.65,7,120659,0.5,4,668,1,Medium Risk,High missed payments
+173,driver,82146,0.24,74,2270,0.55,9,54723,0.4,1,733,1,Medium Risk,Stable financial behavior
+174,vendor,81966,0.46,380,283,1.34,1,186811,0.18,4,733,1,Medium Risk,High missed payments
+175,vendor,49922,0.11,328,842,1.54,11,25539,0.16,5,547,0,High Risk,High missed payments
+176,driver,89364,0.3,275,1957,1.69,6,136360,0.15,2,780,1,Low Risk,Low savings
+177,freelancer,52913,0.56,106,1663,1.01,5,121140,0.11,1,558,0,High Risk,Low savings
+178,shopkeeper,65677,0.16,229,2890,0.51,1,172383,0.3,0,639,1,Medium Risk,Stable financial behavior
+179,delivery_agent,59841,0.36,281,2216,1.22,4,89180,0.32,0,609,1,Medium Risk,Stable financial behavior
+180,shopkeeper,56332,0.49,431,384,0.52,6,136985,0.37,5,584,0,High Risk,High missed payments
+181,shopkeeper,35032,0.57,392,1409,0.64,7,105981,0.36,4,460,0,High Risk,High missed payments
+182,freelancer,47846,0.47,336,1689,0.99,2,55934,0.18,1,536,0,High Risk,Low savings
+183,shopkeeper,69474,0.46,113,1147,1.16,0,160583,0.2,5,647,1,Medium Risk,High missed payments
+184,driver,54936,0.51,281,1264,0.92,6,151255,0.36,1,579,0,High Risk,Stable financial behavior
+185,driver,39794,0.32,338,373,1.37,4,29475,0.21,4,485,0,High Risk,High missed payments
+186,vendor,71588,0.5,262,1840,0.58,4,79577,0.15,4,667,1,Medium Risk,High missed payments
+187,delivery_agent,80984,0.1,307,333,0.72,6,46008,0.22,3,728,1,Medium Risk,High missed payments
+188,shopkeeper,60331,0.56,67,262,1.54,0,199013,0.17,3,596,0,High Risk,High missed payments
+189,shopkeeper,38141,0.32,224,1708,0.71,7,62756,0.09,4,471,0,High Risk,High missed payments
+190,freelancer,19074,0.38,466,1791,1.46,11,100730,0.42,2,377,0,High Risk,Stable financial behavior
+191,driver,16406,0.23,278,978,0.58,9,178984,0.43,5,346,0,High Risk,High missed payments
+192,delivery_agent,33291,0.47,275,801,1.11,4,102702,0.15,3,446,0,High Risk,High missed payments
+193,vendor,51568,0.14,133,1467,0.77,7,66840,0.08,4,547,0,High Risk,High missed payments
+194,driver,56851,0.54,340,2436,0.66,9,58623,0.38,1,593,0,High Risk,Stable financial behavior
+195,vendor,64823,0.51,484,1871,1.35,9,83303,0.15,5,637,1,Medium Risk,High missed payments
+196,freelancer,33312,0.21,419,1095,1.89,4,66062,0.23,3,454,0,High Risk,High missed payments
+197,freelancer,53108,0.5,295,1844,0.58,11,76690,0.08,2,566,0,High Risk,Low savings
+198,shopkeeper,76918,0.49,451,1942,1.13,6,118980,0.15,5,705,1,Medium Risk,High missed payments
+199,delivery_agent,44171,0.42,159,154,1.56,9,174706,0.41,5,507,0,High Risk,High missed payments
+200,vendor,51779,0.29,303,1539,1.19,2,155162,0.41,0,562,0,High Risk,Stable financial behavior
+201,driver,78828,0.24,137,1532,1.71,1,65266,0.14,1,712,1,Medium Risk,Low savings
+202,freelancer,22411,0.22,121,1505,0.77,5,181080,0.2,2,379,0,High Risk,Stable financial behavior
+203,shopkeeper,67009,0.26,430,819,1.94,4,107643,0.11,2,653,1,Medium Risk,Low savings
+204,shopkeeper,25422,0.55,79,2813,1.08,8,78704,0.08,2,395,0,High Risk,Low savings
+205,vendor,52468,0.14,221,2860,1.01,9,137374,0.5,1,565,0,High Risk,Stable financial behavior
+206,freelancer,42371,0.51,358,2009,1.81,3,28382,0.35,2,506,0,High Risk,Stable financial behavior
+207,delivery_agent,67022,0.27,443,2077,1.35,10,198846,0.29,0,660,1,Medium Risk,Stable financial behavior
+208,freelancer,81229,0.36,392,428,1.27,2,109609,0.39,3,733,1,Medium Risk,High missed payments
+209,vendor,61196,0.5,485,762,1.59,8,66698,0.43,1,626,1,Medium Risk,Stable financial behavior
+210,vendor,90354,0.54,226,1422,1.37,7,21110,0.41,2,785,1,Low Risk,Stable financial behavior
+211,freelancer,36715,0.27,188,274,0.74,5,135266,0.06,4,460,0,High Risk,High missed payments
+212,vendor,37605,0.33,243,1787,1.51,0,151458,0.13,3,469,0,High Risk,High missed payments
+213,freelancer,41174,0.31,235,787,0.7,9,67801,0.34,5,490,0,High Risk,High missed payments
+214,driver,19956,0.11,267,285,1.71,11,134012,0.22,1,377,0,High Risk,Stable financial behavior
+215,freelancer,86373,0.25,213,232,1.98,10,116085,0.49,4,761,1,Low Risk,High missed payments
+216,freelancer,79252,0.33,210,761,1.07,0,51566,0.35,5,709,1,Medium Risk,High missed payments
+217,vendor,71949,0.31,480,1942,1.17,11,183593,0.48,4,684,1,Medium Risk,High missed payments
+218,vendor,72646,0.46,62,2541,0.57,5,43798,0.14,2,670,1,Medium Risk,Low savings
+219,shopkeeper,80017,0.29,345,1938,0.52,2,164637,0.44,1,726,1,Medium Risk,Stable financial behavior
+220,shopkeeper,73037,0.34,138,672,1.88,2,43027,0.19,2,678,1,Medium Risk,Low savings
+221,driver,99818,0.31,373,1309,0.69,5,25631,0.5,5,838,1,Low Risk,High missed payments
+222,shopkeeper,16548,0.47,91,1200,1.17,2,76878,0.12,0,345,0,High Risk,Low savings
+223,freelancer,83294,0.53,452,798,1.72,10,65206,0.28,4,749,1,Medium Risk,High missed payments
+224,vendor,33177,0.37,259,2252,1.83,9,123473,0.41,0,456,0,High Risk,Stable financial behavior
+225,shopkeeper,34022,0.49,278,2354,1.28,5,78334,0.24,5,448,0,High Risk,High missed payments
+226,shopkeeper,15542,0.25,399,2332,1.35,4,92323,0.26,2,349,0,High Risk,Stable financial behavior
+227,driver,70428,0.37,324,2597,1.5,3,73619,0.49,3,669,1,Medium Risk,High missed payments
+228,driver,32740,0.27,491,2386,1.94,7,123536,0.24,4,453,0,High Risk,High missed payments
+229,freelancer,69353,0.31,328,559,1.4,1,177947,0.32,3,660,1,Medium Risk,High missed payments
+230,vendor,66532,0.47,300,1625,1.34,11,175586,0.07,1,649,1,Medium Risk,Low savings
+231,driver,26052,0.54,359,1873,0.52,10,173652,0.43,4,407,0,High Risk,High missed payments
+232,shopkeeper,57076,0.16,257,2806,0.62,6,155360,0.34,0,592,0,High Risk,Stable financial behavior
+233,vendor,63420,0.42,370,834,1.37,3,26734,0.23,3,627,1,Medium Risk,High missed payments
+234,vendor,10671,0.39,189,2991,1.9,1,59008,0.06,5,306,0,High Risk,High missed payments
+235,shopkeeper,10163,0.16,329,2873,1.8,6,69349,0.32,1,320,0,High Risk,Stable financial behavior
+236,driver,51424,0.21,83,2395,1.97,0,158886,0.06,4,544,0,High Risk,High missed payments
+237,shopkeeper,63744,0.26,358,186,1.29,3,194226,0.05,5,623,1,Medium Risk,High missed payments
+238,vendor,80331,0.18,441,2473,1.68,8,158923,0.33,1,737,1,Medium Risk,Stable financial behavior
+239,delivery_agent,20634,0.22,67,2184,1.76,3,144478,0.14,0,371,0,High Risk,Low savings
+240,delivery_agent,14798,0.23,106,1827,1.47,11,152672,0.14,5,332,0,High Risk,High missed payments
+241,freelancer,32420,0.27,161,1272,1.01,2,76614,0.34,4,435,0,High Risk,High missed payments
+242,shopkeeper,39300,0.47,54,2534,1.2,9,23692,0.07,1,479,0,High Risk,Low savings
+243,shopkeeper,99881,0.39,459,1383,1.79,9,146745,0.19,2,850,1,Low Risk,Low savings
+244,freelancer,20749,0.59,463,1827,0.95,1,40373,0.12,4,374,0,High Risk,High missed payments
+245,freelancer,35121,0.31,231,1354,1.89,2,132413,0.31,4,455,0,High Risk,High missed payments
+246,freelancer,47487,0.48,62,813,0.84,0,34507,0.35,4,518,0,High Risk,High missed payments
+247,vendor,43361,0.54,388,751,1.62,9,82931,0.37,4,512,0,High Risk,High missed payments
+248,shopkeeper,31223,0.44,334,201,1.45,7,95499,0.16,2,440,0,High Risk,Low savings
+249,vendor,82930,0.31,308,1375,1.62,0,134362,0.09,5,734,1,Medium Risk,High missed payments
+250,freelancer,24056,0.48,139,1351,1.16,2,117449,0.09,5,381,0,High Risk,High missed payments
+251,shopkeeper,38380,0.2,153,1761,1.9,2,116819,0.24,5,470,0,High Risk,High missed payments
+252,vendor,36035,0.26,428,1081,1.45,1,59423,0.48,0,475,0,High Risk,Stable financial behavior
+253,vendor,40620,0.37,235,856,0.93,4,123612,0.15,2,489,0,High Risk,Low savings
+254,freelancer,29877,0.39,299,284,1.46,9,106120,0.17,2,432,0,High Risk,Low savings
+255,shopkeeper,65316,0.11,304,2772,0.93,2,137409,0.1,1,638,1,Medium Risk,Low savings
+256,freelancer,74041,0.57,125,610,0.94,2,110918,0.32,3,679,1,Medium Risk,High missed payments
+257,shopkeeper,63352,0.45,435,1375,1.1,7,86600,0.36,5,627,1,Medium Risk,High missed payments
+258,delivery_agent,40911,0.35,157,87,1.78,3,61848,0.34,3,489,0,High Risk,High missed payments
+259,driver,42784,0.57,205,1209,1.25,3,26820,0.44,1,504,0,High Risk,Stable financial behavior
+260,driver,13191,0.32,131,2919,1.52,2,28512,0.27,2,326,0,High Risk,Stable financial behavior
+261,driver,43160,0.59,126,470,1.09,10,187797,0.11,1,504,0,High Risk,Low savings
+262,freelancer,74641,0.36,307,1292,0.9,0,71534,0.18,4,686,1,Medium Risk,High missed payments
+263,delivery_agent,59723,0.16,176,397,1.93,7,145191,0.35,1,607,1,Medium Risk,Stable financial behavior
+264,shopkeeper,13631,0.48,440,1881,1.41,0,190848,0.33,1,340,0,High Risk,Stable financial behavior
+265,vendor,16172,0.44,331,1619,1.9,6,80945,0.29,4,349,0,High Risk,High missed payments
+266,shopkeeper,52080,0.49,137,2845,0.81,4,103420,0.36,3,552,0,High Risk,High missed payments
+267,vendor,99097,0.58,253,1968,0.72,3,198527,0.34,4,829,1,Low Risk,High missed payments
+268,shopkeeper,30281,0.49,65,2370,1.78,3,103488,0.45,0,429,0,High Risk,Stable financial behavior
+269,delivery_agent,38671,0.41,200,1951,1.52,7,29711,0.31,1,482,0,High Risk,Stable financial behavior
+270,vendor,61431,0.53,473,2405,0.78,10,106009,0.4,1,625,1,Medium Risk,Stable financial behavior
+271,freelancer,38602,0.44,303,1447,0.9,10,29597,0.16,3,480,0,High Risk,High missed payments
+272,shopkeeper,98789,0.3,237,2830,1.7,5,80067,0.36,2,835,1,Low Risk,Stable financial behavior
+273,shopkeeper,61399,0.54,378,1874,1.18,11,68022,0.46,4,618,1,Medium Risk,High missed payments
+274,vendor,33472,0.21,81,2541,1.51,0,132673,0.22,2,442,0,High Risk,Stable financial behavior
+275,freelancer,59230,0.46,320,1278,0.98,9,169854,0.4,0,609,1,Medium Risk,Stable financial behavior
+276,freelancer,83616,0.54,446,454,1.07,7,71782,0.38,4,748,1,Medium Risk,High missed payments
+277,delivery_agent,17099,0.47,54,1771,1.99,1,130716,0.08,0,348,0,High Risk,Low savings
+278,freelancer,35431,0.45,379,2950,0.87,5,138030,0.31,0,469,0,High Risk,Stable financial behavior
+279,freelancer,66492,0.48,357,1270,1.26,8,92036,0.11,0,651,1,Medium Risk,Low savings
+280,freelancer,57684,0.33,382,2875,1.77,0,55342,0.49,5,591,0,High Risk,High missed payments
+281,driver,40111,0.54,218,164,0.86,5,105745,0.42,4,483,0,High Risk,High missed payments
+282,delivery_agent,73936,0.2,230,1726,1.12,7,172049,0.1,4,683,1,Medium Risk,High missed payments
+283,shopkeeper,32614,0.16,415,114,1.42,9,77396,0.1,5,446,0,High Risk,High missed payments
+284,vendor,51991,0.24,227,1349,1.22,1,134836,0.32,3,554,0,High Risk,High missed payments
+285,shopkeeper,80476,0.37,192,874,1.19,4,126998,0.21,5,717,1,Medium Risk,High missed payments
+286,delivery_agent,70920,0.36,411,2336,1.04,5,70021,0.07,1,675,1,Medium Risk,Low savings
+287,vendor,73530,0.51,297,2399,1.38,4,150672,0.29,2,686,1,Medium Risk,Stable financial behavior
+288,delivery_agent,46224,0.3,176,1465,1.44,2,138559,0.22,2,521,0,High Risk,Stable financial behavior
+289,freelancer,17788,0.34,312,1018,1.48,3,86836,0.1,0,362,0,High Risk,Low savings
+290,vendor,38082,0.11,89,418,0.61,6,178147,0.41,4,468,0,High Risk,High missed payments
+291,freelancer,99570,0.3,461,282,1.45,3,181874,0.46,4,842,1,Low Risk,High missed payments
+292,shopkeeper,86816,0.42,465,2292,1.93,8,97017,0.39,0,778,1,Low Risk,Stable financial behavior
+293,shopkeeper,93588,0.11,404,956,1.31,10,122689,0.42,1,814,1,Low Risk,Stable financial behavior
+294,vendor,26531,0.24,304,970,1.57,11,100291,0.15,2,414,0,High Risk,Low savings
+295,vendor,98340,0.2,192,738,1.34,9,110450,0.17,5,825,1,Low Risk,High missed payments
+296,delivery_agent,54857,0.12,289,226,1.78,1,186664,0.14,3,574,0,High Risk,High missed payments
+297,delivery_agent,20142,0.34,277,2314,1.89,4,76006,0.39,1,376,0,High Risk,Stable financial behavior
+298,freelancer,58355,0.19,390,1084,0.78,7,177341,0.48,4,599,0,High Risk,High missed payments
+299,vendor,19866,0.47,247,1519,1.16,4,124268,0.37,0,373,0,High Risk,Stable financial behavior
+300,shopkeeper,80067,0.52,114,679,1.09,9,70138,0.45,2,721,1,Medium Risk,Stable financial behavior
+301,delivery_agent,74027,0.37,437,213,1.11,11,82398,0.34,0,701,1,Medium Risk,Stable financial behavior
+302,delivery_agent,67906,0.59,60,2150,0.69,7,170946,0.22,4,640,1,Medium Risk,High missed payments
+303,shopkeeper,38138,0.33,157,2315,1.72,7,77228,0.24,0,479,0,High Risk,Stable financial behavior
+304,delivery_agent,39956,0.36,75,873,0.55,8,82670,0.08,5,474,0,High Risk,High missed payments
+305,freelancer,86295,0.59,494,2482,1.29,9,145613,0.06,2,768,1,Low Risk,Low savings
+306,vendor,15439,0.22,470,105,1.49,5,122071,0.36,0,357,0,High Risk,Stable financial behavior
+307,shopkeeper,57241,0.57,200,167,0.81,11,130572,0.25,2,589,0,High Risk,Stable financial behavior
+308,vendor,52533,0.12,270,2997,1.86,3,158997,0.3,0,567,0,High Risk,Stable financial behavior
+309,delivery_agent,38270,0.32,390,847,1.76,11,23107,0.3,0,491,0,High Risk,Stable financial behavior
+310,delivery_agent,88815,0.14,286,829,1.21,10,106388,0.17,2,778,1,Low Risk,Low savings
+311,shopkeeper,49279,0.46,286,2900,1.12,2,115719,0.26,5,536,0,High Risk,High missed payments
+312,freelancer,33888,0.4,268,2942,0.85,11,138018,0.26,0,458,0,High Risk,Stable financial behavior
+313,driver,27630,0.45,473,1488,1.59,4,47617,0.22,5,417,0,High Risk,High missed payments
+314,shopkeeper,71063,0.29,200,1943,0.7,5,94258,0.42,1,670,1,Medium Risk,Stable financial behavior
+315,driver,45144,0.28,172,2952,1.52,2,70075,0.25,3,513,0,High Risk,High missed payments
+316,driver,62161,0.12,193,757,1.76,1,146998,0.32,1,618,1,Medium Risk,Stable financial behavior
+317,freelancer,87360,0.27,238,1153,0.84,6,42631,0.45,3,765,1,Low Risk,High missed payments
+318,driver,60979,0.56,304,71,1.8,10,143120,0.44,1,619,1,Medium Risk,Stable financial behavior
+319,driver,16979,0.29,117,1550,0.55,4,117158,0.45,3,345,0,High Risk,High missed payments
+320,freelancer,36189,0.52,153,892,1.87,8,158955,0.17,0,468,0,High Risk,Low savings
+321,driver,52600,0.52,385,1810,0.68,2,170780,0.07,2,562,0,High Risk,Low savings
+322,driver,69560,0.29,208,1166,1.47,7,66221,0.17,2,661,1,Medium Risk,Low savings
+323,driver,88040,0.42,358,241,0.88,5,168269,0.18,4,768,1,Low Risk,High missed payments
+324,shopkeeper,71558,0.15,411,1068,1.75,3,172206,0.46,3,679,1,Medium Risk,High missed payments
+325,shopkeeper,96205,0.15,458,1176,1.27,11,125922,0.34,4,825,1,Low Risk,High missed payments
+326,shopkeeper,16910,0.12,349,445,0.7,11,53550,0.09,5,351,0,High Risk,High missed payments
+327,freelancer,67713,0.39,445,2737,1.36,8,34642,0.11,5,652,1,Medium Risk,High missed payments
+328,delivery_agent,56857,0.31,139,1068,1.11,4,171511,0.12,4,577,0,High Risk,High missed payments
+329,driver,44964,0.37,406,616,1.49,9,126093,0.33,3,523,0,High Risk,High missed payments
+330,driver,95667,0.36,305,280,1.82,5,175655,0.38,2,819,1,Low Risk,Stable financial behavior
+331,freelancer,35227,0.28,402,923,1.11,8,113885,0.44,3,466,0,High Risk,High missed payments
+332,driver,15978,0.44,269,2671,0.93,6,99538,0.47,5,343,0,High Risk,High missed payments
+333,shopkeeper,97527,0.48,58,289,0.52,11,82014,0.14,0,823,1,Low Risk,Low savings
+334,delivery_agent,27153,0.11,61,139,1.36,4,39523,0.19,4,402,0,High Risk,High missed payments
+335,vendor,69765,0.2,374,2329,1.1,1,130285,0.16,4,661,1,Medium Risk,High missed payments
+336,driver,49071,0.46,487,506,1.06,3,125879,0.21,5,542,0,High Risk,High missed payments
+337,shopkeeper,79519,0.29,293,2330,0.77,1,110629,0.46,3,718,1,Medium Risk,High missed payments
+338,vendor,19503,0.43,231,403,1.15,2,96830,0.31,4,362,0,High Risk,High missed payments
+339,delivery_agent,70703,0.27,333,1054,1.98,9,65538,0.38,2,676,1,Medium Risk,Stable financial behavior
+340,vendor,74379,0.3,361,1406,0.95,11,67310,0.27,4,692,1,Medium Risk,High missed payments
+341,shopkeeper,67866,0.18,148,488,1.4,2,161980,0.06,3,644,1,Medium Risk,High missed payments
+342,vendor,26905,0.23,246,1448,1.66,3,135266,0.08,5,404,0,High Risk,High missed payments
+343,freelancer,55838,0.4,415,394,1.62,5,32699,0.29,2,588,0,High Risk,Stable financial behavior
+344,vendor,68279,0.32,275,2761,0.99,11,86912,0.37,2,658,1,Medium Risk,Stable financial behavior
+345,driver,99489,0.49,382,706,1.42,2,165327,0.15,4,836,1,Low Risk,High missed payments
+346,driver,36806,0.53,152,2227,1.81,9,99183,0.37,3,467,0,High Risk,High missed payments
+347,freelancer,55000,0.37,155,2238,0.52,0,80282,0.41,4,566,0,High Risk,High missed payments
+348,shopkeeper,32168,0.48,414,2512,1.15,0,78249,0.24,0,448,0,High Risk,Stable financial behavior
+349,driver,80119,0.25,417,1166,0.84,8,58176,0.39,5,725,1,Medium Risk,High missed payments
+350,delivery_agent,48714,0.31,107,675,1.08,8,28163,0.23,0,539,0,High Risk,Stable financial behavior
+351,driver,64093,0.46,127,333,1.12,4,74210,0.36,2,625,1,Medium Risk,Stable financial behavior
+352,driver,65419,0.29,124,2029,1.62,8,143844,0.39,4,632,1,Medium Risk,High missed payments
+353,shopkeeper,59145,0.39,91,1728,0.64,10,124587,0.5,0,601,1,Medium Risk,Stable financial behavior
+354,vendor,87425,0.19,471,272,1.27,6,91979,0.21,1,777,1,Low Risk,Stable financial behavior
+355,driver,87811,0.4,373,793,1.35,8,98860,0.23,0,778,1,Low Risk,Stable financial behavior
+356,freelancer,12461,0.53,230,512,1.24,11,172215,0.12,4,323,0,High Risk,High missed payments
+357,vendor,24291,0.53,82,1618,1.6,6,24920,0.14,4,386,0,High Risk,High missed payments
+358,delivery_agent,56804,0.46,120,1755,1.08,8,102911,0.36,5,578,0,High Risk,High missed payments
+359,shopkeeper,86971,0.47,105,1213,1.92,1,57996,0.46,0,763,1,Low Risk,Stable financial behavior
+360,delivery_agent,74946,0.38,154,2454,1.22,10,162820,0.23,4,688,1,Medium Risk,High missed payments
+361,vendor,94080,0.39,249,1786,1.36,10,114071,0.13,4,803,1,Low Risk,High missed payments
+362,vendor,71332,0.17,150,1096,1.74,7,67252,0.18,5,665,1,Medium Risk,High missed payments
+363,vendor,87794,0.32,305,2956,0.91,6,142734,0.25,5,765,1,Low Risk,High missed payments
+364,delivery_agent,40841,0.33,356,714,0.61,5,157522,0.18,5,489,0,High Risk,High missed payments
+365,vendor,58758,0.58,123,1406,1.56,4,72756,0.16,5,587,0,High Risk,High missed payments
+366,delivery_agent,86272,0.32,220,1064,1.22,3,70235,0.38,1,760,1,Low Risk,Stable financial behavior
+367,vendor,47643,0.37,426,2182,1.84,6,110546,0.05,2,539,0,High Risk,Low savings
+368,freelancer,60408,0.37,192,2718,1.97,2,151092,0.29,4,602,1,Medium Risk,High missed payments
+369,vendor,53950,0.42,215,1104,1.1,7,145802,0.41,3,568,0,High Risk,High missed payments
+370,delivery_agent,66849,0.47,448,1814,1.12,1,128421,0.17,5,644,1,Medium Risk,High missed payments
+371,driver,38044,0.21,310,2337,1.11,0,160736,0.32,2,477,0,High Risk,Stable financial behavior
+372,vendor,25997,0.36,270,1963,0.99,10,86635,0.35,5,403,0,High Risk,High missed payments
+373,driver,89751,0.51,132,412,1.67,1,43225,0.34,2,775,1,Low Risk,Stable financial behavior
+374,freelancer,33911,0.33,231,2919,1.64,8,126885,0.25,3,452,0,High Risk,High missed payments
+375,shopkeeper,65533,0.24,356,1462,1.22,4,105333,0.21,0,645,1,Medium Risk,Stable financial behavior
+376,freelancer,92566,0.43,59,717,0.57,10,191297,0.43,1,794,1,Low Risk,Stable financial behavior
+377,vendor,24571,0.51,445,1930,0.96,7,30807,0.39,4,401,0,High Risk,High missed payments
+378,driver,67941,0.13,53,1444,0.94,2,26402,0.19,0,647,1,Medium Risk,Low savings
+379,driver,68005,0.49,400,148,1.72,6,24521,0.1,3,656,1,Medium Risk,High missed payments
+380,delivery_agent,96250,0.51,451,2144,0.63,1,134693,0.08,1,822,1,Low Risk,Low savings
+381,driver,68712,0.33,385,2936,1.71,7,28382,0.09,1,664,1,Medium Risk,Low savings
+382,delivery_agent,53541,0.59,341,471,1.5,6,130996,0.31,1,573,0,High Risk,Stable financial behavior
+383,shopkeeper,33387,0.49,330,1553,1.6,11,35065,0.07,3,452,0,High Risk,High missed payments
+384,vendor,58908,0.49,264,111,1.15,4,105470,0.2,5,592,0,High Risk,High missed payments
+385,delivery_agent,95457,0.47,147,1182,1.52,11,34425,0.39,5,808,1,Low Risk,High missed payments
+386,shopkeeper,23057,0.18,469,1752,1.41,10,33111,0.18,5,393,0,High Risk,High missed payments
+387,driver,74028,0.21,150,647,1.65,3,191871,0.39,0,689,1,Medium Risk,Stable financial behavior
+388,driver,65731,0.33,58,441,1.17,0,73257,0.39,4,627,1,Medium Risk,High missed payments
+389,shopkeeper,34858,0.23,110,1125,1.21,4,143990,0.16,1,454,0,High Risk,Low savings
+390,driver,58689,0.31,358,2700,1.47,11,147813,0.38,1,608,1,Medium Risk,Stable financial behavior
+391,shopkeeper,54638,0.54,195,1362,0.66,8,101046,0.39,0,576,0,High Risk,Stable financial behavior
+392,delivery_agent,56486,0.51,476,2079,1.15,9,57851,0.23,5,588,0,High Risk,High missed payments
+393,delivery_agent,30567,0.42,468,2434,1.96,3,28816,0.14,1,442,0,High Risk,Low savings
+394,shopkeeper,39739,0.53,112,859,0.56,8,22175,0.28,1,483,0,High Risk,Stable financial behavior
+395,delivery_agent,67804,0.49,170,1455,0.97,11,31341,0.46,3,650,1,Medium Risk,High missed payments
+396,delivery_agent,13754,0.31,275,2849,0.97,1,83908,0.34,2,333,0,High Risk,Stable financial behavior
+397,delivery_agent,37044,0.2,154,1209,1.45,3,176726,0.13,0,470,0,High Risk,Low savings
+398,freelancer,77260,0.36,309,1581,0.66,8,79696,0.36,0,713,1,Medium Risk,Stable financial behavior
+399,vendor,76912,0.47,398,1435,1.44,3,103115,0.24,5,703,1,Medium Risk,High missed payments
+400,driver,18706,0.32,474,930,0.64,4,50194,0.32,0,373,0,High Risk,Stable financial behavior
+401,freelancer,18894,0.43,304,1649,0.64,10,185909,0.38,5,362,0,High Risk,High missed payments
+402,delivery_agent,28037,0.15,478,2732,1.59,7,104358,0.28,3,426,0,High Risk,High missed payments
+403,shopkeeper,93986,0.47,483,303,0.99,0,192648,0.42,3,809,1,Low Risk,High missed payments
+404,delivery_agent,91942,0.51,256,2117,1.97,0,122548,0.37,4,789,1,Low Risk,High missed payments
+405,vendor,61612,0.45,77,2625,0.56,8,170799,0.33,5,603,1,Medium Risk,High missed payments
+406,delivery_agent,39725,0.58,219,1218,1.17,8,54579,0.12,3,483,0,High Risk,High missed payments
+407,shopkeeper,15926,0.51,385,1281,0.67,3,116554,0.43,5,344,0,High Risk,High missed payments
+408,vendor,19496,0.55,125,2473,1.03,1,167627,0.47,0,365,0,High Risk,Stable financial behavior
+409,delivery_agent,66447,0.57,165,215,2.0,8,73294,0.11,4,638,1,Medium Risk,High missed payments
+410,vendor,39806,0.5,118,1623,1.83,3,69777,0.27,2,482,0,High Risk,Stable financial behavior
+411,driver,98199,0.44,403,2958,0.57,5,156978,0.17,1,835,1,Low Risk,Low savings
+412,driver,51321,0.1,283,666,1.34,11,60751,0.39,1,562,0,High Risk,Stable financial behavior
+413,delivery_agent,75095,0.33,50,2709,1.47,0,128750,0.37,4,682,1,Medium Risk,High missed payments
+414,vendor,32656,0.39,216,1675,0.81,11,94180,0.11,5,438,0,High Risk,High missed payments
+415,shopkeeper,65147,0.25,401,552,0.72,8,51644,0.44,5,637,1,Medium Risk,High missed payments
+416,delivery_agent,59666,0.26,267,962,1.86,4,53521,0.13,5,599,0,High Risk,High missed payments
+417,driver,92368,0.58,322,2176,1.95,2,31564,0.41,2,799,1,Low Risk,Stable financial behavior
+418,driver,48787,0.55,417,634,1.99,3,125155,0.26,1,548,0,High Risk,Stable financial behavior
+419,delivery_agent,72946,0.52,300,2008,1.68,0,178371,0.2,4,677,1,Medium Risk,High missed payments
+420,vendor,31727,0.3,396,2785,1.5,8,199030,0.12,5,440,0,High Risk,High missed payments
+421,driver,78056,0.11,393,445,1.02,7,164493,0.13,3,715,1,Medium Risk,High missed payments
+422,vendor,13081,0.14,468,1681,0.76,3,108747,0.35,0,340,0,High Risk,Stable financial behavior
+423,driver,44196,0.26,223,1930,0.62,1,31202,0.3,2,509,0,High Risk,Stable financial behavior
+424,driver,46735,0.11,219,451,1.54,8,129407,0.1,5,522,0,High Risk,High missed payments
+425,freelancer,90102,0.11,295,1024,1.68,3,193257,0.1,1,785,1,Low Risk,Low savings
+426,driver,89578,0.56,472,273,1.74,8,154757,0.08,0,791,1,Low Risk,Low savings
+427,shopkeeper,35498,0.45,139,567,1.87,9,110197,0.38,4,458,0,High Risk,High missed payments
+428,delivery_agent,86865,0.25,98,2731,1.82,2,62637,0.37,5,753,1,Low Risk,High missed payments
+429,delivery_agent,41656,0.17,495,285,2.0,6,169438,0.08,1,509,0,High Risk,Low savings
+430,vendor,77695,0.36,343,165,0.87,6,44276,0.3,0,716,1,Medium Risk,Stable financial behavior
+431,driver,47900,0.1,456,275,1.64,9,100946,0.09,3,542,0,High Risk,High missed payments
+432,shopkeeper,94899,0.57,199,2327,1.38,3,199311,0.46,2,809,1,Low Risk,Stable financial behavior
+433,vendor,57701,0.31,181,231,0.89,1,95214,0.46,4,584,0,High Risk,High missed payments
+434,freelancer,29033,0.3,482,1391,1.97,10,175647,0.36,1,438,0,High Risk,Stable financial behavior
+435,vendor,20805,0.3,108,259,1.85,8,192473,0.47,3,373,0,High Risk,High missed payments
+436,vendor,45851,0.13,373,1465,0.69,3,61230,0.42,2,526,0,High Risk,Stable financial behavior
+437,driver,36832,0.42,248,2193,0.54,7,144086,0.42,2,469,0,High Risk,Stable financial behavior
+438,freelancer,73437,0.47,264,943,1.53,1,149526,0.31,3,682,1,Medium Risk,High missed payments
+439,vendor,23944,0.44,435,1931,1.41,7,174093,0.19,1,403,0,High Risk,Low savings
+440,shopkeeper,29873,0.17,98,2853,1.9,10,160521,0.15,2,426,0,High Risk,Low savings
+441,shopkeeper,50372,0.39,281,1159,0.85,9,166729,0.2,4,547,0,High Risk,High missed payments
+442,delivery_agent,99464,0.38,296,2512,0.63,4,55059,0.33,0,841,1,Low Risk,Stable financial behavior
+443,freelancer,25379,0.53,431,2076,0.89,6,21532,0.13,4,403,0,High Risk,High missed payments
+444,freelancer,46751,0.29,288,443,0.53,6,122666,0.17,5,521,0,High Risk,High missed payments
+445,delivery_agent,99822,0.29,464,2793,0.55,11,101551,0.26,2,848,1,Low Risk,Stable financial behavior
+446,vendor,15110,0.41,416,893,1.87,8,188828,0.15,0,353,0,High Risk,Low savings
+447,freelancer,64341,0.42,217,1574,1.03,2,91880,0.31,3,626,1,Medium Risk,High missed payments
+448,shopkeeper,22087,0.33,97,653,1.12,9,126734,0.47,0,384,0,High Risk,Stable financial behavior
+449,shopkeeper,33762,0.32,100,631,0.53,3,133997,0.39,0,448,0,High Risk,Stable financial behavior
+450,driver,92617,0.35,348,2092,0.91,9,185278,0.35,0,806,1,Low Risk,Stable financial behavior
+451,freelancer,19596,0.53,147,1989,1.71,3,72168,0.31,2,364,0,High Risk,Stable financial behavior
+452,vendor,28313,0.33,488,182,1.42,9,133123,0.27,5,424,0,High Risk,High missed payments
+453,delivery_agent,76549,0.57,265,2888,1.63,4,175622,0.13,5,696,1,Medium Risk,High missed payments
+454,delivery_agent,33705,0.35,226,2746,1.17,5,157461,0.45,1,453,0,High Risk,Stable financial behavior
+455,vendor,77364,0.57,429,2318,0.96,2,107897,0.16,5,705,1,Medium Risk,High missed payments
+456,driver,83445,0.52,129,1025,1.22,3,186919,0.09,2,736,1,Medium Risk,Low savings
+457,delivery_agent,88645,0.28,234,1863,0.98,2,124599,0.39,1,774,1,Low Risk,Stable financial behavior
+458,freelancer,12023,0.53,416,1593,1.76,1,99239,0.13,3,325,0,High Risk,High missed payments
+459,driver,69796,0.16,448,2885,0.95,9,38642,0.22,3,669,1,Medium Risk,High missed payments
+460,freelancer,90073,0.56,76,2788,1.49,11,126862,0.06,3,775,1,Low Risk,High missed payments
+461,shopkeeper,74429,0.42,497,1407,0.71,8,56509,0.11,3,696,1,Medium Risk,High missed payments
+462,driver,71627,0.13,463,88,1.53,0,99417,0.13,3,677,1,Medium Risk,High missed payments
+463,delivery_agent,43848,0.42,469,1366,1.87,1,69237,0.07,4,512,0,High Risk,High missed payments
+464,driver,47804,0.59,244,2787,1.41,7,166486,0.35,2,535,0,High Risk,Stable financial behavior
+465,driver,25379,0.13,263,211,1.34,6,83176,0.43,1,407,0,High Risk,Stable financial behavior
+466,driver,69664,0.38,418,1959,1.94,11,148633,0.22,3,670,1,Medium Risk,High missed payments
+467,driver,37766,0.47,391,1177,1.44,0,99865,0.44,4,475,0,High Risk,High missed payments
+468,freelancer,78099,0.51,163,2258,0.89,4,137181,0.15,5,700,1,Medium Risk,High missed payments
+469,shopkeeper,46060,0.31,291,1708,0.94,9,82059,0.2,4,522,0,High Risk,High missed payments
+470,vendor,79122,0.2,173,2013,1.56,5,69150,0.12,4,711,1,Medium Risk,High missed payments
+471,driver,26087,0.12,354,1107,1.6,4,108367,0.33,2,411,0,High Risk,Stable financial behavior
+472,delivery_agent,58868,0.39,125,2339,0.96,3,61091,0.24,3,591,0,High Risk,High missed payments
+473,driver,33225,0.33,360,1016,1.02,0,20903,0.33,4,446,0,High Risk,High missed payments
+474,delivery_agent,16643,0.57,361,939,1.99,6,74235,0.39,4,353,0,High Risk,High missed payments
+475,freelancer,46727,0.13,245,2210,0.65,8,75342,0.3,3,526,0,High Risk,High missed payments
+476,delivery_agent,21005,0.44,400,2415,1.11,5,193795,0.33,2,381,0,High Risk,Stable financial behavior
+477,vendor,75697,0.11,93,2120,0.59,2,55572,0.47,4,687,1,Medium Risk,High missed payments
+478,shopkeeper,26029,0.19,464,2921,1.73,9,37610,0.18,1,418,0,High Risk,Low savings
+479,delivery_agent,24226,0.33,235,2798,0.64,3,54052,0.21,0,396,0,High Risk,Stable financial behavior
+480,delivery_agent,73646,0.33,392,1716,1.51,9,118993,0.37,5,688,1,Medium Risk,High missed payments
+481,shopkeeper,70603,0.44,295,1491,0.58,4,107063,0.33,0,671,1,Medium Risk,Stable financial behavior
+482,vendor,38731,0.56,486,1117,1.51,11,188622,0.13,0,494,0,High Risk,Low savings
+483,driver,78926,0.42,133,177,1.76,11,180083,0.22,2,716,1,Medium Risk,Stable financial behavior
+484,delivery_agent,15997,0.58,256,2973,1.1,0,185836,0.26,4,340,0,High Risk,High missed payments
+485,shopkeeper,65506,0.54,200,207,1.28,4,117540,0.24,0,639,1,Medium Risk,Stable financial behavior
+486,freelancer,88229,0.39,205,876,1.1,0,73533,0.13,0,770,1,Low Risk,Low savings
+487,shopkeeper,59815,0.52,65,1940,0.95,8,175136,0.47,5,594,0,High Risk,High missed payments
+488,freelancer,52092,0.42,214,2949,1.7,6,143989,0.39,3,558,0,High Risk,High missed payments
+489,vendor,72539,0.14,454,561,0.91,2,140388,0.27,4,681,1,Medium Risk,High missed payments
+490,driver,76077,0.47,194,2142,1.58,8,48702,0.36,4,697,1,Medium Risk,High missed payments
+491,shopkeeper,31817,0.15,86,2316,0.81,1,143482,0.45,5,427,0,High Risk,High missed payments
+492,delivery_agent,47861,0.4,382,492,0.87,11,28631,0.11,3,538,0,High Risk,High missed payments
+493,vendor,23428,0.45,452,2412,1.0,6,107388,0.16,4,393,0,High Risk,High missed payments
+494,shopkeeper,53934,0.13,463,2274,1.38,8,144798,0.29,1,582,0,High Risk,Stable financial behavior
+495,delivery_agent,20258,0.22,94,2325,1.18,5,90043,0.41,5,362,0,High Risk,High missed payments
+496,shopkeeper,67775,0.56,451,1776,1.62,9,180053,0.07,2,659,1,Medium Risk,Low savings
+497,freelancer,91580,0.41,255,2056,0.82,4,55764,0.49,3,789,1,Low Risk,High missed payments
+498,shopkeeper,15469,0.22,111,1745,0.52,11,149014,0.25,5,335,0,High Risk,High missed payments
+499,shopkeeper,38854,0.45,469,316,1.66,6,133076,0.21,0,493,0,High Risk,Stable financial behavior
+500,shopkeeper,16256,0.4,405,2967,1.73,5,119007,0.18,4,350,0,High Risk,High missed payments
+501,vendor,86256,0.35,357,887,0.59,4,44940,0.13,1,762,1,Low Risk,Low savings
+502,shopkeeper,43937,0.59,68,538,1.42,1,127418,0.41,1,505,0,High Risk,Stable financial behavior
+503,delivery_agent,11651,0.44,414,751,1.07,7,91792,0.48,2,329,0,High Risk,Stable financial behavior
+504,freelancer,60288,0.29,349,736,1.69,6,179504,0.24,5,606,1,Medium Risk,High missed payments
+505,freelancer,94730,0.5,56,1045,1.81,5,28367,0.48,1,807,1,Low Risk,Stable financial behavior
+506,shopkeeper,35051,0.54,298,406,1.78,4,131764,0.42,5,456,0,High Risk,High missed payments
+507,vendor,37386,0.16,477,921,1.67,4,176583,0.27,4,478,0,High Risk,High missed payments
+508,vendor,85054,0.2,166,2023,0.9,8,28573,0.35,4,747,1,Medium Risk,High missed payments
+509,delivery_agent,26184,0.21,117,2301,1.72,0,35582,0.25,1,403,0,High Risk,Stable financial behavior
+510,shopkeeper,43787,0.45,83,601,1.3,8,156450,0.3,4,502,0,High Risk,High missed payments
+511,freelancer,31621,0.4,243,1860,0.58,5,85296,0.08,5,430,0,High Risk,High missed payments
+512,vendor,85564,0.41,374,372,1.19,3,164572,0.36,4,756,1,Low Risk,High missed payments
+513,shopkeeper,87984,0.57,104,2691,1.91,9,85841,0.07,0,770,1,Low Risk,Low savings
+514,vendor,69792,0.49,315,2278,1.83,6,41881,0.42,5,662,1,Medium Risk,High missed payments
+515,vendor,55253,0.16,91,2596,0.65,8,90233,0.42,3,572,0,High Risk,High missed payments
+516,freelancer,44051,0.27,346,132,1.62,4,85285,0.16,4,511,0,High Risk,High missed payments
+517,driver,59811,0.32,280,2400,1.71,4,79547,0.2,4,602,1,Medium Risk,High missed payments
+518,delivery_agent,40447,0.3,427,311,0.91,7,158294,0.27,5,491,0,High Risk,High missed payments
+519,delivery_agent,93930,0.43,443,833,1.21,6,27933,0.32,2,812,1,Low Risk,Stable financial behavior
+520,freelancer,40254,0.55,59,1273,1.57,7,103385,0.18,3,481,0,High Risk,High missed payments
+521,vendor,94045,0.25,407,963,1.16,10,118706,0.32,3,812,1,Low Risk,High missed payments
+522,shopkeeper,67418,0.38,493,2789,0.67,11,158012,0.18,3,656,1,Medium Risk,High missed payments
+523,vendor,24472,0.49,177,993,1.56,9,104590,0.07,1,397,0,High Risk,Low savings
+524,freelancer,13471,0.31,228,2780,1.87,1,126399,0.05,0,333,0,High Risk,Low savings
+525,delivery_agent,18329,0.18,454,1368,1.48,8,79145,0.1,0,373,0,High Risk,Low savings
+526,vendor,44865,0.34,441,1585,1.66,2,194682,0.41,2,524,0,High Risk,Stable financial behavior
+527,delivery_agent,56850,0.13,242,738,1.04,5,77520,0.48,3,586,0,High Risk,High missed payments
+528,shopkeeper,64220,0.57,141,2493,0.77,5,24544,0.24,3,623,1,Medium Risk,High missed payments
+529,delivery_agent,16397,0.14,418,1822,1.46,1,74812,0.28,4,351,0,High Risk,High missed payments
+530,delivery_agent,45525,0.32,280,888,0.99,11,190690,0.12,5,517,0,High Risk,High missed payments
+531,driver,63072,0.36,127,927,1.79,6,139090,0.3,1,623,1,Medium Risk,Stable financial behavior
+532,driver,93820,0.59,134,2920,0.68,8,119054,0.12,1,800,1,Low Risk,Low savings
+533,driver,94530,0.18,79,98,1.15,11,176516,0.33,2,806,1,Low Risk,Stable financial behavior
+534,delivery_agent,33284,0.16,262,2886,1.1,9,175861,0.47,0,456,0,High Risk,Stable financial behavior
+535,freelancer,71330,0.1,98,342,1.91,10,152689,0.14,3,668,1,Medium Risk,High missed payments
+536,delivery_agent,93369,0.18,314,1701,0.73,0,120834,0.39,5,796,1,Low Risk,High missed payments
+537,freelancer,35122,0.2,194,585,0.51,7,154405,0.06,2,455,0,High Risk,Low savings
+538,freelancer,80553,0.42,118,360,0.86,1,60002,0.22,1,720,1,Medium Risk,Stable financial behavior
+539,driver,91906,0.21,107,586,1.73,0,151583,0.1,1,788,1,Low Risk,Low savings
+540,vendor,72812,0.11,234,1976,0.81,7,132850,0.21,1,682,1,Medium Risk,Stable financial behavior
+541,shopkeeper,17999,0.51,111,2736,0.86,1,150011,0.13,3,348,0,High Risk,High missed payments
+542,driver,32436,0.28,357,283,0.69,5,188922,0.22,3,444,0,High Risk,High missed payments
+543,driver,52963,0.28,494,1282,1.57,5,141548,0.24,3,571,0,High Risk,High missed payments
+544,vendor,12096,0.25,345,2702,0.6,4,51786,0.19,4,321,0,High Risk,High missed payments
+545,shopkeeper,35279,0.59,215,2191,1.0,7,56244,0.35,0,463,0,High Risk,Stable financial behavior
+546,delivery_agent,36201,0.19,220,2424,0.92,2,87261,0.46,1,466,0,High Risk,Stable financial behavior
+547,delivery_agent,29715,0.55,112,2322,1.33,9,38477,0.23,1,426,0,High Risk,Stable financial behavior
+548,driver,39309,0.49,196,1016,1.6,3,197605,0.14,4,477,0,High Risk,High missed payments
+549,shopkeeper,25078,0.14,355,939,1.3,6,185541,0.17,1,406,0,High Risk,Low savings
+550,driver,66614,0.59,210,2108,1.9,6,28496,0.43,1,647,1,Medium Risk,Stable financial behavior
+551,freelancer,15105,0.24,190,84,1.93,11,140522,0.31,3,343,0,High Risk,High missed payments
+552,driver,12839,0.15,383,496,1.04,7,163342,0.25,3,332,0,High Risk,High missed payments
+553,driver,78920,0.51,146,1813,1.67,1,40724,0.12,0,714,1,Medium Risk,Low savings
+554,delivery_agent,53619,0.45,495,2538,1.61,10,50416,0.25,1,581,0,High Risk,Stable financial behavior
+555,delivery_agent,52821,0.41,270,2750,1.84,11,55575,0.18,2,567,0,High Risk,Low savings
+556,delivery_agent,23493,0.18,92,1608,1.17,1,96614,0.47,1,387,0,High Risk,Stable financial behavior
+557,freelancer,27069,0.34,482,644,1.3,3,113566,0.45,1,422,0,High Risk,Stable financial behavior
+558,delivery_agent,17531,0.49,341,2075,1.12,9,168480,0.09,0,363,0,High Risk,Low savings
+559,shopkeeper,47051,0.25,427,2326,1.78,8,147192,0.28,2,539,0,High Risk,Stable financial behavior
+560,vendor,17736,0.26,157,393,0.84,9,39359,0.15,1,356,0,High Risk,Low savings
+561,shopkeeper,17710,0.1,315,1153,0.86,11,159770,0.23,5,356,0,High Risk,High missed payments
+562,shopkeeper,77155,0.19,144,1469,1.06,8,190564,0.44,5,699,1,Medium Risk,High missed payments
+563,delivery_agent,23975,0.54,311,1363,0.85,3,63634,0.29,2,394,0,High Risk,Stable financial behavior
+564,vendor,72424,0.32,362,1528,1.34,8,137255,0.2,5,678,1,Medium Risk,High missed payments
+565,vendor,55603,0.59,434,1201,0.7,2,62864,0.14,3,580,0,High Risk,High missed payments
+566,vendor,33252,0.3,120,1971,0.98,11,114482,0.41,3,445,0,High Risk,High missed payments
+567,freelancer,90797,0.46,491,1432,1.87,4,57355,0.33,2,796,1,Low Risk,Stable financial behavior
+568,delivery_agent,11431,0.24,268,2624,1.11,9,57690,0.26,1,324,0,High Risk,Stable financial behavior
+569,vendor,84603,0.28,70,2172,1.62,8,188886,0.15,2,745,1,Medium Risk,Low savings
+570,freelancer,47481,0.2,141,1619,0.67,5,182717,0.2,5,521,0,High Risk,High missed payments
+571,driver,19557,0.27,176,1944,0.87,2,76630,0.48,2,365,0,High Risk,Stable financial behavior
+572,driver,84971,0.37,129,2293,1.71,9,199243,0.28,5,745,1,Medium Risk,High missed payments
+573,freelancer,10162,0.6,361,1916,1.64,8,41658,0.23,3,316,0,High Risk,High missed payments
+574,freelancer,44742,0.43,287,78,1.08,5,35797,0.28,2,517,0,High Risk,Stable financial behavior
+575,delivery_agent,29675,0.2,421,755,1.93,3,78799,0.4,4,431,0,High Risk,High missed payments
+576,delivery_agent,83997,0.12,453,1070,1.87,3,138301,0.2,5,748,1,Medium Risk,High missed payments
+577,driver,27015,0.16,231,2113,1.94,7,72236,0.13,4,409,0,High Risk,High missed payments
+578,vendor,60057,0.38,74,1496,1.14,6,26265,0.31,3,598,0,High Risk,High missed payments
+579,driver,42591,0.48,205,2902,0.8,0,145611,0.35,1,500,0,High Risk,Stable financial behavior
+580,vendor,19833,0.57,54,1709,1.44,5,141754,0.37,5,358,0,High Risk,High missed payments
+581,vendor,17896,0.11,169,1016,1.53,7,178070,0.45,1,361,0,High Risk,Stable financial behavior
+582,delivery_agent,42972,0.36,326,2326,0.69,2,111426,0.22,3,503,0,High Risk,High missed payments
+583,shopkeeper,59733,0.34,67,2812,1.68,8,165378,0.08,1,600,0,Medium Risk,Low savings
+584,shopkeeper,51800,0.43,480,622,0.53,9,198417,0.48,5,561,0,High Risk,High missed payments
+585,freelancer,15347,0.38,247,1656,1.22,1,162957,0.25,0,345,0,High Risk,Stable financial behavior
+586,delivery_agent,69063,0.44,106,664,1.0,5,129681,0.33,5,648,1,Medium Risk,High missed payments
+587,vendor,12643,0.43,142,375,1.61,11,63826,0.35,5,322,0,High Risk,High missed payments
+588,shopkeeper,50785,0.16,68,2972,0.97,0,75597,0.3,4,539,0,High Risk,High missed payments
+589,vendor,28681,0.5,433,408,1.74,11,158515,0.14,0,434,0,High Risk,Low savings
+590,shopkeeper,60026,0.16,402,1860,1.39,10,117375,0.39,0,619,1,Medium Risk,Stable financial behavior
+591,shopkeeper,25892,0.45,242,2421,1.69,1,37084,0.41,0,408,0,High Risk,Stable financial behavior
+592,shopkeeper,57299,0.31,286,1771,1.98,4,109447,0.3,5,587,0,High Risk,High missed payments
+593,delivery_agent,27073,0.36,436,1399,1.52,0,24383,0.27,3,415,0,High Risk,High missed payments
+594,driver,40682,0.55,475,214,1.98,7,112313,0.1,0,505,0,High Risk,Low savings
+595,vendor,24289,0.54,326,1646,0.54,0,54361,0.09,2,393,0,High Risk,Low savings
+596,delivery_agent,17927,0.51,276,1677,1.01,8,100294,0.2,1,361,0,High Risk,Stable financial behavior
+597,delivery_agent,58330,0.36,282,2895,0.66,9,81331,0.19,3,595,0,High Risk,High missed payments
+598,delivery_agent,76707,0.47,89,2552,0.89,10,115057,0.48,2,701,1,Medium Risk,Stable financial behavior
+599,delivery_agent,87454,0.36,372,1226,1.76,2,171601,0.4,5,766,1,Low Risk,High missed payments
+600,delivery_agent,75428,0.53,202,1200,0.55,11,141685,0.35,5,690,1,Medium Risk,High missed payments
+601,freelancer,60601,0.3,176,242,1.28,1,116917,0.28,2,605,1,Medium Risk,Stable financial behavior
+602,vendor,87465,0.59,286,2724,1.35,0,50932,0.13,4,761,1,Low Risk,High missed payments
+603,delivery_agent,12539,0.57,104,2627,1.34,8,21908,0.49,4,320,0,High Risk,High missed payments
+604,vendor,32669,0.47,485,141,1.21,3,181430,0.22,2,451,0,High Risk,Stable financial behavior
+605,freelancer,80968,0.24,221,188,1.69,11,50412,0.1,4,727,1,Medium Risk,High missed payments
+606,freelancer,30644,0.17,158,530,0.7,0,148319,0.27,1,428,0,High Risk,Stable financial behavior
+607,vendor,28745,0.53,403,2546,0.97,0,103710,0.44,1,427,0,High Risk,Stable financial behavior
+608,shopkeeper,38228,0.18,233,1406,1.42,6,22928,0.45,5,474,0,High Risk,High missed payments
+609,driver,44521,0.53,488,2966,1.54,1,85158,0.05,4,516,0,High Risk,High missed payments
+610,shopkeeper,36928,0.35,417,389,1.11,6,181704,0.45,0,481,0,High Risk,Stable financial behavior
+611,shopkeeper,28322,0.3,247,1125,1.81,11,52309,0.17,2,423,0,High Risk,Low savings
+612,shopkeeper,67714,0.55,420,2563,1.12,6,29280,0.07,1,657,1,Medium Risk,Low savings
+613,delivery_agent,97896,0.4,422,2815,1.1,9,60449,0.43,4,833,1,Low Risk,High missed payments
+614,freelancer,72292,0.39,136,848,0.55,8,46957,0.44,4,671,1,Medium Risk,High missed payments
+615,shopkeeper,39055,0.38,250,524,1.33,6,187967,0.32,1,485,0,High Risk,Stable financial behavior
+616,freelancer,52891,0.29,386,2498,1.56,0,90499,0.31,1,569,0,High Risk,Stable financial behavior
+617,vendor,91912,0.49,371,1512,0.67,11,113057,0.42,0,803,1,Low Risk,Stable financial behavior
+618,driver,16588,0.23,324,654,0.96,7,130065,0.4,4,351,0,High Risk,High missed payments
+619,vendor,16304,0.57,260,870,1.67,7,172767,0.45,4,348,0,High Risk,High missed payments
+620,vendor,17345,0.55,440,2754,1.05,3,94893,0.3,3,358,0,High Risk,High missed payments
+621,delivery_agent,39300,0.27,167,647,0.86,7,45176,0.49,5,477,0,High Risk,High missed payments
+622,driver,34259,0.46,240,1582,1.51,3,169481,0.5,0,459,0,High Risk,Stable financial behavior
+623,vendor,98553,0.39,91,563,0.8,7,76967,0.1,1,827,1,Low Risk,Low savings
+624,vendor,25352,0.27,91,1576,1.84,4,20987,0.43,1,400,0,High Risk,Stable financial behavior
+625,driver,43365,0.59,364,1927,0.66,3,116854,0.27,2,509,0,High Risk,Stable financial behavior
+626,driver,29446,0.11,325,1749,1.56,5,46015,0.22,5,424,0,High Risk,High missed payments
+627,vendor,12336,0.23,378,1079,1.25,1,132350,0.33,1,331,0,High Risk,Stable financial behavior
+628,driver,72032,0.36,66,549,1.8,11,86404,0.08,4,669,1,Medium Risk,High missed payments
+629,vendor,85415,0.36,332,1734,0.69,1,136751,0.28,1,756,1,Low Risk,Stable financial behavior
+630,vendor,17521,0.39,480,766,1.52,1,148807,0.44,4,360,0,High Risk,High missed payments
+631,delivery_agent,81707,0.48,307,1191,1.36,8,188218,0.15,4,732,1,Medium Risk,High missed payments
+632,shopkeeper,33481,0.41,112,1558,1.22,9,68231,0.24,0,450,0,High Risk,Stable financial behavior
+633,vendor,28474,0.4,111,2698,1.24,2,180104,0.47,1,417,0,High Risk,Stable financial behavior
+634,freelancer,56760,0.13,149,715,1.58,9,48305,0.24,0,590,0,High Risk,Stable financial behavior
+635,shopkeeper,65718,0.29,68,2565,1.91,3,74306,0.21,5,627,1,Medium Risk,High missed payments
+636,shopkeeper,54629,0.22,66,2258,0.64,9,141139,0.25,4,564,0,High Risk,High missed payments
+637,shopkeeper,55232,0.23,374,2367,0.53,11,38318,0.28,5,578,0,High Risk,High missed payments
+638,delivery_agent,96544,0.38,472,1129,1.71,7,164318,0.33,1,832,1,Low Risk,Stable financial behavior
+639,vendor,77169,0.2,422,277,0.66,3,184916,0.41,5,706,1,Medium Risk,High missed payments
+640,delivery_agent,60669,0.25,295,2946,1.98,10,183674,0.25,5,609,1,Medium Risk,High missed payments
+641,vendor,88021,0.22,300,198,1.43,9,41584,0.42,1,777,1,Low Risk,Stable financial behavior
+642,delivery_agent,79184,0.57,130,1119,1.48,9,35169,0.29,0,720,1,Medium Risk,Stable financial behavior
+643,delivery_agent,57945,0.57,88,1217,0.8,6,45968,0.2,0,590,0,High Risk,Stable financial behavior
+644,freelancer,23140,0.4,85,681,0.86,4,157457,0.35,4,378,0,High Risk,High missed payments
+645,delivery_agent,93457,0.56,473,1413,1.49,8,142684,0.37,4,808,1,Low Risk,High missed payments
+646,driver,24357,0.49,478,462,1.86,3,135391,0.3,1,406,0,High Risk,Stable financial behavior
+647,freelancer,78673,0.39,437,1805,1.97,2,45444,0.08,1,722,1,Medium Risk,Low savings
+648,delivery_agent,75633,0.1,458,569,0.8,1,126081,0.13,3,699,1,Medium Risk,High missed payments
+649,shopkeeper,86943,0.49,246,1417,0.7,0,82497,0.18,3,757,1,Low Risk,High missed payments
+650,driver,88258,0.45,207,2484,0.58,10,25362,0.18,2,770,1,Low Risk,Low savings
+651,driver,22924,0.41,253,2372,1.8,5,119254,0.35,4,386,0,High Risk,High missed payments
+652,driver,79286,0.48,245,2450,0.94,9,159322,0.06,5,712,1,Medium Risk,High missed payments
+653,freelancer,84071,0.36,265,1152,0.5,1,88354,0.39,2,744,1,Medium Risk,Stable financial behavior
+654,delivery_agent,67326,0.45,334,647,0.84,7,56368,0.17,2,650,1,Medium Risk,Low savings
+655,delivery_agent,40651,0.57,245,1709,1.01,5,64109,0.19,0,494,0,High Risk,Low savings
+656,shopkeeper,80202,0.29,356,1735,1.99,11,47426,0.29,5,727,1,Medium Risk,High missed payments
+657,shopkeeper,58777,0.45,201,2655,1.29,11,137632,0.15,0,602,1,Medium Risk,Low savings
+658,driver,26994,0.34,63,2210,0.81,4,132637,0.45,3,403,0,High Risk,High missed payments
+659,shopkeeper,77263,0.44,374,2238,1.0,1,59023,0.09,2,707,1,Medium Risk,Low savings
+660,freelancer,69634,0.48,195,1974,1.0,6,142268,0.25,3,658,1,Medium Risk,High missed payments
+661,delivery_agent,20800,0.12,475,779,0.53,1,175964,0.43,5,375,0,High Risk,High missed payments
+662,driver,47823,0.42,106,638,0.7,4,129211,0.33,5,522,0,High Risk,High missed payments
+663,shopkeeper,73878,0.21,260,2508,1.54,1,114897,0.18,4,682,1,Medium Risk,High missed payments
+664,freelancer,28708,0.44,317,426,0.68,10,167079,0.24,1,426,0,High Risk,Stable financial behavior
+665,freelancer,22819,0.33,259,1457,0.85,9,99777,0.37,0,393,0,High Risk,Stable financial behavior
+666,shopkeeper,84905,0.49,66,1919,1.03,10,64858,0.49,4,744,1,Medium Risk,High missed payments
+667,delivery_agent,73870,0.16,335,800,1.64,10,196145,0.45,4,691,1,Medium Risk,High missed payments
+668,shopkeeper,19283,0.41,393,676,1.37,1,110042,0.2,0,373,0,High Risk,Stable financial behavior
+669,driver,40573,0.24,252,1679,1.53,6,103098,0.5,0,498,0,High Risk,Stable financial behavior
+670,shopkeeper,88707,0.53,148,1044,1.35,8,40239,0.05,5,764,1,Low Risk,High missed payments
+671,freelancer,40933,0.56,328,1633,1.53,4,164137,0.06,5,489,0,High Risk,High missed payments
+672,shopkeeper,15774,0.6,258,752,0.5,6,130951,0.42,2,345,0,High Risk,Stable financial behavior
+673,delivery_agent,82055,0.5,178,2559,1.9,3,61291,0.14,3,730,1,Medium Risk,High missed payments
+674,vendor,20983,0.48,384,2109,0.67,1,58805,0.08,5,370,0,High Risk,High missed payments
+675,shopkeeper,28133,0.21,337,1229,1.11,2,118831,0.16,4,415,0,High Risk,High missed payments
+676,delivery_agent,24939,0.27,301,526,1.66,1,169515,0.24,2,400,0,High Risk,Stable financial behavior
+677,delivery_agent,10781,0.33,314,450,1.15,4,29290,0.38,2,319,0,High Risk,Stable financial behavior
+678,freelancer,66700,0.49,320,2905,1.92,5,151283,0.33,4,645,1,Medium Risk,High missed payments
+679,delivery_agent,37624,0.56,461,2274,1.2,6,103634,0.16,5,475,0,High Risk,High missed payments
+680,delivery_agent,16823,0.19,457,106,1.81,2,39072,0.28,4,356,0,High Risk,High missed payments
+681,delivery_agent,28489,0.56,237,1925,1.72,3,63290,0.47,1,423,0,High Risk,Stable financial behavior
+682,delivery_agent,49961,0.45,468,497,1.97,7,105186,0.42,5,552,0,High Risk,High missed payments
+683,driver,39118,0.41,263,252,1.89,3,35115,0.2,3,481,0,High Risk,High missed payments
+684,driver,91816,0.2,332,1706,1.85,6,25149,0.49,4,795,1,Low Risk,High missed payments
+685,freelancer,32263,0.13,260,787,1.6,11,61992,0.37,5,442,0,High Risk,High missed payments
+686,shopkeeper,23565,0.38,414,251,1.05,5,37716,0.08,0,399,0,High Risk,Low savings
+687,delivery_agent,30354,0.43,125,1403,0.66,6,117724,0.07,1,426,0,High Risk,Low savings
+688,shopkeeper,52951,0.21,197,2460,1.53,0,33621,0.13,3,558,0,High Risk,High missed payments
+689,shopkeeper,33648,0.38,370,941,1.97,2,157892,0.38,5,450,0,High Risk,High missed payments
+690,freelancer,60729,0.53,262,2551,1.59,5,133065,0.13,0,613,1,Medium Risk,Low savings
+691,delivery_agent,51971,0.52,482,2453,1.89,2,193872,0.28,5,561,0,High Risk,High missed payments
+692,delivery_agent,28658,0.56,158,265,1.71,6,50399,0.09,0,422,0,High Risk,Low savings
+693,vendor,31253,0.28,178,2652,0.74,8,139374,0.46,3,434,0,High Risk,High missed payments
+694,shopkeeper,74166,0.26,59,2984,0.87,2,165074,0.2,1,681,1,Medium Risk,Stable financial behavior
+695,shopkeeper,58563,0.47,96,72,1.01,0,63098,0.46,0,593,0,High Risk,Stable financial behavior
+696,driver,36390,0.32,428,2252,0.75,9,65511,0.48,2,475,0,High Risk,Stable financial behavior
+697,vendor,98664,0.14,364,1259,1.37,5,73243,0.05,3,834,1,Low Risk,High missed payments
+698,driver,61578,0.24,145,2346,1.96,11,135131,0.26,3,614,1,Medium Risk,High missed payments
+699,driver,89025,0.31,495,798,1.64,0,48750,0.06,4,778,1,Low Risk,High missed payments
+700,driver,42658,0.25,152,854,1.14,0,168382,0.46,1,501,0,High Risk,Stable financial behavior
+701,freelancer,16852,0.27,429,183,0.51,7,75398,0.28,2,358,0,High Risk,Stable financial behavior
+702,freelancer,12551,0.25,391,370,0.97,8,64345,0.08,2,331,0,High Risk,Low savings
+703,driver,81947,0.12,195,2487,1.29,1,113430,0.1,4,726,1,Medium Risk,High missed payments
+704,vendor,71001,0.42,417,483,0.99,8,134921,0.22,0,680,1,Medium Risk,Stable financial behavior
+705,shopkeeper,59159,0.4,479,1095,0.67,4,111729,0.47,0,612,1,Medium Risk,Stable financial behavior
+706,vendor,61707,0.43,465,922,1.16,7,71843,0.36,2,624,1,Medium Risk,Stable financial behavior
+707,delivery_agent,43243,0.2,76,2955,0.88,6,161294,0.44,1,504,0,High Risk,Stable financial behavior
+708,freelancer,31800,0.25,269,2148,1.86,6,182581,0.21,0,446,0,High Risk,Stable financial behavior
+709,shopkeeper,85939,0.41,67,2273,0.65,3,151458,0.07,3,746,1,Medium Risk,High missed payments
+710,shopkeeper,67828,0.4,216,2967,0.57,1,84334,0.49,5,642,1,Medium Risk,High missed payments
+711,delivery_agent,17239,0.35,482,302,0.51,4,87170,0.06,4,355,0,High Risk,High missed payments
+712,delivery_agent,16710,0.28,131,1015,0.99,10,60878,0.48,1,352,0,High Risk,Stable financial behavior
+713,driver,31384,0.56,477,788,1.49,10,189421,0.22,0,451,0,High Risk,Stable financial behavior
+714,freelancer,31038,0.27,121,1179,1.6,2,173024,0.05,5,423,0,High Risk,High missed payments
+715,freelancer,50846,0.33,359,1389,1.18,8,110352,0.36,2,557,0,High Risk,Stable financial behavior
+716,vendor,97983,0.44,303,351,1.53,5,172601,0.49,4,829,1,Low Risk,High missed payments
+717,driver,77821,0.37,211,2645,1.04,0,192593,0.48,0,711,1,Medium Risk,Stable financial behavior
+718,driver,47991,0.27,376,2027,1.5,2,38383,0.12,2,538,0,High Risk,Low savings
+719,driver,89057,0.32,469,2813,0.56,11,155973,0.13,0,788,1,Low Risk,Low savings
+720,driver,16971,0.5,451,2876,1.09,3,62889,0.3,4,354,0,High Risk,High missed payments
+721,freelancer,39139,0.24,87,2365,1.69,8,34633,0.34,3,478,0,High Risk,High missed payments
+722,freelancer,95445,0.17,492,600,1.7,10,82244,0.38,3,825,1,Low Risk,High missed payments
+723,driver,87067,0.26,442,1528,1.57,5,149177,0.13,5,765,1,Low Risk,High missed payments
+724,vendor,90257,0.52,250,1365,0.81,3,170235,0.48,2,782,1,Low Risk,Stable financial behavior
+725,shopkeeper,94742,0.14,249,1637,0.87,0,161779,0.34,3,805,1,Low Risk,High missed payments
+726,shopkeeper,47711,0.6,304,1872,1.99,7,103597,0.43,4,535,0,High Risk,High missed payments
+727,vendor,16530,0.37,228,1874,0.66,10,196173,0.29,2,350,0,High Risk,Stable financial behavior
+728,driver,21116,0.59,84,1214,0.77,1,195778,0.24,0,371,0,High Risk,Stable financial behavior
+729,freelancer,75794,0.57,131,363,0.7,10,35115,0.49,1,698,1,Medium Risk,Stable financial behavior
+730,shopkeeper,10282,0.33,438,233,0.99,10,95379,0.31,0,326,0,High Risk,Stable financial behavior
+731,delivery_agent,89473,0.2,447,1737,0.82,7,59979,0.44,4,783,1,Low Risk,High missed payments
+732,delivery_agent,11898,0.18,269,762,1.25,5,191713,0.48,5,320,0,High Risk,High missed payments
+733,vendor,14135,0.22,207,2225,1.21,7,89377,0.35,2,336,0,High Risk,Stable financial behavior
+734,driver,16629,0.46,53,1360,1.85,5,26416,0.3,0,349,0,High Risk,Stable financial behavior
+735,shopkeeper,95120,0.24,216,2797,0.55,4,161705,0.05,2,807,1,Low Risk,Low savings
+736,driver,99087,0.27,497,2483,0.98,4,148785,0.07,3,839,1,Low Risk,High missed payments
+737,shopkeeper,75031,0.32,458,320,1.39,9,151666,0.14,1,704,1,Medium Risk,Low savings
+738,vendor,43380,0.56,461,1844,1.41,9,165465,0.13,4,512,0,High Risk,High missed payments
+739,vendor,27071,0.19,253,860,1.22,10,186452,0.16,0,418,0,High Risk,Low savings
+740,delivery_agent,30074,0.1,243,2512,1.72,7,196128,0.19,1,433,0,High Risk,Low savings
+741,driver,77843,0.13,284,247,0.59,6,150364,0.21,4,707,1,Medium Risk,High missed payments
+742,delivery_agent,49901,0.55,255,1129,1.72,7,117507,0.24,4,544,0,High Risk,High missed payments
+743,driver,21205,0.42,199,2928,1.24,11,138243,0.09,5,371,0,High Risk,High missed payments
+744,delivery_agent,65661,0.24,208,1276,0.7,7,155933,0.07,3,634,1,Medium Risk,High missed payments
+745,freelancer,15906,0.19,328,1694,1.83,6,123070,0.35,5,346,0,High Risk,High missed payments
+746,freelancer,12591,0.25,353,677,1.47,1,56126,0.29,5,324,0,High Risk,High missed payments
+747,freelancer,72987,0.16,453,653,0.75,10,100382,0.25,2,690,1,Medium Risk,Stable financial behavior
+748,freelancer,73370,0.57,430,1211,0.55,8,184754,0.34,2,690,1,Medium Risk,Stable financial behavior
+749,shopkeeper,90685,0.49,215,1495,0.71,6,38228,0.42,1,786,1,Low Risk,Stable financial behavior
+750,freelancer,64400,0.33,360,1130,1.41,11,44009,0.24,3,636,1,Medium Risk,High missed payments
+751,vendor,35150,0.53,117,1635,0.77,10,20094,0.34,4,452,0,High Risk,High missed payments
+752,vendor,41852,0.22,137,2168,0.84,5,100636,0.48,3,494,0,High Risk,High missed payments
+753,shopkeeper,52870,0.46,266,960,0.54,8,118453,0.43,3,563,0,High Risk,High missed payments
+754,freelancer,62756,0.53,50,643,1.58,0,168502,0.24,1,614,1,Medium Risk,Stable financial behavior
+755,freelancer,66481,0.28,184,1445,1.72,10,186643,0.34,2,645,1,Medium Risk,Stable financial behavior
+756,freelancer,11283,0.48,234,649,1.7,1,74486,0.13,3,315,0,High Risk,High missed payments
+757,delivery_agent,43691,0.25,400,563,0.69,0,110510,0.3,3,510,0,High Risk,High missed payments
+758,driver,11125,0.25,189,1945,1.85,9,40860,0.49,3,319,0,High Risk,High missed payments
+759,delivery_agent,77065,0.15,155,2181,1.51,11,92812,0.28,0,710,1,Medium Risk,Stable financial behavior
+760,driver,36170,0.32,182,1116,1.85,2,86087,0.47,3,463,0,High Risk,High missed payments
+761,freelancer,18438,0.46,157,2936,1.17,10,159558,0.23,3,358,0,High Risk,High missed payments
+762,freelancer,30095,0.57,227,2007,1.16,4,69607,0.5,4,426,0,High Risk,High missed payments
+763,delivery_agent,26154,0.4,347,2703,1.68,0,160817,0.31,5,403,0,High Risk,High missed payments
+764,delivery_agent,18004,0.53,407,859,0.64,3,126664,0.07,0,364,0,High Risk,Low savings
+765,driver,19752,0.51,429,2230,1.28,7,38330,0.31,3,374,0,High Risk,High missed payments
+766,vendor,65426,0.19,445,1138,1.75,5,140803,0.17,5,639,1,Medium Risk,High missed payments
+767,driver,36819,0.34,408,339,1.75,0,191150,0.06,3,470,0,High Risk,High missed payments
+768,delivery_agent,34217,0.16,195,2473,1.93,11,63336,0.42,1,460,0,High Risk,Stable financial behavior
+769,delivery_agent,98708,0.44,499,818,1.55,0,28070,0.17,1,841,1,Low Risk,Low savings
+770,shopkeeper,42994,0.57,123,2564,0.81,2,21320,0.41,5,493,0,High Risk,High missed payments
+771,delivery_agent,25036,0.17,157,520,0.53,9,109043,0.18,0,400,0,High Risk,Low savings
+772,shopkeeper,87275,0.47,171,2246,1.22,7,58921,0.14,4,759,1,Low Risk,High missed payments
+773,vendor,59416,0.42,66,137,1.27,10,26589,0.49,0,603,1,Medium Risk,Stable financial behavior
+774,driver,19587,0.39,245,2493,0.86,10,112995,0.21,0,372,0,High Risk,Stable financial behavior
+775,driver,10645,0.3,376,839,0.69,7,35589,0.32,1,322,0,High Risk,Stable financial behavior
+776,shopkeeper,40930,0.28,367,1714,1.38,2,56375,0.32,1,499,0,High Risk,Stable financial behavior
+777,driver,91835,0.12,346,1359,1.65,6,63085,0.3,4,794,1,Low Risk,High missed payments
+778,delivery_agent,40090,0.21,301,914,1.99,11,80840,0.46,3,495,0,High Risk,High missed payments
+779,freelancer,97489,0.11,168,1343,1.64,2,194272,0.35,4,820,1,Low Risk,High missed payments
+780,shopkeeper,62142,0.39,211,73,1.69,3,118704,0.23,3,614,1,Medium Risk,High missed payments
+781,driver,36475,0.15,247,1936,1.42,8,177804,0.44,5,465,0,High Risk,High missed payments
+782,shopkeeper,28888,0.54,94,360,1.98,3,117047,0.13,5,411,0,High Risk,High missed payments
+783,shopkeeper,53732,0.36,363,1534,1.46,2,173498,0.29,2,572,0,High Risk,Stable financial behavior
+784,freelancer,91623,0.45,228,1281,1.79,4,50982,0.48,1,794,1,Low Risk,Stable financial behavior
+785,delivery_agent,56305,0.31,431,2761,1.92,6,79720,0.33,2,593,0,High Risk,Stable financial behavior
+786,shopkeeper,56037,0.38,467,2535,1.89,4,167818,0.42,2,592,0,High Risk,Stable financial behavior
+787,driver,19346,0.57,93,755,1.07,3,48514,0.34,1,362,0,High Risk,Stable financial behavior
+788,vendor,10587,0.14,320,1409,0.62,7,154923,0.43,2,319,0,High Risk,Stable financial behavior
+789,shopkeeper,22763,0.23,127,471,0.76,3,170868,0.48,0,386,0,High Risk,Stable financial behavior
+790,shopkeeper,69165,0.49,375,1823,0.59,1,96034,0.17,3,657,1,Medium Risk,High missed payments
+791,freelancer,79615,0.15,227,2418,0.66,9,118388,0.13,4,716,1,Medium Risk,High missed payments
+792,delivery_agent,46116,0.14,406,2684,0.78,5,185664,0.27,1,531,0,High Risk,Stable financial behavior
+793,vendor,95751,0.28,465,996,1.01,1,64845,0.37,0,825,1,Low Risk,Stable financial behavior
+794,driver,35556,0.15,52,1236,1.32,2,167002,0.15,5,448,0,High Risk,High missed payments
+795,vendor,69042,0.39,263,1884,1.57,0,130853,0.05,4,652,1,Medium Risk,High missed payments
+796,driver,28099,0.21,391,1614,0.82,4,128417,0.2,4,418,0,High Risk,High missed payments
+797,delivery_agent,55096,0.55,123,898,1.51,8,133436,0.49,4,571,0,High Risk,High missed payments
+798,driver,81986,0.49,100,1639,1.56,1,41159,0.36,2,728,1,Medium Risk,Stable financial behavior
+799,freelancer,23230,0.45,116,1368,1.34,11,109788,0.23,2,387,0,High Risk,Stable financial behavior
+800,freelancer,39009,0.41,381,2139,1.86,6,44003,0.14,2,488,0,High Risk,Low savings
+801,freelancer,80969,0.53,142,1997,0.67,4,125722,0.21,2,722,1,Medium Risk,Stable financial behavior
+802,freelancer,43866,0.21,225,1358,0.77,1,55139,0.13,0,510,0,High Risk,Low savings
+803,vendor,94246,0.54,194,436,1.14,7,72452,0.1,2,804,1,Low Risk,Low savings
+804,delivery_agent,86975,0.49,56,2085,0.69,10,42205,0.46,1,761,1,Low Risk,Stable financial behavior
+805,driver,51855,0.47,318,1211,1.35,5,76955,0.5,4,558,0,High Risk,High missed payments
+806,driver,91557,0.38,425,2075,1.1,3,27464,0.12,0,798,1,Low Risk,Low savings
+807,freelancer,16416,0.22,371,765,0.93,3,29840,0.07,5,345,0,High Risk,High missed payments
+808,freelancer,82516,0.31,53,2528,0.75,1,60768,0.2,2,727,1,Medium Risk,Stable financial behavior
+809,shopkeeper,65915,0.5,187,2651,1.0,2,160533,0.26,5,630,1,Medium Risk,High missed payments
+810,delivery_agent,28058,0.12,280,2897,1.41,6,40927,0.14,4,416,0,High Risk,High missed payments
+811,vendor,86637,0.49,137,475,1.36,2,118622,0.19,0,760,1,Low Risk,Low savings
+812,driver,50718,0.22,66,1489,0.75,4,35329,0.14,4,538,0,High Risk,High missed payments
+813,shopkeeper,42602,0.17,101,2123,0.69,9,35791,0.4,5,494,0,High Risk,High missed payments
+814,shopkeeper,84658,0.16,183,434,0.54,5,72627,0.37,0,751,1,Low Risk,Stable financial behavior
+815,driver,88112,0.11,260,105,0.52,5,148885,0.34,3,768,1,Low Risk,High missed payments
+816,vendor,68067,0.36,374,2731,1.82,3,165444,0.22,0,661,1,Medium Risk,Stable financial behavior
+817,shopkeeper,37516,0.21,442,155,0.57,5,199541,0.46,2,480,0,High Risk,Stable financial behavior
+818,shopkeeper,97969,0.59,268,2946,1.6,2,129554,0.49,5,824,1,Low Risk,High missed payments
+819,delivery_agent,11089,0.39,254,719,1.81,6,150436,0.13,4,315,0,High Risk,High missed payments
+820,vendor,47346,0.17,260,425,0.65,6,107073,0.15,4,526,0,High Risk,High missed payments
+821,shopkeeper,84663,0.44,326,792,1.15,3,54370,0.29,4,748,1,Medium Risk,High missed payments
+822,vendor,20487,0.55,73,1016,1.94,1,71408,0.09,1,367,0,High Risk,Low savings
+823,driver,10155,0.47,53,357,1.75,10,110941,0.25,1,311,0,High Risk,Stable financial behavior
+824,freelancer,77494,0.14,201,2188,1.23,6,174775,0.31,2,708,1,Medium Risk,Stable financial behavior
+825,shopkeeper,86229,0.55,492,851,1.64,2,166306,0.28,3,765,1,Low Risk,High missed payments
+826,delivery_agent,48547,0.5,308,159,1.75,0,158604,0.2,1,540,0,High Risk,Stable financial behavior
+827,driver,38795,0.18,373,1714,1.02,1,55416,0.29,0,487,0,High Risk,Stable financial behavior
+828,vendor,65296,0.13,406,2682,1.84,9,92439,0.48,5,642,1,Medium Risk,High missed payments
+829,driver,31447,0.38,217,389,1.21,8,38242,0.14,2,437,0,High Risk,Low savings
+830,shopkeeper,46598,0.18,225,1638,1.29,11,99324,0.34,3,528,0,High Risk,High missed payments
+831,vendor,51814,0.52,359,1028,2.0,7,55249,0.07,0,566,0,High Risk,Low savings
+832,freelancer,85330,0.28,340,2453,1.76,5,120124,0.08,4,754,1,Low Risk,High missed payments
+833,driver,97960,0.56,105,1965,1.04,5,115049,0.3,1,824,1,Low Risk,Stable financial behavior
+834,shopkeeper,73278,0.38,157,217,0.52,0,105078,0.1,0,679,1,Medium Risk,Low savings
+835,delivery_agent,65077,0.19,345,606,1.44,1,52294,0.06,3,634,1,Medium Risk,High missed payments
+836,vendor,81906,0.17,373,954,1.56,3,154756,0.13,2,738,1,Medium Risk,Low savings
+837,driver,19528,0.39,351,154,1.48,2,174867,0.3,0,374,0,High Risk,Stable financial behavior
+838,driver,60100,0.48,383,2097,1.95,0,161503,0.37,2,610,1,Medium Risk,Stable financial behavior
+839,freelancer,18179,0.49,190,2247,1.79,7,109627,0.14,4,355,0,High Risk,High missed payments
+840,freelancer,58781,0.24,204,195,1.17,6,110381,0.35,3,596,0,High Risk,High missed payments
+841,delivery_agent,65267,0.2,311,2813,0.59,3,110027,0.13,3,633,1,Medium Risk,High missed payments
+842,delivery_agent,92379,0.11,322,923,1.21,11,90366,0.33,1,804,1,Low Risk,Stable financial behavior
+843,shopkeeper,33952,0.44,469,348,1.53,11,114176,0.24,5,457,0,High Risk,High missed payments
+844,shopkeeper,63798,0.14,281,1786,1.41,8,139667,0.34,3,630,1,Medium Risk,High missed payments
+845,delivery_agent,60939,0.31,290,695,1.31,10,92870,0.5,0,620,1,Medium Risk,Stable financial behavior
+846,delivery_agent,39516,0.4,404,2820,1.2,3,67387,0.47,0,494,0,High Risk,Stable financial behavior
+847,vendor,66526,0.57,386,687,0.94,0,29304,0.05,0,647,1,Medium Risk,Low savings
+848,freelancer,20449,0.26,307,2336,0.92,9,37032,0.45,4,374,0,High Risk,High missed payments
+849,shopkeeper,60290,0.22,298,2561,1.25,0,111291,0.08,3,604,1,Medium Risk,High missed payments
+850,freelancer,96661,0.43,126,2550,0.74,0,132889,0.48,3,812,1,Low Risk,High missed payments
+851,freelancer,82954,0.41,229,833,1.01,0,79486,0.18,0,740,1,Medium Risk,Low savings
+852,delivery_agent,32746,0.27,115,946,0.99,3,85552,0.22,1,441,0,High Risk,Stable financial behavior
+853,vendor,77990,0.56,357,420,1.38,0,180726,0.09,1,713,1,Medium Risk,Low savings
+854,driver,68810,0.52,397,536,0.6,1,59244,0.1,3,655,1,Medium Risk,High missed payments
+855,vendor,93297,0.21,220,2087,1.74,3,157014,0.38,3,799,1,Low Risk,High missed payments
+856,vendor,25223,0.22,71,2262,1.34,6,70697,0.47,2,397,0,High Risk,Stable financial behavior
+857,freelancer,82237,0.36,416,1410,1.51,1,146031,0.32,3,739,1,Medium Risk,High missed payments
+858,vendor,12597,0.49,156,241,1.55,7,22693,0.37,0,329,0,High Risk,Stable financial behavior
+859,shopkeeper,75677,0.12,488,779,0.94,6,101098,0.39,5,701,1,Medium Risk,High missed payments
+860,freelancer,12659,0.45,372,2311,1.21,8,26259,0.17,4,328,0,High Risk,High missed payments
+861,shopkeeper,96516,0.42,276,2671,1.93,5,139746,0.07,3,819,1,Low Risk,High missed payments
+862,driver,84567,0.22,493,1006,1.65,3,127772,0.05,3,755,1,Low Risk,High missed payments
+863,freelancer,25037,0.44,491,430,1.95,5,137928,0.21,0,413,0,High Risk,Stable financial behavior
+864,driver,56738,0.57,445,2770,1.62,3,156014,0.16,2,592,0,High Risk,Low savings
+865,freelancer,81678,0.12,265,847,0.76,6,67419,0.08,5,726,1,Medium Risk,High missed payments
+866,delivery_agent,22109,0.26,118,288,0.6,8,122092,0.13,3,375,0,High Risk,High missed payments
+867,vendor,32010,0.32,133,2797,1.37,2,76105,0.11,1,437,0,High Risk,Low savings
+868,delivery_agent,18787,0.55,152,1155,1.04,2,178455,0.46,1,361,0,High Risk,Stable financial behavior
+869,driver,18472,0.58,88,1436,0.91,1,43404,0.11,1,353,0,High Risk,Low savings
+870,vendor,33383,0.32,62,2602,1.71,0,92656,0.29,4,438,0,High Risk,High missed payments
+871,freelancer,71709,0.48,346,2299,1.05,0,156774,0.32,4,671,1,Medium Risk,High missed payments
+872,vendor,79785,0.37,362,1577,0.98,2,120965,0.29,5,718,1,Medium Risk,High missed payments
+873,shopkeeper,44518,0.37,230,1717,1.77,6,76332,0.09,3,512,0,High Risk,High missed payments
+874,vendor,63909,0.24,317,86,1.77,10,190491,0.19,3,632,1,Medium Risk,High missed payments
+875,shopkeeper,28351,0.21,62,2741,1.03,8,123182,0.07,3,411,0,High Risk,High missed payments
+876,vendor,79624,0.24,169,2046,1.75,1,131395,0.23,4,713,1,Medium Risk,High missed payments
+877,shopkeeper,63330,0.38,402,1475,1.78,6,122619,0.13,5,625,1,Medium Risk,High missed payments
+878,driver,25282,0.11,106,2862,1.14,0,128269,0.3,3,393,0,High Risk,High missed payments
+879,delivery_agent,94866,0.55,89,2803,0.6,1,93844,0.36,0,805,1,Low Risk,Stable financial behavior
+880,freelancer,31778,0.18,423,2642,0.5,5,190314,0.29,2,444,0,High Risk,Stable financial behavior
+881,vendor,34264,0.21,385,1540,1.28,10,144983,0.25,1,463,0,High Risk,Stable financial behavior
+882,delivery_agent,69675,0.36,177,1274,1.02,4,54142,0.22,1,660,1,Medium Risk,Stable financial behavior
+883,freelancer,15075,0.46,222,2637,2.0,7,129699,0.43,0,348,0,High Risk,Stable financial behavior
+884,freelancer,85948,0.15,84,2072,1.66,11,116226,0.15,3,753,1,Low Risk,High missed payments
+885,shopkeeper,58454,0.26,308,2491,1.64,10,27393,0.38,5,597,0,High Risk,High missed payments
+886,driver,38365,0.58,425,882,1.93,1,122281,0.39,5,479,0,High Risk,High missed payments
+887,driver,82766,0.23,54,646,1.83,0,179965,0.24,4,728,1,Medium Risk,High missed payments
+888,delivery_agent,58200,0.26,267,2490,0.98,6,29388,0.18,3,593,0,High Risk,High missed payments
+889,driver,21002,0.52,60,749,0.75,5,82969,0.26,5,362,0,High Risk,High missed payments
+890,vendor,23947,0.13,431,1696,1.62,7,56660,0.09,3,399,0,High Risk,High missed payments
+891,driver,89222,0.33,376,2068,1.07,10,109244,0.07,1,784,1,Low Risk,Low savings
+892,delivery_agent,88610,0.29,166,490,1.21,7,175798,0.1,1,772,1,Low Risk,Low savings
+893,driver,62142,0.26,233,1910,1.45,1,99544,0.13,4,611,1,Medium Risk,High missed payments
+894,vendor,66307,0.24,443,1690,1.86,7,151183,0.28,1,654,1,Medium Risk,Stable financial behavior
+895,shopkeeper,14493,0.15,411,1579,1.13,5,135370,0.43,3,343,0,High Risk,High missed payments
+896,delivery_agent,60085,0.26,165,2417,1.67,8,37545,0.16,0,608,1,Medium Risk,Low savings
+897,shopkeeper,44228,0.12,211,2650,0.9,11,191240,0.47,4,512,0,High Risk,High missed payments
+898,shopkeeper,89676,0.49,116,1144,1.55,6,153451,0.48,0,781,1,Low Risk,Stable financial behavior
+899,shopkeeper,61875,0.3,249,617,0.5,1,107346,0.48,3,612,1,Medium Risk,High missed payments
+900,freelancer,41655,0.32,80,285,1.81,7,192192,0.43,4,491,0,High Risk,High missed payments
+901,freelancer,53472,0.55,124,1354,0.55,8,37809,0.21,0,565,0,High Risk,Stable financial behavior
+902,shopkeeper,59437,0.43,286,1235,1.57,6,47967,0.08,4,599,0,High Risk,High missed payments
+903,delivery_agent,59416,0.1,376,1082,0.57,3,160820,0.31,3,603,1,Medium Risk,High missed payments
+904,vendor,69711,0.57,115,2157,0.9,8,43424,0.3,5,652,1,Medium Risk,High missed payments
+905,vendor,16816,0.22,119,2990,1.25,3,174986,0.43,4,344,0,High Risk,High missed payments
+906,driver,87175,0.15,346,1890,1.13,11,128411,0.5,5,767,1,Low Risk,High missed payments
+907,delivery_agent,74307,0.48,496,274,0.79,3,170563,0.28,3,694,1,Medium Risk,High missed payments
+908,freelancer,56733,0.35,465,1892,1.0,8,90069,0.21,4,590,0,High Risk,High missed payments
+909,shopkeeper,21240,0.32,69,2797,1.59,7,109119,0.13,4,368,0,High Risk,High missed payments
+910,driver,81363,0.22,490,631,1.5,3,57049,0.05,5,732,1,Medium Risk,High missed payments
+911,vendor,42762,0.37,275,218,0.61,7,47821,0.28,1,506,0,High Risk,Stable financial behavior
+912,freelancer,18259,0.24,483,1515,1.62,7,115797,0.3,5,365,0,High Risk,High missed payments
+913,freelancer,60139,0.55,458,63,0.58,6,181017,0.42,5,607,1,Medium Risk,High missed payments
+914,shopkeeper,24849,0.21,445,2261,1.31,9,168456,0.28,5,403,0,High Risk,High missed payments
+915,vendor,91768,0.54,248,1493,0.89,5,179482,0.46,3,790,1,Low Risk,High missed payments
+916,delivery_agent,99709,0.38,88,2854,1.38,7,97734,0.33,2,835,1,Low Risk,Stable financial behavior
+917,freelancer,64869,0.51,194,1920,0.89,6,158241,0.43,5,627,1,Medium Risk,High missed payments
+918,shopkeeper,73095,0.46,94,1593,1.98,4,191201,0.12,4,673,1,Medium Risk,High missed payments
+919,delivery_agent,80910,0.45,444,1739,0.96,11,117445,0.43,0,742,1,Medium Risk,Stable financial behavior
+920,vendor,96710,0.26,375,1621,0.86,3,23830,0.35,1,826,1,Low Risk,Stable financial behavior
+921,freelancer,33567,0.22,430,1101,0.92,11,106940,0.13,5,452,0,High Risk,High missed payments
+922,delivery_agent,45292,0.21,456,1781,1.84,1,178829,0.14,5,520,0,High Risk,High missed payments
+923,delivery_agent,84813,0.53,140,495,1.45,10,83867,0.47,1,753,1,Low Risk,Stable financial behavior
+924,delivery_agent,61631,0.51,287,765,1.6,7,186722,0.06,5,611,1,Medium Risk,High missed payments
+925,freelancer,19885,0.32,119,868,1.88,8,184838,0.26,4,364,0,High Risk,High missed payments
+926,freelancer,69659,0.17,215,2201,1.87,3,52419,0.19,2,661,1,Medium Risk,Low savings
+927,driver,64306,0.29,179,2839,1.61,3,36668,0.35,5,623,1,Medium Risk,High missed payments
+928,vendor,76314,0.41,263,475,0.8,4,167318,0.43,1,703,1,Medium Risk,Stable financial behavior
+929,shopkeeper,75087,0.33,389,1174,1.77,1,44996,0.21,5,692,1,Medium Risk,High missed payments
+930,delivery_agent,39165,0.49,138,1614,0.81,6,71312,0.24,3,476,0,High Risk,High missed payments
+931,driver,68929,0.6,384,2736,1.61,4,154137,0.49,4,660,1,Medium Risk,High missed payments
+932,shopkeeper,77028,0.2,301,899,1.53,5,30467,0.4,4,705,1,Medium Risk,High missed payments
+933,driver,59812,0.33,418,1595,1.64,3,172079,0.45,2,611,1,Medium Risk,Stable financial behavior
+934,freelancer,60500,0.32,398,1179,1.3,7,48702,0.25,3,613,1,Medium Risk,High missed payments
+935,delivery_agent,89151,0.25,121,1752,1.46,7,114369,0.16,3,771,1,Low Risk,High missed payments
+936,shopkeeper,68643,0.2,214,2051,1.93,11,95569,0.24,2,659,1,Medium Risk,Stable financial behavior
+937,shopkeeper,54900,0.13,98,2866,0.65,4,73952,0.37,0,573,0,High Risk,Stable financial behavior
+938,shopkeeper,52946,0.54,101,326,0.96,11,54169,0.1,5,554,0,High Risk,High missed payments
+939,shopkeeper,17851,0.31,338,1856,1.42,5,36829,0.17,3,359,0,High Risk,High missed payments
+940,shopkeeper,26288,0.35,327,2997,1.95,2,24522,0.07,0,413,0,High Risk,Low savings
+941,driver,82692,0.56,163,2285,0.64,0,105687,0.24,0,735,1,Medium Risk,Stable financial behavior
+942,delivery_agent,77580,0.49,288,1989,0.53,8,186391,0.42,4,707,1,Medium Risk,High missed payments
+943,freelancer,17368,0.17,182,2202,0.58,8,140334,0.06,5,346,0,High Risk,High missed payments
+944,freelancer,95436,0.38,323,595,0.58,2,177615,0.35,4,810,1,Low Risk,High missed payments
+945,freelancer,56403,0.32,215,2477,1.86,3,138576,0.47,1,587,0,High Risk,Stable financial behavior
+946,freelancer,19168,0.5,423,159,1.58,6,137419,0.16,4,368,0,High Risk,High missed payments
+947,driver,96497,0.46,422,594,1.52,1,181545,0.36,3,823,1,Low Risk,High missed payments
+948,vendor,59879,0.45,342,2451,1.28,11,27699,0.49,3,610,1,Medium Risk,High missed payments
+949,delivery_agent,69871,0.27,292,792,1.67,2,88165,0.48,5,660,1,Medium Risk,High missed payments
+950,shopkeeper,99388,0.5,369,2414,0.73,5,191527,0.16,0,842,1,Low Risk,Low savings
+951,vendor,42174,0.13,187,1339,1.09,10,95692,0.1,3,498,0,High Risk,High missed payments
+952,freelancer,16581,0.18,128,1925,1.24,7,37441,0.12,4,343,0,High Risk,High missed payments
+953,vendor,81853,0.27,219,1138,0.67,0,50716,0.37,4,726,1,Medium Risk,High missed payments
+954,delivery_agent,74046,0.14,172,382,1.13,3,82175,0.38,5,680,1,Medium Risk,High missed payments
+955,shopkeeper,59678,0.22,225,1586,0.97,0,26834,0.35,4,597,0,High Risk,High missed payments
+956,shopkeeper,36649,0.52,349,1206,0.55,1,38179,0.2,2,467,0,High Risk,Stable financial behavior
+957,delivery_agent,98668,0.57,131,641,0.71,7,46219,0.13,5,821,1,Low Risk,High missed payments
+958,delivery_agent,92325,0.25,136,832,1.65,5,123153,0.31,5,787,1,Low Risk,High missed payments
+959,freelancer,24567,0.23,274,589,0.53,8,166854,0.27,3,396,0,High Risk,High missed payments
+960,shopkeeper,90404,0.24,65,2832,1.9,1,94967,0.38,5,772,1,Low Risk,High missed payments
+961,vendor,99906,0.24,359,1608,0.63,2,122454,0.25,1,843,1,Low Risk,Stable financial behavior
+962,driver,71944,0.12,407,1569,1.7,8,29496,0.2,3,682,1,Medium Risk,High missed payments
+963,driver,88002,0.56,212,2718,1.85,8,190310,0.18,3,768,1,Low Risk,High missed payments
+964,delivery_agent,38803,0.21,147,668,1.91,5,66025,0.15,2,478,0,High Risk,Low savings
+965,freelancer,28230,0.31,205,1883,1.8,2,79886,0.17,3,415,0,High Risk,High missed payments
+966,driver,27862,0.1,51,1041,0.93,4,174635,0.09,0,411,0,High Risk,Low savings
+967,shopkeeper,53355,0.53,399,2196,1.0,1,23712,0.21,4,565,0,High Risk,High missed payments
+968,delivery_agent,41259,0.47,446,2414,1.14,6,114067,0.07,4,497,0,High Risk,High missed payments
+969,vendor,97445,0.57,218,2220,0.71,9,65489,0.13,5,818,1,Low Risk,High missed payments
+970,delivery_agent,40795,0.49,364,2896,0.53,10,52664,0.39,2,498,0,High Risk,Stable financial behavior
+971,vendor,18770,0.26,374,1666,1.8,7,163492,0.2,4,366,0,High Risk,High missed payments
+972,delivery_agent,21093,0.22,424,1568,1.33,5,25315,0.35,0,388,0,High Risk,Stable financial behavior
+973,delivery_agent,56571,0.45,141,2554,1.41,7,95033,0.37,2,583,0,High Risk,Stable financial behavior
+974,delivery_agent,10193,0.28,230,571,1.89,1,137862,0.31,1,314,0,High Risk,Stable financial behavior
+975,vendor,27569,0.38,280,2617,1.5,2,99030,0.48,4,413,0,High Risk,High missed payments
+976,vendor,21190,0.1,350,966,1.54,6,83910,0.06,3,379,0,High Risk,High missed payments
+977,delivery_agent,72824,0.13,197,766,1.68,9,141075,0.38,0,687,1,Medium Risk,Stable financial behavior
+978,driver,52752,0.37,329,2412,0.67,11,75919,0.48,0,572,0,High Risk,Stable financial behavior
+979,freelancer,42327,0.38,238,2806,1.04,0,155204,0.44,4,496,0,High Risk,High missed payments
+980,freelancer,52070,0.48,396,2807,1.95,6,147153,0.13,5,559,0,High Risk,High missed payments
+981,freelancer,95925,0.17,399,1986,1.88,5,61598,0.2,1,825,1,Low Risk,Stable financial behavior
+982,vendor,50197,0.36,363,609,1.83,7,171623,0.13,3,551,0,High Risk,High missed payments
+983,vendor,12261,0.2,460,1018,1.18,6,88206,0.32,1,335,0,High Risk,Stable financial behavior
+984,driver,36512,0.15,459,2453,1.79,3,94900,0.37,1,478,0,High Risk,Stable financial behavior
+985,freelancer,16716,0.31,177,1127,0.57,2,46296,0.19,4,341,0,High Risk,High missed payments
+986,freelancer,96795,0.18,56,939,0.72,2,169138,0.29,3,811,1,Low Risk,High missed payments
+987,delivery_agent,38933,0.21,475,842,1.12,3,179964,0.36,4,486,0,High Risk,High missed payments
+988,vendor,14378,0.26,96,2362,1.23,8,95577,0.24,4,330,0,High Risk,High missed payments
+989,freelancer,50583,0.23,102,1031,0.9,8,97173,0.43,5,541,0,High Risk,High missed payments
+990,driver,95371,0.14,236,851,1.03,1,84771,0.4,0,815,1,Low Risk,Stable financial behavior
+991,driver,39033,0.14,87,92,0.74,4,178556,0.08,5,468,0,High Risk,High missed payments
+992,freelancer,34000,0.2,275,1659,1.23,0,97865,0.33,5,446,0,High Risk,High missed payments
+993,vendor,85868,0.13,102,2959,1.69,3,119074,0.16,4,748,1,Medium Risk,High missed payments
+994,driver,52604,0.41,448,1827,1.49,1,178187,0.3,5,562,0,High Risk,High missed payments
+995,delivery_agent,78336,0.24,273,399,0.66,7,177110,0.48,5,710,1,Medium Risk,High missed payments
+996,driver,83869,0.24,203,1617,1.23,3,56622,0.45,2,744,1,Medium Risk,Stable financial behavior
+997,shopkeeper,15410,0.27,97,1179,1.55,4,55886,0.23,3,336,0,High Risk,High missed payments
+998,shopkeeper,93375,0.43,400,2098,1.29,10,160973,0.18,0,812,1,Low Risk,Low savings
+999,vendor,66044,0.54,196,1830,1.09,3,76377,0.16,3,635,1,Medium Risk,High missed payments
+1000,freelancer,73315,0.48,442,633,1.43,4,102910,0.29,0,694,1,Medium Risk,Stable financial behavior
+1001,vendor,81344,0.46,113,481,1.95,4,138992,0.1,2,726,1,Medium Risk,Low savings
+1002,vendor,16796,0.34,398,1982,0.64,4,183878,0.3,4,351,0,High Risk,High missed payments
+1003,vendor,96716,0.45,231,2150,1.09,10,168731,0.05,0,824,1,Low Risk,Low savings
+1004,vendor,64245,0.38,174,2617,1.11,2,174525,0.2,0,629,1,Medium Risk,Stable financial behavior
+1005,delivery_agent,53056,0.21,228,1398,1.37,6,181570,0.15,0,568,0,High Risk,Low savings
+1006,delivery_agent,27709,0.2,88,2244,0.73,2,36312,0.49,2,409,0,High Risk,Stable financial behavior
+1007,driver,68557,0.25,309,2080,0.76,1,21436,0.38,3,654,1,Medium Risk,High missed payments
+1008,shopkeeper,27543,0.56,431,1239,0.93,2,47569,0.21,2,418,0,High Risk,Stable financial behavior
+1009,vendor,47418,0.37,52,1212,1.93,10,136787,0.09,0,531,0,High Risk,Low savings
+1010,driver,26724,0.47,113,2726,1.6,2,110485,0.28,5,399,0,High Risk,High missed payments
+1011,shopkeeper,13828,0.27,78,348,1.49,7,197058,0.15,0,333,0,High Risk,Low savings
+1012,freelancer,27087,0.3,421,1989,1.73,3,122555,0.29,5,413,0,High Risk,High missed payments
+1013,delivery_agent,22605,0.16,60,838,0.69,2,160377,0.43,4,374,0,High Risk,High missed payments
+1014,shopkeeper,41337,0.19,146,899,1.79,9,52646,0.33,2,496,0,High Risk,Stable financial behavior
+1015,freelancer,15482,0.51,407,2275,1.39,4,96126,0.34,5,344,0,High Risk,High missed payments
+1016,shopkeeper,75333,0.39,491,2939,1.0,3,137922,0.29,2,702,1,Medium Risk,Stable financial behavior
+1017,delivery_agent,98296,0.27,252,1427,1.72,8,60430,0.47,1,836,1,Low Risk,Stable financial behavior
+1018,delivery_agent,60952,0.5,460,1227,1.7,7,142238,0.47,3,620,1,Medium Risk,High missed payments
+1019,driver,15463,0.22,70,1999,1.77,10,88659,0.28,1,343,0,High Risk,Stable financial behavior
+1020,vendor,80448,0.59,88,927,0.67,6,135341,0.19,5,712,1,Medium Risk,High missed payments
+1021,shopkeeper,14648,0.27,272,1188,1.95,7,24158,0.26,1,344,0,High Risk,Stable financial behavior
+1022,shopkeeper,43623,0.27,151,1627,1.94,4,94236,0.13,3,504,0,High Risk,High missed payments
+1023,freelancer,69156,0.26,95,2856,1.04,3,96067,0.34,5,647,1,Medium Risk,High missed payments
+1024,delivery_agent,45634,0.16,115,2542,0.6,6,178810,0.28,4,512,0,High Risk,High missed payments
+1025,shopkeeper,54602,0.16,140,2805,0.75,0,29879,0.1,4,562,0,High Risk,High missed payments
+1026,delivery_agent,59334,0.42,213,2699,1.99,5,156615,0.14,3,599,0,High Risk,High missed payments
+1027,shopkeeper,78648,0.54,160,1696,1.34,7,132284,0.27,3,711,1,Medium Risk,High missed payments
+1028,driver,32054,0.5,387,1953,1.03,6,198996,0.45,5,441,0,High Risk,High missed payments
+1029,vendor,80028,0.17,172,1432,0.93,1,193420,0.3,2,718,1,Medium Risk,Stable financial behavior
+1030,shopkeeper,32207,0.37,242,194,0.89,6,104117,0.36,5,436,0,High Risk,High missed payments
+1031,delivery_agent,90650,0.15,496,2372,1.5,5,187751,0.2,2,795,1,Low Risk,Stable financial behavior
+1032,driver,91554,0.12,148,2606,1.13,4,63888,0.31,2,787,1,Low Risk,Stable financial behavior
+1033,shopkeeper,31386,0.43,340,1252,1.95,3,50276,0.25,2,441,0,High Risk,Stable financial behavior
+1034,freelancer,93276,0.37,208,2850,1.53,0,24799,0.35,5,793,1,Low Risk,High missed payments
+1035,vendor,69518,0.14,461,1911,1.69,1,132529,0.07,0,671,1,Medium Risk,Low savings
+1036,shopkeeper,62781,0.12,152,1904,0.94,6,144713,0.27,0,622,1,Medium Risk,Stable financial behavior
+1037,driver,62780,0.59,434,2574,0.62,9,110141,0.18,4,624,1,Medium Risk,High missed payments
+1038,freelancer,71440,0.12,330,1916,1.23,2,135013,0.2,0,678,1,Medium Risk,Stable financial behavior
+1039,driver,54199,0.32,92,1148,0.97,4,187606,0.48,0,570,0,High Risk,Stable financial behavior
+1040,driver,71035,0.35,133,1201,0.8,7,51668,0.13,2,665,1,Medium Risk,Low savings
+1041,freelancer,18210,0.16,240,1784,1.93,7,155183,0.19,2,362,0,High Risk,Low savings
+1042,driver,54363,0.18,100,2763,1.17,5,175758,0.28,3,565,0,High Risk,High missed payments
+1043,freelancer,88279,0.28,435,617,0.76,4,92392,0.44,2,778,1,Low Risk,Stable financial behavior
+1044,shopkeeper,70348,0.48,259,1863,0.8,1,36490,0.24,5,657,1,Medium Risk,High missed payments
+1045,freelancer,65284,0.35,175,580,0.92,8,186266,0.38,3,633,1,Medium Risk,High missed payments
+1046,freelancer,82124,0.42,497,2256,2.0,0,165569,0.44,3,743,1,Medium Risk,High missed payments
+1047,vendor,78847,0.59,118,1611,0.9,10,137219,0.19,0,716,1,Medium Risk,Low savings
+1048,freelancer,32432,0.48,314,730,0.99,1,64104,0.23,2,443,0,High Risk,Stable financial behavior
+1049,freelancer,74089,0.32,307,2120,1.49,0,25316,0.21,0,692,1,Medium Risk,Stable financial behavior
+1050,shopkeeper,65398,0.32,467,1120,0.94,11,58130,0.42,2,648,1,Medium Risk,Stable financial behavior
+1051,vendor,13321,0.41,237,2622,0.82,3,127294,0.07,0,331,0,High Risk,Low savings
+1052,delivery_agent,91348,0.43,279,778,0.74,3,49954,0.19,0,791,1,Low Risk,Low savings
+1053,shopkeeper,47383,0.35,238,1779,0.97,4,133437,0.36,0,534,0,High Risk,Stable financial behavior
+1054,shopkeeper,88682,0.42,464,2241,0.66,4,172724,0.3,5,774,1,Low Risk,High missed payments
+1055,delivery_agent,89190,0.11,59,717,0.53,7,165250,0.25,4,766,1,Low Risk,High missed payments
+1056,freelancer,62893,0.31,163,1662,1.71,10,165823,0.29,0,627,1,Medium Risk,Stable financial behavior
+1057,driver,45820,0.24,125,730,0.71,10,154116,0.14,1,520,0,High Risk,Low savings
+1058,vendor,76262,0.16,213,1022,1.66,2,83165,0.24,1,701,1,Medium Risk,Stable financial behavior
+1059,driver,13760,0.15,134,2896,1.7,5,162552,0.28,1,333,0,High Risk,Stable financial behavior
+1060,delivery_agent,32190,0.4,98,2182,1.31,11,194946,0.46,5,435,0,High Risk,High missed payments
+1061,shopkeeper,77411,0.36,375,2513,0.96,11,86775,0.17,3,712,1,Medium Risk,High missed payments
+1062,shopkeeper,33377,0.23,226,2791,0.72,2,157638,0.44,0,451,0,High Risk,Stable financial behavior
+1063,vendor,56737,0.34,436,2579,1.61,1,105311,0.34,1,594,0,High Risk,Stable financial behavior
+1064,shopkeeper,79569,0.35,438,2553,1.4,7,73149,0.06,5,721,1,Medium Risk,High missed payments
+1065,shopkeeper,48211,0.2,267,876,1.48,0,154078,0.38,3,534,0,High Risk,High missed payments
+1066,vendor,92909,0.43,238,346,0.51,8,92561,0.07,1,798,1,Low Risk,Low savings
+1067,vendor,13744,0.49,395,1303,1.89,10,170495,0.5,2,344,0,High Risk,Stable financial behavior
+1068,delivery_agent,34995,0.5,279,2777,0.6,6,110710,0.44,4,456,0,High Risk,High missed payments
+1069,shopkeeper,26977,0.4,304,2475,1.05,11,112199,0.18,0,419,0,High Risk,Low savings
+1070,shopkeeper,44542,0.36,285,2518,1.1,9,185024,0.17,4,513,0,High Risk,High missed payments
+1071,delivery_agent,20651,0.13,75,2202,0.5,11,47326,0.22,4,366,0,High Risk,High missed payments
+1072,freelancer,88931,0.24,121,1778,1.25,10,137272,0.21,2,773,1,Low Risk,Stable financial behavior
+1073,freelancer,26715,0.15,310,2074,1.63,3,51139,0.22,2,412,0,High Risk,Stable financial behavior
+1074,freelancer,54409,0.58,303,379,1.73,2,93638,0.19,2,573,0,High Risk,Low savings
+1075,delivery_agent,34306,0.17,320,2536,1.82,5,92652,0.33,3,457,0,High Risk,High missed payments
+1076,shopkeeper,29086,0.18,172,1205,1.23,8,32937,0.12,1,424,0,High Risk,Low savings
+1077,delivery_agent,24376,0.54,193,1940,1.45,8,50161,0.43,0,400,0,High Risk,Stable financial behavior
+1078,delivery_agent,71350,0.57,306,431,0.62,3,155455,0.42,2,672,1,Medium Risk,Stable financial behavior
+1079,freelancer,81425,0.48,193,2235,1.23,9,105856,0.26,5,725,1,Medium Risk,High missed payments
+1080,driver,46636,0.1,470,892,0.73,4,90043,0.43,0,538,0,High Risk,Stable financial behavior
+1081,shopkeeper,96120,0.1,308,2367,1.05,10,165807,0.16,0,825,1,Low Risk,Low savings
+1082,freelancer,61649,0.29,485,445,0.99,8,79919,0.06,0,627,1,Medium Risk,Low savings
+1083,driver,44610,0.17,96,2561,1.14,1,102055,0.33,2,508,0,High Risk,Stable financial behavior
+1084,driver,20058,0.11,400,499,1.36,1,105455,0.26,2,375,0,High Risk,Stable financial behavior
+1085,vendor,84637,0.33,62,1404,1.85,4,188694,0.31,1,747,1,Medium Risk,Stable financial behavior
+1086,shopkeeper,88033,0.57,425,2036,1.09,0,58135,0.45,2,774,1,Low Risk,Stable financial behavior
+1087,driver,80194,0.26,257,1358,1.97,7,186730,0.49,2,729,1,Medium Risk,Stable financial behavior
+1088,freelancer,86917,0.43,360,1347,1.64,4,104677,0.34,0,772,1,Low Risk,Stable financial behavior
+1089,vendor,74200,0.43,284,2117,1.27,11,49696,0.39,1,695,1,Medium Risk,Stable financial behavior
+1090,shopkeeper,56619,0.23,198,2336,1.47,9,154845,0.09,4,581,0,High Risk,High missed payments
+1091,delivery_agent,27154,0.43,371,1343,0.65,1,44956,0.12,2,412,0,High Risk,Low savings
+1092,freelancer,29539,0.21,487,2515,1.77,11,35819,0.38,5,434,0,High Risk,High missed payments
+1093,driver,70058,0.16,204,1899,1.37,8,21528,0.24,2,665,1,Medium Risk,Stable financial behavior
+1094,driver,72068,0.45,215,235,1.98,1,147781,0.25,4,671,1,Medium Risk,High missed payments
+1095,freelancer,87313,0.16,139,1283,1.45,6,106491,0.19,0,766,1,Low Risk,Low savings
+1096,driver,40373,0.6,235,1487,1.75,7,64588,0.32,1,493,0,High Risk,Stable financial behavior
+1097,vendor,43154,0.19,367,302,1.7,5,119152,0.13,0,515,0,High Risk,Low savings
+1098,shopkeeper,16031,0.4,407,68,1.02,10,147872,0.33,3,353,0,High Risk,High missed payments
+1099,vendor,81975,0.31,223,2809,0.89,6,171583,0.13,2,732,1,Medium Risk,Low savings
+1100,driver,32785,0.16,266,1209,1.15,10,30119,0.08,5,442,0,High Risk,High missed payments
+1101,delivery_agent,88928,0.11,444,272,1.2,0,95893,0.2,3,778,1,Low Risk,High missed payments
+1102,shopkeeper,38669,0.41,313,52,0.86,3,36167,0.15,2,479,0,High Risk,Low savings
+1103,shopkeeper,12282,0.5,146,1309,1.84,6,130782,0.45,3,322,0,High Risk,High missed payments
+1104,freelancer,44624,0.52,166,903,1.31,0,150775,0.07,4,504,0,High Risk,High missed payments
+1105,freelancer,58438,0.34,248,1538,1.97,0,54889,0.13,2,595,0,High Risk,Low savings
+1106,delivery_agent,99900,0.49,369,277,1.72,10,65678,0.3,5,842,1,Low Risk,High missed payments
+1107,shopkeeper,77534,0.44,70,1727,1.33,5,80262,0.27,2,702,1,Medium Risk,Stable financial behavior
+1108,delivery_agent,41705,0.46,249,548,1.92,3,155753,0.07,3,495,0,High Risk,High missed payments
+1109,freelancer,48244,0.35,420,2618,1.26,2,100291,0.05,1,541,0,High Risk,Low savings
+1110,freelancer,84964,0.42,496,2799,1.83,11,86008,0.49,3,764,1,Low Risk,High missed payments
+1111,shopkeeper,47437,0.5,390,1935,1.04,4,164762,0.35,2,536,0,High Risk,Stable financial behavior
+1112,vendor,87872,0.3,497,2065,1.07,8,45912,0.21,2,778,1,Low Risk,Stable financial behavior
+1113,driver,84878,0.5,297,1212,1.13,9,26473,0.26,1,756,1,Low Risk,Stable financial behavior
+1114,freelancer,82982,0.4,325,1349,1.32,9,192370,0.17,0,748,1,Medium Risk,Low savings
+1115,freelancer,60583,0.18,313,2388,1.33,11,169741,0.21,1,616,1,Medium Risk,Stable financial behavior
+1116,vendor,48392,0.11,107,1126,1.24,11,119500,0.34,0,540,0,High Risk,Stable financial behavior
+1117,vendor,17461,0.28,351,764,0.96,10,172015,0.45,5,357,0,High Risk,High missed payments
+1118,delivery_agent,20516,0.37,80,997,1.89,9,58785,0.13,2,370,0,High Risk,Low savings
+1119,delivery_agent,89285,0.52,298,2745,1.38,2,120956,0.43,4,775,1,Low Risk,High missed payments
+1120,driver,27514,0.16,142,2781,1.11,4,139006,0.1,4,405,0,High Risk,High missed payments
+1121,driver,46268,0.5,314,919,1.48,9,30832,0.15,3,526,0,High Risk,High missed payments
+1122,shopkeeper,46788,0.53,320,1120,1.65,4,156457,0.07,1,531,0,High Risk,Low savings
+1123,delivery_agent,85749,0.18,143,143,1.94,8,165780,0.11,1,757,1,Low Risk,Low savings
+1124,freelancer,71049,0.53,203,609,1.25,10,174510,0.46,4,668,1,Medium Risk,High missed payments
+1125,delivery_agent,72493,0.6,443,1825,0.67,11,102747,0.26,0,690,1,Medium Risk,Stable financial behavior
+1126,freelancer,46027,0.46,334,2310,1.16,9,100107,0.08,1,528,0,High Risk,Low savings
+1127,vendor,52849,0.49,129,485,1.22,10,85428,0.48,0,566,0,High Risk,Stable financial behavior
+1128,delivery_agent,27858,0.6,341,901,1.85,3,106843,0.45,0,425,0,High Risk,Stable financial behavior
+1129,vendor,94162,0.4,133,2605,1.09,0,31002,0.39,0,804,1,Low Risk,Stable financial behavior
+1130,driver,89003,0.25,414,2933,1.93,9,187225,0.47,0,790,1,Low Risk,Stable financial behavior
+1131,driver,62395,0.52,423,2748,1.23,4,173512,0.15,3,622,1,Medium Risk,High missed payments
+1132,shopkeeper,49758,0.41,86,254,1.96,0,87501,0.43,3,538,0,High Risk,High missed payments
+1133,delivery_agent,64312,0.39,391,2478,0.51,5,52556,0.36,4,631,1,Medium Risk,High missed payments
+1134,vendor,78670,0.23,376,1149,1.85,11,87963,0.44,3,723,1,Medium Risk,High missed payments
+1135,freelancer,92279,0.48,456,126,1.9,9,26563,0.41,5,801,1,Low Risk,High missed payments
+1136,driver,25434,0.14,474,865,1.94,9,25840,0.21,1,416,0,High Risk,Stable financial behavior
+1137,driver,74047,0.56,281,817,0.52,6,35154,0.4,5,683,1,Medium Risk,High missed payments
+1138,freelancer,57775,0.26,142,2507,0.76,0,44194,0.17,3,583,0,High Risk,High missed payments
+1139,vendor,85769,0.16,385,155,1.48,9,197933,0.2,1,766,1,Low Risk,Stable financial behavior
+1140,vendor,76677,0.32,151,2648,0.54,3,173520,0.1,1,698,1,Medium Risk,Low savings
+1141,delivery_agent,93555,0.12,461,2923,0.6,8,43528,0.47,0,816,1,Low Risk,Stable financial behavior
+1142,delivery_agent,95920,0.44,481,2185,0.83,0,180474,0.18,4,817,1,Low Risk,High missed payments
+1143,shopkeeper,55734,0.55,215,1796,1.27,8,24352,0.28,0,584,0,High Risk,Stable financial behavior
+1144,driver,98503,0.52,208,2978,1.32,7,20184,0.23,0,834,1,Low Risk,Stable financial behavior
+1145,delivery_agent,50603,0.16,63,1515,0.55,4,161456,0.48,5,538,0,High Risk,High missed payments
+1146,vendor,86708,0.16,422,2637,0.76,5,34319,0.2,3,765,1,Low Risk,High missed payments
+1147,freelancer,91926,0.51,274,294,1.25,6,140497,0.4,5,789,1,Low Risk,High missed payments
+1148,vendor,78803,0.56,122,2675,1.39,3,171521,0.43,3,709,1,Medium Risk,High missed payments
+1149,driver,49332,0.33,298,1455,0.72,5,76333,0.25,5,537,0,High Risk,High missed payments
+1150,vendor,31312,0.35,140,1031,1.1,6,61205,0.22,1,435,0,High Risk,Stable financial behavior
+1151,shopkeeper,94526,0.26,265,2814,1.86,10,30426,0.39,3,812,1,Low Risk,High missed payments
+1152,driver,54179,0.55,139,1786,2.0,5,27504,0.46,3,568,0,High Risk,High missed payments
+1153,freelancer,81442,0.42,78,191,1.98,10,136775,0.39,5,724,1,Medium Risk,High missed payments
+1154,shopkeeper,50379,0.24,484,942,1.82,11,53368,0.15,2,561,0,High Risk,Low savings
+1155,driver,27297,0.25,354,1441,1.09,5,123841,0.45,1,420,0,High Risk,Stable financial behavior
+1156,freelancer,12011,0.55,476,2449,1.53,1,136744,0.22,1,331,0,High Risk,Stable financial behavior
+1157,shopkeeper,54014,0.11,269,594,1.12,4,28724,0.31,2,571,0,High Risk,Stable financial behavior
+1158,shopkeeper,21738,0.26,377,2249,1.47,2,156156,0.42,5,380,0,High Risk,High missed payments
+1159,driver,57498,0.38,264,1519,0.96,6,185882,0.13,5,584,0,High Risk,High missed payments
+1160,delivery_agent,21120,0.17,270,2750,1.41,3,102297,0.4,1,380,0,High Risk,Stable financial behavior
+1161,shopkeeper,18767,0.15,438,812,1.29,0,145099,0.32,5,363,0,High Risk,High missed payments
+1162,shopkeeper,32852,0.51,91,673,0.54,11,98872,0.45,4,439,0,High Risk,High missed payments
+1163,freelancer,89239,0.55,184,705,1.69,11,171944,0.13,4,773,1,Low Risk,High missed payments
+1164,vendor,10929,0.51,91,2547,0.52,5,90333,0.24,2,309,0,High Risk,Stable financial behavior
+1165,driver,87487,0.55,213,2818,0.94,5,22596,0.42,3,764,1,Low Risk,High missed payments
+1166,driver,27438,0.38,410,1297,0.51,6,37167,0.06,4,413,0,High Risk,High missed payments
+1167,delivery_agent,58515,0.51,332,92,1.06,10,107844,0.1,5,594,0,High Risk,High missed payments
+1168,delivery_agent,15744,0.29,107,2361,0.59,7,109751,0.5,2,342,0,High Risk,Stable financial behavior
+1169,driver,93820,0.43,351,1076,1.87,2,149817,0.18,4,803,1,Low Risk,High missed payments
+1170,delivery_agent,52417,0.59,371,1710,1.12,5,100520,0.49,0,570,0,High Risk,Stable financial behavior
+1171,freelancer,17069,0.21,74,1341,1.19,9,78326,0.13,2,348,0,High Risk,Low savings
+1172,driver,52359,0.29,122,645,1.02,1,97670,0.21,1,555,0,High Risk,Stable financial behavior
+1173,delivery_agent,29799,0.34,422,1062,1.44,8,161854,0.39,4,433,0,High Risk,High missed payments
+1174,driver,80188,0.17,460,2274,1.68,1,193074,0.35,1,733,1,Medium Risk,Stable financial behavior
+1175,vendor,99859,0.14,178,2160,1.47,2,44022,0.31,2,837,1,Low Risk,Stable financial behavior
+1176,shopkeeper,17597,0.51,136,1007,1.62,11,104458,0.29,4,352,0,High Risk,High missed payments
+1177,driver,57093,0.59,379,610,1.86,9,165690,0.43,1,599,0,High Risk,Stable financial behavior
+1178,shopkeeper,47226,0.3,475,1380,1.8,11,168317,0.16,3,540,0,High Risk,High missed payments
+1179,delivery_agent,82127,0.14,485,1362,1.51,11,103796,0.25,3,746,1,Medium Risk,High missed payments
+1180,shopkeeper,87362,0.13,202,1871,0.82,1,161099,0.12,0,765,1,Low Risk,Low savings
+1181,driver,36417,0.55,231,1600,1.46,8,165058,0.32,5,462,0,High Risk,High missed payments
+1182,vendor,28693,0.33,174,899,1.26,0,130704,0.16,2,416,0,High Risk,Low savings
+1183,delivery_agent,89674,0.26,116,1328,1.58,4,154598,0.2,5,769,1,Low Risk,High missed payments
+1184,driver,63161,0.34,55,2701,1.75,0,64361,0.26,5,610,1,Medium Risk,High missed payments
+1185,delivery_agent,12169,0.26,174,1583,1.61,4,58286,0.06,1,323,0,High Risk,Low savings
+1186,freelancer,94092,0.34,363,1864,1.77,7,49533,0.09,0,814,1,Low Risk,Low savings
+1187,shopkeeper,32052,0.53,375,1791,0.6,7,169388,0.36,2,445,0,High Risk,Stable financial behavior
+1188,freelancer,81849,0.4,102,655,0.55,10,159771,0.24,3,727,1,Medium Risk,High missed payments
+1189,driver,83851,0.45,115,2927,0.89,7,147441,0.44,5,736,1,Medium Risk,High missed payments
+1190,vendor,18036,0.28,363,1536,1.85,1,117079,0.36,1,365,0,High Risk,Stable financial behavior
+1191,delivery_agent,41778,0.47,131,1344,1.74,7,120960,0.05,5,489,0,High Risk,High missed payments
+1192,shopkeeper,37734,0.43,136,795,1.52,11,78465,0.33,4,470,0,High Risk,High missed payments
+1193,delivery_agent,33173,0.16,51,607,1.55,4,167745,0.09,3,438,0,High Risk,High missed payments
+1194,driver,40403,0.39,253,2161,1.59,0,43395,0.4,5,484,0,High Risk,High missed payments
+1195,delivery_agent,76321,0.23,199,991,1.91,6,124162,0.5,4,700,1,Medium Risk,High missed payments
+1196,shopkeeper,81675,0.5,342,2346,1.75,5,150704,0.29,4,733,1,Medium Risk,High missed payments
+1197,driver,16344,0.31,453,1319,1.44,4,174779,0.36,1,359,0,High Risk,Stable financial behavior
+1198,delivery_agent,28800,0.6,152,989,1.5,0,95937,0.16,1,417,0,High Risk,Low savings
+1199,vendor,35372,0.15,73,1660,0.82,0,149647,0.25,4,448,0,High Risk,High missed payments
+1200,driver,71516,0.49,417,2254,1.49,5,140650,0.44,0,684,1,Medium Risk,Stable financial behavior
+1201,driver,30538,0.44,261,2832,1.14,9,150744,0.13,5,427,0,High Risk,High missed payments
+1202,vendor,73918,0.48,114,1775,0.73,11,111512,0.17,4,679,1,Medium Risk,High missed payments
+1203,freelancer,24973,0.25,498,1034,1.71,6,159830,0.25,4,406,0,High Risk,High missed payments
+1204,shopkeeper,81155,0.35,258,1637,1.27,9,87009,0.37,1,734,1,Medium Risk,Stable financial behavior
+1205,freelancer,69500,0.5,300,1386,1.97,9,164353,0.22,5,660,1,Medium Risk,High missed payments
+1206,delivery_agent,46575,0.22,434,1924,0.92,0,52548,0.47,2,532,0,High Risk,Stable financial behavior
+1207,vendor,52261,0.21,166,711,1.22,8,38371,0.09,3,555,0,High Risk,High missed payments
+1208,freelancer,37716,0.38,165,82,1.17,3,125977,0.22,1,472,0,High Risk,Stable financial behavior
+1209,driver,13236,0.36,286,1866,0.68,4,170716,0.37,5,325,0,High Risk,High missed payments
+1210,delivery_agent,25848,0.24,154,2655,1.14,1,174946,0.15,5,393,0,High Risk,High missed payments
+1211,delivery_agent,12352,0.25,308,2170,0.93,11,34281,0.35,0,334,0,High Risk,Stable financial behavior
+1212,freelancer,11932,0.24,95,1939,0.74,9,173361,0.12,3,316,0,High Risk,High missed payments
+1213,freelancer,86449,0.49,360,2922,0.92,7,156126,0.08,1,765,1,Low Risk,Low savings
+1214,vendor,18556,0.43,380,1206,0.85,1,120020,0.1,1,364,0,High Risk,Low savings
+1215,shopkeeper,96836,0.52,265,110,1.6,2,127508,0.47,2,823,1,Low Risk,Stable financial behavior
+1216,freelancer,15498,0.59,497,1593,0.55,11,86846,0.3,0,357,0,High Risk,Stable financial behavior
+1217,freelancer,86118,0.34,350,321,1.43,8,114682,0.41,0,769,1,Low Risk,Stable financial behavior
+1218,driver,60098,0.13,459,2343,1.64,1,49312,0.2,5,607,1,Medium Risk,High missed payments
+1219,delivery_agent,74386,0.12,382,1249,1.22,5,134186,0.32,5,690,1,Medium Risk,High missed payments
+1220,shopkeeper,19569,0.25,498,2725,1.9,11,24257,0.27,1,383,0,High Risk,Stable financial behavior
+1221,driver,66882,0.57,73,1856,1.56,3,166918,0.48,2,640,1,Medium Risk,Stable financial behavior
+1222,vendor,80393,0.36,84,2802,1.62,6,173555,0.39,1,723,1,Medium Risk,Stable financial behavior
+1223,vendor,10340,0.24,73,2759,0.8,5,46558,0.38,4,304,0,High Risk,High missed payments
+1224,freelancer,53949,0.3,77,1204,1.67,9,63188,0.07,5,560,0,High Risk,High missed payments
+1225,freelancer,92302,0.4,65,1175,1.75,8,164084,0.3,4,788,1,Low Risk,High missed payments
+1226,vendor,72443,0.43,108,359,1.04,8,53236,0.26,2,674,1,Medium Risk,Stable financial behavior
+1227,freelancer,84027,0.18,292,1365,0.82,9,65076,0.47,1,753,1,Low Risk,Stable financial behavior
+1228,shopkeeper,10138,0.59,487,1795,1.08,3,68402,0.17,5,313,0,High Risk,High missed payments
+1229,freelancer,10358,0.37,256,2592,1.61,0,114467,0.17,2,312,0,High Risk,Low savings
+1230,delivery_agent,85250,0.17,449,387,1.13,1,183148,0.24,1,761,1,Low Risk,Stable financial behavior
+1231,freelancer,95376,0.55,320,2676,1.6,7,100337,0.16,1,818,1,Low Risk,Low savings
+1232,driver,40654,0.14,298,59,0.67,9,135827,0.11,4,490,0,High Risk,High missed payments
+1233,shopkeeper,35879,0.55,316,98,1.71,7,94264,0.44,3,467,0,High Risk,High missed payments
+1234,driver,91532,0.6,242,1560,0.88,1,37335,0.3,0,791,1,Low Risk,Stable financial behavior
+1235,driver,65778,0.45,384,2720,0.87,3,63773,0.44,5,638,1,Medium Risk,High missed payments
+1236,delivery_agent,47772,0.49,267,1394,1.39,0,48570,0.42,0,537,0,High Risk,Stable financial behavior
+1237,shopkeeper,68478,0.27,164,780,0.61,6,107995,0.18,2,651,1,Medium Risk,Low savings
+1238,shopkeeper,74353,0.57,117,844,0.54,3,60658,0.3,0,686,1,Medium Risk,Stable financial behavior
+1239,shopkeeper,36762,0.36,348,1698,0.89,10,140640,0.09,4,469,0,High Risk,High missed payments
+1240,shopkeeper,23283,0.47,374,182,1.31,7,92613,0.46,3,394,0,High Risk,High missed payments
+1241,shopkeeper,73922,0.56,446,2180,1.86,8,78194,0.23,5,690,1,Medium Risk,High missed payments
+1242,delivery_agent,49420,0.59,443,2154,1.77,11,131872,0.23,1,555,0,High Risk,Stable financial behavior
+1243,freelancer,65568,0.52,124,425,1.24,8,185031,0.19,1,636,1,Medium Risk,Low savings
+1244,driver,95090,0.25,152,2446,0.56,2,196660,0.26,4,801,1,Low Risk,High missed payments
+1245,shopkeeper,30219,0.58,346,320,1.3,4,191605,0.16,5,427,0,High Risk,High missed payments
+1246,freelancer,67169,0.41,227,1556,1.56,5,128558,0.22,0,651,1,Medium Risk,Stable financial behavior
+1247,freelancer,84965,0.57,264,2208,1.01,5,88582,0.41,1,754,1,Low Risk,Stable financial behavior
+1248,driver,56840,0.44,364,2966,0.67,9,195590,0.43,0,596,0,High Risk,Stable financial behavior
+1249,delivery_agent,54695,0.25,88,2984,0.92,7,163775,0.19,4,565,0,High Risk,High missed payments
+1250,vendor,94754,0.29,308,125,1.66,5,69456,0.26,1,814,1,Low Risk,Stable financial behavior
+1251,vendor,87988,0.38,253,2006,1.03,5,75491,0.44,2,770,1,Low Risk,Stable financial behavior
+1252,freelancer,68342,0.5,56,1716,1.72,3,28043,0.07,3,644,1,Medium Risk,High missed payments
+1253,driver,28951,0.26,98,378,0.98,6,123212,0.45,0,423,0,High Risk,Stable financial behavior
+1254,vendor,11307,0.39,75,2219,0.75,7,88340,0.15,5,306,0,High Risk,High missed payments
+1255,freelancer,90388,0.27,210,90,1.15,2,161248,0.36,0,785,1,Low Risk,Stable financial behavior
+1256,delivery_agent,45428,0.51,406,1240,1.18,6,155008,0.31,0,529,0,High Risk,Stable financial behavior
+1257,vendor,85774,0.33,225,2739,0.52,2,51174,0.3,0,757,1,Low Risk,Stable financial behavior
+1258,freelancer,48975,0.14,128,2376,0.68,7,102632,0.44,4,534,0,High Risk,High missed payments
+1259,freelancer,11140,0.18,51,2860,0.78,0,108768,0.1,4,303,0,High Risk,High missed payments
+1260,shopkeeper,34842,0.13,432,2566,0.67,0,145775,0.21,5,455,0,High Risk,High missed payments
+1261,delivery_agent,36421,0.35,465,2106,1.01,5,128177,0.29,4,470,0,High Risk,High missed payments
+1262,shopkeeper,11708,0.15,181,62,1.95,9,45909,0.42,5,319,0,High Risk,High missed payments
+1263,driver,13630,0.16,325,973,1.26,8,64158,0.15,5,331,0,High Risk,High missed payments
+1264,shopkeeper,29595,0.57,166,1892,1.44,11,159438,0.41,4,424,0,High Risk,High missed payments
+1265,shopkeeper,86021,0.54,213,1282,1.03,3,144296,0.23,1,757,1,Low Risk,Stable financial behavior
+1266,vendor,38308,0.33,337,1264,0.99,5,79331,0.14,4,476,0,High Risk,High missed payments
+1267,freelancer,54789,0.59,77,702,0.53,11,179914,0.39,1,572,0,High Risk,Stable financial behavior
+1268,delivery_agent,65690,0.1,382,1753,1.25,4,168530,0.09,2,642,1,Medium Risk,Low savings
+1269,shopkeeper,36086,0.41,50,670,1.23,11,107367,0.28,4,457,0,High Risk,High missed payments
+1270,delivery_agent,26859,0.41,237,2012,0.74,0,85382,0.08,2,405,0,High Risk,Low savings
+1271,shopkeeper,17684,0.33,105,1695,1.65,5,94319,0.21,4,348,0,High Risk,High missed payments
+1272,driver,11207,0.3,84,2293,1.24,8,31170,0.32,2,315,0,High Risk,Stable financial behavior
+1273,shopkeeper,56099,0.33,161,466,1.01,11,139952,0.3,3,580,0,High Risk,High missed payments
+1274,vendor,77496,0.31,335,713,0.72,2,100145,0.23,2,708,1,Medium Risk,Stable financial behavior
+1275,freelancer,76093,0.47,359,1828,1.33,10,125626,0.24,1,708,1,Medium Risk,Stable financial behavior
+1276,driver,39689,0.17,85,1429,1.63,2,196014,0.15,0,483,0,High Risk,Low savings
+1277,shopkeeper,58651,0.2,488,197,0.92,1,36208,0.26,5,598,0,High Risk,High missed payments
+1278,delivery_agent,23893,0.19,266,2095,0.83,3,186250,0.48,2,394,0,High Risk,Stable financial behavior
+1279,driver,76418,0.23,129,1438,1.28,9,160111,0.43,0,705,1,Medium Risk,Stable financial behavior
+1280,driver,70011,0.36,363,2461,0.73,2,34990,0.12,3,663,1,Medium Risk,High missed payments
+1281,shopkeeper,48635,0.16,132,1775,1.5,11,157513,0.06,3,535,0,High Risk,High missed payments
+1282,driver,66115,0.53,114,451,1.41,1,149327,0.47,1,638,1,Medium Risk,Stable financial behavior
+1283,delivery_agent,88405,0.25,374,2703,0.63,0,99314,0.29,1,775,1,Low Risk,Stable financial behavior
+1284,driver,82702,0.18,177,1565,0.55,2,197031,0.29,2,734,1,Medium Risk,Stable financial behavior
+1285,delivery_agent,88518,0.44,356,2081,1.43,9,46862,0.4,4,776,1,Low Risk,High missed payments
+1286,shopkeeper,82805,0.12,71,278,0.94,5,178345,0.19,3,730,1,Medium Risk,High missed payments
+1287,freelancer,68954,0.41,265,1648,0.63,8,113949,0.27,0,662,1,Medium Risk,Stable financial behavior
+1288,driver,38064,0.45,156,2634,1.64,10,193572,0.49,4,474,0,High Risk,High missed payments
+1289,freelancer,89063,0.21,158,317,0.97,4,150223,0.35,3,771,1,Low Risk,High missed payments
+1290,delivery_agent,12454,0.12,421,1478,1.19,2,23956,0.12,2,330,0,High Risk,Low savings
+1291,driver,30878,0.28,406,1866,0.86,4,108789,0.11,3,436,0,High Risk,High missed payments
+1292,vendor,61098,0.15,230,1084,1.44,4,109451,0.14,1,613,1,Medium Risk,Low savings
+1293,freelancer,72154,0.16,405,1393,0.95,4,137782,0.4,0,686,1,Medium Risk,Stable financial behavior
+1294,driver,22991,0.23,213,175,1.95,11,22365,0.18,0,395,0,High Risk,Low savings
+1295,freelancer,78344,0.25,117,2403,1.55,11,92204,0.06,1,713,1,Medium Risk,Low savings
+1296,driver,46593,0.36,341,1775,0.71,6,156072,0.47,4,527,0,High Risk,High missed payments
+1297,shopkeeper,46304,0.44,229,1162,1.13,4,77072,0.13,1,524,0,High Risk,Low savings
+1298,freelancer,40386,0.4,230,2725,1.08,6,72499,0.05,0,492,0,High Risk,Low savings
+1299,vendor,65220,0.17,483,1425,1.3,8,89211,0.16,2,645,1,Medium Risk,Low savings
+1300,vendor,79338,0.19,218,738,1.76,4,163979,0.16,4,714,1,Medium Risk,High missed payments
+1301,delivery_agent,31083,0.54,451,1330,1.38,1,168408,0.24,5,435,0,High Risk,High missed payments
+1302,driver,28354,0.38,71,1282,0.59,4,105220,0.46,3,411,0,High Risk,High missed payments
+1303,freelancer,32190,0.53,115,330,1.48,7,113847,0.45,5,434,0,High Risk,High missed payments
+1304,delivery_agent,16142,0.29,70,492,0.51,11,129459,0.26,2,343,0,High Risk,Stable financial behavior
+1305,freelancer,38398,0.41,149,1913,1.67,3,97755,0.23,5,469,0,High Risk,High missed payments
+1306,driver,61971,0.36,433,886,1.5,1,88783,0.3,4,619,1,Medium Risk,High missed payments
+1307,vendor,51862,0.26,349,438,0.96,9,147851,0.16,0,565,0,High Risk,Low savings
+1308,shopkeeper,63410,0.33,152,666,0.94,2,26472,0.07,0,622,1,Medium Risk,Low savings
+1309,vendor,29503,0.35,96,196,1.7,8,173452,0.47,2,425,0,High Risk,Stable financial behavior
+1310,delivery_agent,58456,0.2,88,570,1.68,8,123152,0.13,5,587,0,High Risk,High missed payments
+1311,shopkeeper,92035,0.26,334,679,1.03,7,178352,0.14,4,792,1,Low Risk,High missed payments
+1312,delivery_agent,18016,0.5,359,2531,0.95,7,172931,0.26,3,361,0,High Risk,High missed payments
+1313,driver,12384,0.56,139,2241,1.34,7,199474,0.27,5,317,0,High Risk,High missed payments
+1314,shopkeeper,72320,0.28,134,338,0.51,7,159334,0.06,5,666,1,Medium Risk,High missed payments
+1315,delivery_agent,25072,0.25,322,1459,0.62,7,162138,0.12,3,399,0,High Risk,High missed payments
+1316,driver,90018,0.2,385,63,0.69,0,166626,0.22,1,785,1,Low Risk,Stable financial behavior
+1317,vendor,50510,0.44,237,306,0.78,5,27008,0.36,2,548,0,High Risk,Stable financial behavior
+1318,driver,58933,0.26,208,1771,1.27,11,107851,0.15,4,596,0,High Risk,High missed payments
+1319,freelancer,31826,0.59,292,1473,1.99,8,100799,0.24,2,444,0,High Risk,Stable financial behavior
+1320,driver,78026,0.26,122,1280,1.48,7,36238,0.3,3,707,1,Medium Risk,High missed payments
+1321,driver,35518,0.3,98,907,0.59,2,37153,0.45,4,451,0,High Risk,High missed payments
+1322,freelancer,34045,0.4,150,1245,1.29,10,79353,0.2,0,455,0,High Risk,Stable financial behavior
+1323,delivery_agent,60876,0.5,51,513,1.24,0,72092,0.11,0,603,1,Medium Risk,Low savings
+1324,delivery_agent,61919,0.33,293,319,0.72,1,194224,0.27,4,611,1,Medium Risk,High missed payments
+1325,driver,37103,0.31,225,1294,1.88,10,69104,0.39,2,475,0,High Risk,Stable financial behavior
+1326,freelancer,46188,0.6,287,2720,1.16,1,175355,0.1,2,522,0,High Risk,Low savings
+1327,freelancer,15845,0.11,447,1256,1.99,6,197501,0.24,0,359,0,High Risk,Stable financial behavior
+1328,vendor,96698,0.55,108,121,1.13,11,48887,0.06,0,820,1,Low Risk,Low savings
+1329,delivery_agent,46674,0.17,402,1356,1.41,5,197244,0.07,3,530,0,High Risk,High missed payments
+1330,shopkeeper,29337,0.49,148,2171,0.66,10,24355,0.27,4,419,0,High Risk,High missed payments
+1331,delivery_agent,32313,0.41,491,2452,1.18,1,53701,0.18,2,448,0,High Risk,Low savings
+1332,delivery_agent,36943,0.27,408,1800,0.86,7,192606,0.43,3,475,0,High Risk,High missed payments
+1333,vendor,87949,0.54,491,546,1.75,8,91442,0.32,2,781,1,Low Risk,Stable financial behavior
+1334,shopkeeper,10276,0.11,484,1037,1.68,6,32279,0.25,0,327,0,High Risk,Stable financial behavior
+1335,vendor,61151,0.21,51,2677,1.74,3,194563,0.23,4,602,1,Medium Risk,High missed payments
+1336,shopkeeper,27611,0.38,292,959,1.59,0,140738,0.27,1,417,0,High Risk,Stable financial behavior
+1337,driver,21944,0.28,346,422,1.75,3,159333,0.07,4,380,0,High Risk,High missed payments
+1338,shopkeeper,62887,0.41,260,411,0.8,3,155546,0.45,5,616,1,Medium Risk,High missed payments
+1339,vendor,91442,0.11,172,2190,1.18,7,111414,0.5,1,792,1,Low Risk,Stable financial behavior
+1340,delivery_agent,59847,0.16,278,1394,1.54,3,48390,0.13,3,603,1,Medium Risk,High missed payments
+1341,shopkeeper,68653,0.16,131,373,1.46,3,177997,0.1,1,653,1,Medium Risk,Low savings
+1342,shopkeeper,96072,0.19,193,2481,1.57,1,102174,0.11,1,815,1,Low Risk,Low savings
+1343,freelancer,66622,0.33,437,624,0.84,11,24787,0.35,3,651,1,Medium Risk,High missed payments
+1344,delivery_agent,37810,0.48,189,785,0.65,9,63724,0.35,4,470,0,High Risk,High missed payments
+1345,driver,87842,0.55,78,2834,1.88,6,30663,0.43,3,764,1,Low Risk,High missed payments
+1346,vendor,20503,0.52,440,2443,1.34,3,167192,0.39,5,374,0,High Risk,High missed payments
+1347,driver,94761,0.2,319,1265,0.73,10,173812,0.25,0,817,1,Low Risk,Stable financial behavior
+1348,delivery_agent,46976,0.32,296,1745,1.69,5,153107,0.33,0,536,0,High Risk,Stable financial behavior
+1349,shopkeeper,21590,0.2,61,1957,1.87,2,120271,0.36,1,376,0,High Risk,Stable financial behavior
+1350,shopkeeper,20886,0.23,404,768,0.75,6,87388,0.28,3,379,0,High Risk,High missed payments
+1351,delivery_agent,22866,0.35,438,830,1.73,5,72335,0.26,3,393,0,High Risk,High missed payments
+1352,shopkeeper,76624,0.13,386,1069,1.9,2,63315,0.34,3,707,1,Medium Risk,High missed payments
+1353,shopkeeper,78899,0.21,155,1453,1.91,3,124922,0.3,5,709,1,Medium Risk,High missed payments
+1354,shopkeeper,42792,0.57,81,1476,1.87,9,66627,0.34,5,496,0,High Risk,High missed payments
+1355,vendor,19764,0.33,123,713,1.32,4,159375,0.33,4,361,0,High Risk,High missed payments
+1356,vendor,96156,0.32,220,1822,1.03,8,69334,0.37,2,818,1,Low Risk,Stable financial behavior
+1357,freelancer,52727,0.11,386,2697,0.51,5,85700,0.34,2,567,0,High Risk,Stable financial behavior
+1358,driver,88471,0.22,118,60,0.59,3,59726,0.28,2,766,1,Low Risk,Stable financial behavior
+1359,delivery_agent,18068,0.53,350,2284,1.14,10,50694,0.36,4,361,0,High Risk,High missed payments
+1360,delivery_agent,17295,0.18,411,2823,1.1,10,182325,0.25,3,361,0,High Risk,High missed payments
+1361,delivery_agent,51160,0.31,186,1088,0.78,6,175302,0.16,2,550,0,High Risk,Low savings
+1362,freelancer,21390,0.11,482,2875,1.09,1,83545,0.05,3,382,0,High Risk,High missed payments
+1363,vendor,30131,0.34,466,2508,0.76,3,167997,0.3,1,438,0,High Risk,Stable financial behavior
+1364,freelancer,85969,0.11,149,634,1.77,4,26033,0.32,2,756,1,Low Risk,Stable financial behavior
+1365,delivery_agent,25038,0.51,195,1125,0.95,3,82461,0.49,1,399,0,High Risk,Stable financial behavior
+1366,driver,62327,0.51,58,2674,1.4,3,22665,0.21,4,607,1,Medium Risk,High missed payments
+1367,shopkeeper,87064,0.49,111,1424,1.25,10,47025,0.23,0,765,1,Low Risk,Stable financial behavior
+1368,vendor,31281,0.24,234,1501,0.58,8,174605,0.14,5,430,0,High Risk,High missed payments
+1369,vendor,64189,0.52,78,1904,1.91,10,196969,0.08,4,622,1,Medium Risk,High missed payments
+1370,freelancer,58511,0.37,430,1839,1.29,1,97661,0.4,4,598,0,High Risk,High missed payments
+1371,vendor,18605,0.29,163,792,0.99,5,140473,0.16,4,354,0,High Risk,High missed payments
+1372,delivery_agent,11381,0.41,458,1826,0.74,7,40998,0.32,2,327,0,High Risk,Stable financial behavior
+1373,delivery_agent,76634,0.11,192,253,1.01,7,81248,0.36,1,704,1,Medium Risk,Stable financial behavior
+1374,freelancer,29810,0.17,439,1126,0.53,10,124493,0.26,5,430,0,High Risk,High missed payments
+1375,delivery_agent,34322,0.47,169,1023,1.05,6,43057,0.44,2,453,0,High Risk,Stable financial behavior
+1376,driver,51869,0.22,219,1448,1.3,9,99244,0.25,0,562,0,High Risk,Stable financial behavior
+1377,freelancer,42955,0.4,206,1915,1.81,10,117031,0.18,5,501,0,High Risk,High missed payments
+1378,driver,71388,0.29,384,1349,1.53,3,132713,0.45,4,674,1,Medium Risk,High missed payments
+1379,shopkeeper,20207,0.53,398,1104,0.67,6,125887,0.44,3,375,0,High Risk,High missed payments
+1380,driver,97329,0.58,309,1208,0.72,9,87173,0.12,0,830,1,Low Risk,Low savings
+1381,shopkeeper,77628,0.54,131,154,1.14,5,58734,0.06,1,704,1,Medium Risk,Low savings
+1382,shopkeeper,38220,0.24,291,302,0.79,10,82072,0.09,0,483,0,High Risk,Low savings
+1383,driver,94050,0.2,490,344,0.54,5,114194,0.18,2,812,1,Low Risk,Low savings
+1384,freelancer,84085,0.34,482,2765,1.71,1,159741,0.49,3,754,1,Low Risk,High missed payments
+1385,delivery_agent,32031,0.1,221,1231,0.53,7,133272,0.3,2,440,0,High Risk,Stable financial behavior
+1386,delivery_agent,80721,0.11,280,598,1.75,7,87902,0.22,5,725,1,Medium Risk,High missed payments
+1387,shopkeeper,90807,0.38,257,2728,0.72,10,142247,0.45,4,785,1,Low Risk,High missed payments
+1388,shopkeeper,81312,0.36,124,1827,1.96,6,169982,0.25,4,724,1,Medium Risk,High missed payments
+1389,freelancer,69766,0.6,319,348,1.41,10,76959,0.19,0,671,1,Medium Risk,Low savings
+1390,vendor,22449,0.2,436,1798,1.6,8,116623,0.47,4,392,0,High Risk,High missed payments
+1391,driver,99833,0.23,163,1893,0.67,7,151438,0.43,4,834,1,Low Risk,High missed payments
+1392,shopkeeper,66699,0.16,111,150,1.79,8,68415,0.43,5,638,1,Medium Risk,High missed payments
+1393,delivery_agent,91253,0.56,411,2429,1.76,8,144716,0.28,1,799,1,Low Risk,Stable financial behavior
+1394,freelancer,56092,0.49,369,2933,1.48,5,141209,0.41,1,590,0,High Risk,Stable financial behavior
+1395,driver,73671,0.51,151,1824,1.25,1,29907,0.13,2,679,1,Medium Risk,Low savings
+1396,freelancer,20350,0.55,478,2490,1.58,11,115825,0.31,2,384,0,High Risk,Stable financial behavior
+1397,driver,78487,0.36,411,923,0.51,6,52780,0.49,1,722,1,Medium Risk,Stable financial behavior
+1398,driver,27622,0.33,259,2478,1.39,2,55085,0.18,0,418,0,High Risk,Low savings
+1399,shopkeeper,80263,0.27,491,141,1.77,6,40426,0.41,1,738,1,Medium Risk,Stable financial behavior
+1400,freelancer,63117,0.39,304,496,1.04,8,199269,0.27,2,626,1,Medium Risk,Stable financial behavior
+1401,freelancer,68394,0.33,69,158,0.66,9,27485,0.07,3,646,1,Medium Risk,High missed payments
+1402,delivery_agent,33782,0.33,107,366,1.13,9,69527,0.39,4,445,0,High Risk,High missed payments
+1403,delivery_agent,38454,0.57,161,1885,1.59,1,144604,0.13,5,467,0,High Risk,High missed payments
+1404,shopkeeper,77904,0.59,362,1993,0.66,5,111005,0.33,3,711,1,Medium Risk,High missed payments
+1405,shopkeeper,25592,0.5,245,1508,0.81,5,78528,0.09,3,399,0,High Risk,High missed payments
+1406,vendor,32173,0.48,424,491,0.72,8,140631,0.48,4,446,0,High Risk,High missed payments
+1407,delivery_agent,43204,0.44,402,2315,1.7,8,47799,0.18,1,516,0,High Risk,Low savings
+1408,driver,45596,0.18,141,1295,0.59,4,197411,0.15,0,518,0,High Risk,Low savings
+1409,freelancer,44324,0.13,101,2770,1.53,4,167159,0.11,3,506,0,High Risk,High missed payments
+1410,shopkeeper,71202,0.45,342,1601,1.05,8,158518,0.48,0,680,1,Medium Risk,Stable financial behavior
+1411,freelancer,99400,0.46,57,327,1.63,7,114817,0.37,5,827,1,Low Risk,High missed payments
+1412,freelancer,40750,0.12,349,618,1.95,6,78260,0.38,5,494,0,High Risk,High missed payments
+1413,vendor,86112,0.56,147,1059,0.67,7,165949,0.27,5,749,1,Medium Risk,High missed payments
+1414,delivery_agent,26566,0.15,285,2972,0.97,5,175795,0.26,2,410,0,High Risk,Stable financial behavior
+1415,shopkeeper,17190,0.24,438,2563,1.72,2,32943,0.1,3,357,0,High Risk,High missed payments
+1416,freelancer,98607,0.44,423,888,0.9,6,161378,0.3,5,832,1,Low Risk,High missed payments
+1417,shopkeeper,48333,0.18,118,2851,0.82,7,187856,0.16,2,532,0,High Risk,Low savings
+1418,driver,90905,0.13,464,1657,1.74,7,141401,0.49,5,793,1,Low Risk,High missed payments
+1419,vendor,99571,0.27,94,2935,1.98,0,171527,0.41,1,835,1,Low Risk,Stable financial behavior
+1420,driver,11589,0.48,186,79,1.34,6,181046,0.24,3,317,0,High Risk,High missed payments
+1421,shopkeeper,35235,0.31,283,2456,0.92,2,47371,0.12,2,458,0,High Risk,Low savings
+1422,shopkeeper,10159,0.43,81,1992,1.1,1,118746,0.4,5,300,0,High Risk,High missed payments
+1423,delivery_agent,22145,0.39,338,2183,0.76,1,121248,0.1,2,382,0,High Risk,Low savings
+1424,freelancer,90909,0.11,175,1307,1.64,7,155008,0.14,5,780,1,Low Risk,High missed payments
+1425,freelancer,41921,0.59,116,2844,1.66,8,184238,0.15,1,497,0,High Risk,Low savings
+1426,driver,26237,0.12,79,2410,1.81,2,45727,0.3,0,405,0,High Risk,Stable financial behavior
+1427,vendor,18244,0.58,163,414,0.54,2,134000,0.4,5,349,0,High Risk,High missed payments
+1428,freelancer,24743,0.37,253,1850,1.34,5,83969,0.19,0,402,0,High Risk,Low savings
+1429,delivery_agent,56101,0.58,78,1872,0.82,10,179440,0.09,3,574,0,High Risk,High missed payments
+1430,driver,94227,0.16,180,1912,1.01,9,88531,0.26,1,808,1,Low Risk,Stable financial behavior
+1431,driver,66378,0.35,234,954,1.68,0,59097,0.39,3,640,1,Medium Risk,High missed payments
+1432,delivery_agent,81126,0.18,302,747,0.79,5,186056,0.15,0,734,1,Medium Risk,Low savings
+1433,vendor,66071,0.13,335,2228,1.46,11,70859,0.15,1,649,1,Medium Risk,Low savings
+1434,delivery_agent,81121,0.41,442,2900,1.48,2,195363,0.48,4,733,1,Medium Risk,High missed payments
+1435,vendor,84763,0.2,459,2886,1.93,10,173222,0.48,1,766,1,Low Risk,Stable financial behavior
+1436,delivery_agent,22237,0.39,435,1905,1.66,3,173133,0.5,1,393,0,High Risk,Stable financial behavior
+1437,delivery_agent,25649,0.16,111,400,1.71,8,180250,0.41,4,399,0,High Risk,High missed payments
+1438,shopkeeper,47713,0.27,52,229,1.3,2,76790,0.13,2,524,0,High Risk,Low savings
+1439,driver,83463,0.49,479,1553,0.78,0,85696,0.15,2,747,1,Medium Risk,Low savings
+1440,delivery_agent,55409,0.32,117,1236,1.14,2,35648,0.2,2,572,0,High Risk,Stable financial behavior
+1441,delivery_agent,58766,0.41,74,1856,1.32,6,81779,0.19,0,596,0,High Risk,Low savings
+1442,freelancer,56154,0.42,228,823,1.52,6,126371,0.48,1,586,0,High Risk,Stable financial behavior
+1443,driver,17016,0.52,190,559,1.41,10,56672,0.41,5,348,0,High Risk,High missed payments
+1444,freelancer,89563,0.26,280,414,1.09,4,89109,0.38,4,776,1,Low Risk,High missed payments
+1445,driver,58688,0.44,349,402,0.9,0,54593,0.13,5,591,0,High Risk,High missed payments
+1446,freelancer,99678,0.58,212,2897,0.75,10,164858,0.46,0,843,1,Low Risk,Stable financial behavior
+1447,delivery_agent,64238,0.47,360,1156,1.54,7,29815,0.42,4,633,1,Medium Risk,High missed payments
+1448,delivery_agent,68608,0.34,442,1298,1.47,9,173038,0.12,5,658,1,Medium Risk,High missed payments
+1449,shopkeeper,99081,0.42,179,461,1.53,7,164866,0.44,0,839,1,Low Risk,Stable financial behavior
+1450,freelancer,41897,0.47,494,784,1.06,9,182495,0.17,0,512,0,High Risk,Low savings
+1451,vendor,60961,0.41,295,167,0.89,11,41302,0.09,0,617,1,Medium Risk,Low savings
+1452,shopkeeper,78703,0.11,346,531,1.64,9,105140,0.35,4,719,1,Medium Risk,High missed payments
+1453,freelancer,54757,0.2,221,241,1.66,9,178907,0.34,5,572,0,High Risk,High missed payments
+1454,freelancer,36917,0.51,113,2688,1.18,1,93356,0.09,5,456,0,High Risk,High missed payments
+1455,shopkeeper,32736,0.24,80,2687,1.42,9,69282,0.19,3,439,0,High Risk,High missed payments
+1456,delivery_agent,37990,0.47,96,2756,1.06,2,148451,0.5,0,474,0,High Risk,Stable financial behavior
+1457,freelancer,72551,0.29,179,156,1.55,3,141347,0.36,2,677,1,Medium Risk,Stable financial behavior
+1458,delivery_agent,68161,0.36,401,431,1.75,0,43814,0.38,1,660,1,Medium Risk,Stable financial behavior
+1459,shopkeeper,89623,0.13,382,832,1.53,3,175161,0.15,3,782,1,Low Risk,High missed payments
+1460,delivery_agent,32440,0.19,159,2487,1.27,4,183818,0.09,3,437,0,High Risk,High missed payments
+1461,driver,45205,0.58,118,293,1.19,2,101673,0.17,4,507,0,High Risk,High missed payments
+1462,vendor,90811,0.55,107,2682,1.46,10,71940,0.16,3,781,1,Low Risk,High missed payments
+1463,freelancer,65103,0.43,155,2966,1.52,9,106796,0.16,5,628,1,Medium Risk,High missed payments
+1464,vendor,80812,0.33,349,517,1.34,1,56476,0.14,4,725,1,Medium Risk,High missed payments
+1465,delivery_agent,51627,0.44,379,915,1.44,5,177355,0.31,4,557,0,High Risk,High missed payments
+1466,freelancer,29008,0.41,305,1611,0.64,7,152841,0.2,2,424,0,High Risk,Stable financial behavior
+1467,delivery_agent,81274,0.38,361,1283,1.93,6,62278,0.42,0,741,1,Medium Risk,Stable financial behavior
+1468,driver,42402,0.13,220,653,1.69,10,198066,0.13,3,502,0,High Risk,High missed payments
+1469,shopkeeper,63384,0.42,432,1710,1.06,0,35634,0.26,0,632,1,Medium Risk,Stable financial behavior
+1470,freelancer,15793,0.48,211,1146,1.34,3,146259,0.06,0,346,0,High Risk,Low savings
+1471,driver,15571,0.6,335,2065,0.57,2,162037,0.27,0,348,0,High Risk,Stable financial behavior
+1472,driver,26209,0.11,120,1708,0.56,5,178638,0.08,4,396,0,High Risk,High missed payments
+1473,freelancer,53148,0.47,304,1783,0.88,8,72196,0.49,0,573,0,High Risk,Stable financial behavior
+1474,delivery_agent,12224,0.39,423,1663,1.53,8,118679,0.41,3,332,0,High Risk,High missed payments
+1475,driver,58695,0.32,104,909,1.78,6,199357,0.27,4,591,0,High Risk,High missed payments
+1476,vendor,42441,0.16,372,1929,1.34,11,150861,0.09,3,507,0,High Risk,High missed payments
+1477,driver,49129,0.3,446,1326,1.3,8,39420,0.32,4,547,0,High Risk,High missed payments
+1478,delivery_agent,72368,0.28,52,62,1.1,7,176308,0.39,1,675,1,Medium Risk,Stable financial behavior
+1479,delivery_agent,54760,0.25,75,2396,0.74,4,26218,0.14,1,568,0,High Risk,Low savings
+1480,vendor,33478,0.47,362,1149,0.68,8,144283,0.31,1,455,0,High Risk,Stable financial behavior
+1481,driver,81854,0.45,175,1124,1.64,6,84057,0.42,1,735,1,Medium Risk,Stable financial behavior
+1482,delivery_agent,95716,0.39,457,836,1.89,4,98609,0.4,4,821,1,Low Risk,High missed payments
+1483,freelancer,22180,0.57,102,198,1.19,7,162298,0.41,0,383,0,High Risk,Stable financial behavior
+1484,shopkeeper,25372,0.27,247,1804,1.49,6,143108,0.45,2,404,0,High Risk,Stable financial behavior
+1485,shopkeeper,39796,0.22,348,2219,1.87,8,30046,0.47,5,489,0,High Risk,High missed payments
+1486,shopkeeper,68272,0.43,237,1353,0.64,9,137462,0.23,2,653,1,Medium Risk,Stable financial behavior
+1487,driver,99963,0.2,235,2635,1.66,0,129345,0.31,1,841,1,Low Risk,Stable financial behavior
+1488,vendor,64040,0.26,354,1229,1.43,8,57117,0.41,0,640,1,Medium Risk,Stable financial behavior
+1489,delivery_agent,85357,0.21,347,2473,1.4,6,149980,0.36,3,758,1,Low Risk,High missed payments
+1490,freelancer,81368,0.13,253,131,0.94,0,156037,0.5,0,734,1,Medium Risk,Stable financial behavior
+1491,freelancer,88356,0.51,499,541,1.53,0,37373,0.06,3,775,1,Low Risk,High missed payments
+1492,driver,26211,0.23,60,2453,1.69,4,65452,0.21,2,401,0,High Risk,Stable financial behavior
+1493,shopkeeper,15842,0.34,408,2075,0.67,7,26654,0.18,0,354,0,High Risk,Low savings
+1494,driver,73115,0.12,403,974,1.3,8,182352,0.17,0,693,1,Medium Risk,Low savings
+1495,vendor,76852,0.45,195,1346,0.65,11,143319,0.15,5,697,1,Medium Risk,High missed payments
+1496,vendor,55968,0.27,134,1653,1.81,5,125646,0.37,2,580,0,High Risk,Stable financial behavior
+1497,delivery_agent,27508,0.47,149,1646,1.26,11,46583,0.09,0,416,0,High Risk,Low savings
+1498,delivery_agent,32005,0.31,153,172,1.71,9,114242,0.38,3,439,0,High Risk,High missed payments
+1499,vendor,64575,0.2,485,757,1.05,11,157432,0.36,0,648,1,Medium Risk,Stable financial behavior
+1500,vendor,90742,0.36,95,2427,0.69,7,73968,0.16,3,777,1,Low Risk,High missed payments
+1501,vendor,28971,0.17,93,1040,0.56,5,154815,0.16,1,417,0,High Risk,Low savings
+1502,driver,35599,0.32,327,2420,0.92,10,158231,0.33,0,471,0,High Risk,Stable financial behavior
+1503,vendor,97592,0.26,230,2867,0.87,5,183223,0.39,3,824,1,Low Risk,High missed payments
+1504,freelancer,76914,0.56,236,2090,1.34,3,151590,0.44,2,704,1,Medium Risk,Stable financial behavior
+1505,shopkeeper,77055,0.13,163,2530,0.53,10,36652,0.43,1,707,1,Medium Risk,Stable financial behavior
+1506,vendor,97697,0.45,304,759,1.28,4,133114,0.48,0,833,1,Low Risk,Stable financial behavior
+1507,shopkeeper,15355,0.19,430,843,1.09,1,122489,0.31,5,342,0,High Risk,High missed payments
+1508,driver,64120,0.26,429,761,1.37,2,193420,0.46,3,634,1,Medium Risk,High missed payments
+1509,shopkeeper,84619,0.31,79,2636,1.55,2,97001,0.41,5,739,1,Medium Risk,High missed payments
+1510,driver,48342,0.55,313,2698,1.45,11,144269,0.45,0,547,0,High Risk,Stable financial behavior
+1511,freelancer,95992,0.22,147,1767,1.98,10,96757,0.06,3,814,1,Low Risk,High missed payments
+1512,driver,88860,0.15,362,306,0.71,4,44395,0.48,0,783,1,Low Risk,Stable financial behavior
+1513,driver,12257,0.26,416,1262,1.14,4,153407,0.26,1,332,0,High Risk,Stable financial behavior
+1514,delivery_agent,37364,0.15,378,920,1.14,5,121978,0.41,1,480,0,High Risk,Stable financial behavior
+1515,vendor,34972,0.16,164,2996,1.13,4,151572,0.11,0,458,0,High Risk,Low savings
+1516,vendor,36654,0.39,325,1781,1.5,11,144541,0.23,0,478,0,High Risk,Stable financial behavior
+1517,freelancer,90769,0.13,330,858,1.23,5,28083,0.17,4,785,1,Low Risk,High missed payments
+1518,freelancer,91423,0.12,324,2774,1.28,7,126598,0.18,0,797,1,Low Risk,Low savings
+1519,vendor,39320,0.46,310,320,1.15,1,156615,0.11,0,486,0,High Risk,Low savings
+1520,delivery_agent,30808,0.28,380,1593,1.99,3,116171,0.41,5,435,0,High Risk,High missed payments
+1521,vendor,62389,0.16,256,599,1.89,5,140423,0.05,5,614,1,Medium Risk,High missed payments
+1522,delivery_agent,44773,0.23,433,1187,0.96,11,26613,0.19,1,526,0,High Risk,Low savings
+1523,freelancer,61168,0.42,377,617,0.67,4,130033,0.13,5,608,1,Medium Risk,High missed payments
+1524,shopkeeper,37747,0.24,260,408,1.76,0,191612,0.32,0,478,0,High Risk,Stable financial behavior
+1525,freelancer,86396,0.35,264,1723,2.0,8,96202,0.16,2,763,1,Low Risk,Low savings
+1526,freelancer,93692,0.16,460,1687,0.94,2,177327,0.17,0,812,1,Low Risk,Low savings
+1527,driver,67505,0.39,89,1407,1.04,1,105666,0.27,4,638,1,Medium Risk,High missed payments
+1528,driver,95896,0.26,75,1762,1.91,8,42068,0.34,3,812,1,Low Risk,High missed payments
+1529,driver,28135,0.41,76,1412,1.57,6,69057,0.1,1,414,0,High Risk,Low savings
+1530,driver,57377,0.5,239,847,0.94,4,38946,0.13,5,581,0,High Risk,High missed payments
+1531,delivery_agent,33554,0.41,132,1334,1.37,11,171619,0.16,2,448,0,High Risk,Low savings
+1532,vendor,72491,0.25,433,936,1.92,5,105237,0.49,3,687,1,Medium Risk,High missed payments
+1533,shopkeeper,65621,0.23,483,1808,1.72,11,25769,0.23,2,651,1,Medium Risk,Stable financial behavior
+1534,freelancer,68283,0.26,219,1272,1.61,10,175955,0.32,1,659,1,Medium Risk,Stable financial behavior
+1535,delivery_agent,95140,0.18,462,2308,1.61,3,81340,0.16,5,813,1,Low Risk,High missed payments
+1536,shopkeeper,26923,0.19,216,336,0.77,0,99199,0.27,4,403,0,High Risk,High missed payments
+1537,delivery_agent,57591,0.5,237,1765,1.74,3,124222,0.08,1,591,0,High Risk,Low savings
+1538,delivery_agent,72261,0.29,218,1835,0.91,8,186234,0.07,2,676,1,Medium Risk,Low savings
+1539,freelancer,64336,0.32,338,792,1.9,0,53434,0.26,2,633,1,Medium Risk,Stable financial behavior
+1540,vendor,84083,0.4,278,1555,1.05,9,42102,0.23,1,751,1,Low Risk,Stable financial behavior
+1541,driver,70948,0.39,146,2090,1.79,2,41536,0.11,0,668,1,Medium Risk,Low savings
+1542,vendor,43002,0.13,416,1096,0.9,4,124639,0.36,1,513,0,High Risk,Stable financial behavior
+1543,freelancer,90098,0.52,65,345,1.27,6,70775,0.5,5,772,1,Low Risk,High missed payments
+1544,freelancer,83016,0.19,328,2103,0.66,8,51147,0.23,5,738,1,Medium Risk,High missed payments
+1545,freelancer,36672,0.46,184,2647,1.49,5,70526,0.33,4,463,0,High Risk,High missed payments
+1546,shopkeeper,14213,0.49,75,730,1.75,2,174731,0.48,1,333,0,High Risk,Stable financial behavior
+1547,vendor,20293,0.46,401,1941,1.58,6,124663,0.42,3,378,0,High Risk,High missed payments
+1548,vendor,65860,0.39,61,844,1.28,3,132180,0.26,5,626,1,Medium Risk,High missed payments
+1549,delivery_agent,72507,0.11,121,252,0.57,2,144233,0.38,5,667,1,Medium Risk,High missed payments
+1550,delivery_agent,67134,0.28,182,374,1.9,6,43088,0.11,5,640,1,Medium Risk,High missed payments
+1551,delivery_agent,12100,0.4,155,2922,1.56,10,88464,0.28,0,327,0,High Risk,Stable financial behavior
+1552,freelancer,71997,0.29,269,2341,1.62,10,125921,0.18,3,677,1,Medium Risk,High missed payments
+1553,vendor,38172,0.53,422,376,1.69,6,79998,0.12,1,485,0,High Risk,Low savings
+1554,freelancer,30132,0.25,226,1036,1.62,3,60382,0.24,0,433,0,High Risk,Stable financial behavior
+1555,shopkeeper,28199,0.25,331,810,1.16,11,48184,0.11,5,418,0,High Risk,High missed payments
+1556,delivery_agent,46609,0.23,182,1086,1.6,6,171171,0.36,3,525,0,High Risk,High missed payments
+1557,freelancer,52965,0.27,71,956,1.44,10,57739,0.26,3,559,0,High Risk,High missed payments
+1558,freelancer,18016,0.38,318,1453,1.78,1,147937,0.29,0,364,0,High Risk,Stable financial behavior
+1559,shopkeeper,49779,0.45,461,414,1.7,0,159461,0.12,5,545,0,High Risk,High missed payments
+1560,driver,41881,0.43,210,1294,0.56,11,37352,0.11,0,501,0,High Risk,Low savings
+1561,vendor,92594,0.5,156,2170,1.07,1,146788,0.31,2,791,1,Low Risk,Stable financial behavior
+1562,driver,34472,0.54,328,1698,0.55,3,137843,0.49,5,451,0,High Risk,High missed payments
+1563,delivery_agent,61813,0.51,402,1119,0.65,7,172220,0.09,0,623,1,Medium Risk,Low savings
+1564,freelancer,46021,0.11,284,323,1.4,2,51828,0.18,1,525,0,High Risk,Low savings
+1565,shopkeeper,64131,0.47,67,2305,1.81,9,88040,0.44,5,622,1,Medium Risk,High missed payments
+1566,shopkeeper,34087,0.2,291,2002,0.68,5,114279,0.08,4,449,0,High Risk,High missed payments
+1567,vendor,22828,0.17,166,1934,1.18,5,114430,0.44,5,380,0,High Risk,High missed payments
+1568,driver,71610,0.42,335,173,1.87,8,191783,0.29,2,679,1,Medium Risk,Stable financial behavior
+1569,vendor,11401,0.26,331,1402,1.72,8,135957,0.23,0,329,0,High Risk,Stable financial behavior
+1570,freelancer,95179,0.13,193,2640,1.28,3,37748,0.19,4,805,1,Low Risk,High missed payments
+1571,vendor,25193,0.17,254,1741,1.66,8,108636,0.18,2,403,0,High Risk,Low savings
+1572,shopkeeper,54864,0.1,88,2157,1.28,5,184763,0.19,1,571,0,High Risk,Low savings
+1573,shopkeeper,30307,0.55,466,2996,0.74,1,135158,0.45,5,431,0,High Risk,High missed payments
+1574,delivery_agent,29611,0.11,203,2983,0.69,9,30246,0.38,4,423,0,High Risk,High missed payments
+1575,delivery_agent,53791,0.2,225,2879,0.78,10,79395,0.35,0,574,0,High Risk,Stable financial behavior
+1576,freelancer,21950,0.31,498,491,1.03,5,183558,0.41,0,395,0,High Risk,Stable financial behavior
+1577,driver,86240,0.28,290,1290,1.9,1,181412,0.17,1,762,1,Low Risk,Low savings
+1578,vendor,87403,0.56,471,960,1.7,7,70300,0.33,2,776,1,Low Risk,Stable financial behavior
+1579,freelancer,12745,0.12,435,1075,1.15,3,154158,0.26,4,330,0,High Risk,High missed payments
+1580,delivery_agent,65243,0.36,418,1609,1.24,4,34860,0.4,1,644,1,Medium Risk,Stable financial behavior
+1581,vendor,13866,0.44,183,1791,0.9,7,37013,0.19,2,331,0,High Risk,Low savings
+1582,delivery_agent,42245,0.57,95,2929,1.56,10,158479,0.34,3,497,0,High Risk,High missed payments
+1583,vendor,54724,0.41,99,1784,1.7,7,53542,0.45,3,570,0,High Risk,High missed payments
+1584,driver,81354,0.5,215,675,0.86,11,44935,0.23,2,731,1,Medium Risk,Stable financial behavior
+1585,freelancer,61374,0.14,155,1740,0.56,11,69079,0.08,0,614,1,Medium Risk,Low savings
+1586,vendor,40116,0.29,265,1047,1.44,5,54111,0.28,0,494,0,High Risk,Stable financial behavior
+1587,shopkeeper,91029,0.29,195,2831,1.34,3,76550,0.21,3,783,1,Low Risk,High missed payments
+1588,shopkeeper,30447,0.54,460,140,1.1,0,96955,0.35,0,440,0,High Risk,Stable financial behavior
+1589,vendor,40431,0.18,474,2264,1.47,11,60565,0.48,0,507,0,High Risk,Stable financial behavior
+1590,vendor,27908,0.18,121,256,1.33,6,39283,0.27,2,413,0,High Risk,Stable financial behavior
+1591,vendor,39336,0.26,379,1138,0.88,7,86470,0.26,5,483,0,High Risk,High missed payments
+1592,shopkeeper,50992,0.13,322,1961,1.1,8,106916,0.34,2,557,0,High Risk,Stable financial behavior
+1593,shopkeeper,65350,0.19,296,565,1.14,1,99552,0.1,0,639,1,Medium Risk,Low savings
+1594,vendor,79561,0.58,495,1230,1.82,0,58233,0.16,2,727,1,Medium Risk,Low savings
+1595,delivery_agent,61955,0.31,462,1842,1.94,3,42695,0.46,4,623,1,Medium Risk,High missed payments
+1596,delivery_agent,71240,0.42,235,2844,1.84,4,146440,0.35,3,670,1,Medium Risk,High missed payments
+1597,driver,30093,0.46,119,2403,1.58,9,193806,0.06,5,420,0,High Risk,High missed payments
+1598,freelancer,16155,0.28,199,1951,1.38,11,101257,0.14,4,345,0,High Risk,High missed payments
+1599,delivery_agent,56607,0.17,295,2055,1.53,0,21505,0.36,4,583,0,High Risk,High missed payments
+1600,shopkeeper,43487,0.2,311,444,1.91,4,156435,0.39,0,517,0,High Risk,Stable financial behavior
+1601,delivery_agent,65668,0.26,75,1147,0.87,5,199780,0.43,0,637,1,Medium Risk,Stable financial behavior
+1602,driver,30963,0.42,472,236,1.3,2,63614,0.18,4,437,0,High Risk,High missed payments
+1603,driver,60124,0.3,189,1647,1.53,11,21010,0.47,4,605,1,Medium Risk,High missed payments
+1604,freelancer,62870,0.1,148,1641,1.52,6,150560,0.3,1,622,1,Medium Risk,Stable financial behavior
+1605,delivery_agent,66547,0.36,447,2720,0.88,5,170933,0.36,1,652,1,Medium Risk,Stable financial behavior
+1606,shopkeeper,74110,0.56,327,779,1.38,3,175197,0.32,3,688,1,Medium Risk,High missed payments
+1607,shopkeeper,63554,0.51,100,289,1.69,2,160441,0.11,4,615,1,Medium Risk,High missed payments
+1608,vendor,30936,0.51,200,2630,1.21,4,89393,0.48,2,433,0,High Risk,Stable financial behavior
+1609,shopkeeper,14426,0.5,481,190,1.69,2,177743,0.11,5,338,0,High Risk,High missed payments
+1610,freelancer,98839,0.26,153,188,1.04,9,84512,0.16,1,833,1,Low Risk,Low savings
+1611,freelancer,37606,0.48,483,2556,1.91,8,118026,0.42,0,490,0,High Risk,Stable financial behavior
+1612,shopkeeper,57832,0.17,138,119,1.3,8,95656,0.33,4,587,0,High Risk,High missed payments
+1613,shopkeeper,38151,0.43,190,434,1.39,5,117686,0.43,2,476,0,High Risk,Stable financial behavior
+1614,vendor,89303,0.42,262,679,0.55,10,195210,0.28,5,773,1,Low Risk,High missed payments
+1615,shopkeeper,21308,0.11,282,2295,0.76,5,35489,0.22,2,378,0,High Risk,Stable financial behavior
+1616,vendor,72522,0.49,443,254,1.45,11,79789,0.46,2,690,1,Medium Risk,Stable financial behavior
+1617,vendor,55671,0.55,232,1799,1.13,3,89925,0.07,0,580,0,High Risk,Low savings
+1618,shopkeeper,12204,0.23,300,617,1.26,3,69703,0.44,1,329,0,High Risk,Stable financial behavior
+1619,driver,97265,0.51,58,1031,0.59,1,96625,0.15,2,813,1,Low Risk,Low savings
+1620,driver,41131,0.14,128,854,1.75,9,127535,0.43,5,489,0,High Risk,High missed payments
+1621,vendor,62428,0.4,101,1760,1.68,3,23051,0.11,1,615,1,Medium Risk,Low savings
+1622,shopkeeper,43870,0.34,435,2956,0.78,7,189162,0.31,3,515,0,High Risk,High missed payments
+1623,driver,59067,0.37,458,931,1.45,9,48805,0.45,0,615,1,Medium Risk,Stable financial behavior
+1624,shopkeeper,68585,0.56,318,2085,1.73,1,114978,0.26,1,659,1,Medium Risk,Stable financial behavior
+1625,shopkeeper,31607,0.54,275,1023,1.46,8,64557,0.39,1,444,0,High Risk,Stable financial behavior
+1626,shopkeeper,34968,0.49,100,689,0.97,0,153627,0.41,2,451,0,High Risk,Stable financial behavior
+1627,delivery_agent,21908,0.24,235,1504,1.48,1,70241,0.38,5,375,0,High Risk,High missed payments
+1628,shopkeeper,36423,0.56,83,374,0.82,1,147838,0.47,2,459,0,High Risk,Stable financial behavior
+1629,delivery_agent,84707,0.15,340,491,0.98,10,85994,0.25,5,750,1,Low Risk,High missed payments
+1630,vendor,88257,0.53,279,853,0.86,5,134005,0.13,0,774,1,Low Risk,Low savings
+1631,driver,71215,0.26,180,2385,1.34,6,36066,0.07,1,670,1,Medium Risk,Low savings
+1632,driver,65835,0.13,169,275,0.66,2,155793,0.16,4,630,1,Medium Risk,High missed payments
+1633,driver,59429,0.43,492,1137,1.9,10,97982,0.11,5,607,1,Medium Risk,High missed payments
+1634,driver,92152,0.22,375,1016,1.0,8,26304,0.3,5,794,1,Low Risk,High missed payments
+1635,driver,48458,0.22,296,609,0.83,4,62967,0.13,2,537,0,High Risk,Low savings
+1636,driver,56169,0.25,481,763,1.24,4,98763,0.07,2,589,0,High Risk,Low savings
+1637,driver,17659,0.13,241,547,0.92,10,60462,0.07,3,355,0,High Risk,High missed payments
+1638,vendor,70614,0.19,452,2946,1.3,11,140356,0.42,5,674,1,Medium Risk,High missed payments
+1639,shopkeeper,87240,0.1,372,2157,1.02,3,91834,0.32,0,773,1,Low Risk,Stable financial behavior
+1640,freelancer,42793,0.32,259,306,0.7,8,131023,0.21,1,506,0,High Risk,Stable financial behavior
+1641,delivery_agent,56473,0.14,152,626,0.9,7,137771,0.45,1,585,0,High Risk,Stable financial behavior
+1642,freelancer,99388,0.44,378,2336,1.16,11,95842,0.08,1,844,1,Low Risk,Low savings
+1643,freelancer,98330,0.22,421,87,0.55,3,22589,0.49,5,830,1,Low Risk,High missed payments
+1644,shopkeeper,65751,0.57,182,2122,1.66,3,145023,0.33,2,637,1,Medium Risk,Stable financial behavior
+1645,shopkeeper,88915,0.54,372,459,1.43,1,188150,0.13,0,780,1,Low Risk,Low savings
+1646,shopkeeper,64254,0.24,188,510,1.4,8,74918,0.36,1,633,1,Medium Risk,Stable financial behavior
+1647,driver,17006,0.49,170,1490,1.32,2,164673,0.39,5,344,0,High Risk,High missed payments
+1648,vendor,84218,0.5,143,2454,1.39,3,27711,0.24,4,739,1,Medium Risk,High missed payments
+1649,driver,75344,0.59,178,432,1.9,6,79430,0.44,3,694,1,Medium Risk,High missed payments
+1650,vendor,43840,0.4,140,1882,0.51,9,122605,0.12,3,504,0,High Risk,High missed payments
+1651,vendor,42430,0.14,141,618,0.57,7,23970,0.18,1,499,0,High Risk,Low savings
+1652,freelancer,33091,0.42,112,1121,0.79,7,89535,0.09,2,441,0,High Risk,Low savings
+1653,freelancer,42983,0.41,78,482,0.75,3,106570,0.14,3,494,0,High Risk,High missed payments
+1654,vendor,33989,0.42,259,105,0.77,6,141315,0.16,3,449,0,High Risk,High missed payments
+1655,vendor,85451,0.25,61,2674,1.51,9,187248,0.46,3,750,1,Low Risk,High missed payments
+1656,driver,28990,0.53,382,2365,1.19,0,132111,0.09,3,422,0,High Risk,High missed payments
+1657,driver,90360,0.58,346,2166,1.99,5,61730,0.24,1,790,1,Low Risk,Stable financial behavior
+1658,freelancer,46081,0.21,179,1801,0.84,5,164457,0.29,5,515,0,High Risk,High missed payments
+1659,shopkeeper,21033,0.14,342,2097,0.97,5,143252,0.45,0,385,0,High Risk,Stable financial behavior
+1660,vendor,26241,0.2,222,951,1.98,11,157022,0.5,0,416,0,High Risk,Stable financial behavior
+1661,driver,15939,0.51,257,1674,1.75,1,174470,0.39,2,347,0,High Risk,Stable financial behavior
+1662,freelancer,57562,0.44,481,2890,1.2,7,176349,0.49,5,596,0,High Risk,High missed payments
+1663,driver,45063,0.42,73,306,1.33,4,177833,0.4,4,508,0,High Risk,High missed payments
+1664,vendor,86721,0.3,148,721,1.76,4,83944,0.48,0,765,1,Low Risk,Stable financial behavior
+1665,vendor,37045,0.39,455,539,1.22,1,182605,0.37,4,473,0,High Risk,High missed payments
+1666,delivery_agent,54769,0.25,405,2843,0.81,3,127437,0.09,0,581,0,High Risk,Low savings
+1667,shopkeeper,57118,0.34,188,2146,1.74,11,146794,0.23,0,594,0,High Risk,Stable financial behavior
+1668,delivery_agent,94703,0.5,363,1732,1.31,8,92123,0.34,2,815,1,Low Risk,Stable financial behavior
+1669,freelancer,31625,0.59,223,365,0.73,8,42880,0.21,3,435,0,High Risk,High missed payments
+1670,driver,37076,0.57,78,2510,1.26,5,192825,0.17,2,463,0,High Risk,Low savings
+1671,freelancer,74805,0.57,468,483,1.12,10,107829,0.31,0,706,1,Medium Risk,Stable financial behavior
+1672,vendor,54605,0.3,192,1075,1.82,8,152633,0.47,5,570,0,High Risk,High missed payments
+1673,delivery_agent,94565,0.33,365,2025,0.69,3,73205,0.07,3,807,1,Low Risk,High missed payments
+1674,delivery_agent,98509,0.45,400,2029,1.81,10,126948,0.4,5,836,1,Low Risk,High missed payments
+1675,delivery_agent,49121,0.56,91,1439,1.27,0,79810,0.38,5,528,0,High Risk,High missed payments
+1676,freelancer,75101,0.17,348,469,1.11,1,133089,0.48,5,692,1,Medium Risk,High missed payments
+1677,vendor,41433,0.25,257,1646,0.74,0,84482,0.47,3,493,0,High Risk,High missed payments
+1678,driver,53309,0.17,379,1634,1.55,7,89192,0.39,5,568,0,High Risk,High missed payments
+1679,driver,77468,0.41,482,893,1.89,8,107154,0.28,3,717,1,Medium Risk,High missed payments
+1680,freelancer,54254,0.25,241,1517,1.06,9,106066,0.14,4,568,0,High Risk,High missed payments
+1681,delivery_agent,77293,0.26,209,483,0.86,11,179402,0.3,0,712,1,Medium Risk,Stable financial behavior
+1682,shopkeeper,47853,0.14,113,2740,1.33,5,167211,0.39,1,533,0,High Risk,Stable financial behavior
+1683,freelancer,48405,0.27,292,1628,1.69,1,148514,0.45,5,534,0,High Risk,High missed payments
+1684,freelancer,76652,0.53,307,2154,0.51,5,52977,0.41,2,704,1,Medium Risk,Stable financial behavior
+1685,vendor,53527,0.22,201,1013,1.45,8,24983,0.14,4,563,0,High Risk,High missed payments
+1686,driver,87227,0.45,264,1026,1.39,11,190981,0.32,2,769,1,Low Risk,Stable financial behavior
+1687,freelancer,10492,0.41,371,95,0.98,2,69029,0.2,1,318,0,High Risk,Stable financial behavior
+1688,freelancer,18811,0.53,215,1243,1.18,8,172401,0.05,3,360,0,High Risk,High missed payments
+1689,delivery_agent,34272,0.17,80,466,0.87,1,142668,0.14,1,447,0,High Risk,Low savings
+1690,delivery_agent,82010,0.59,420,897,1.68,10,187806,0.1,2,742,1,Medium Risk,Low savings
+1691,shopkeeper,57153,0.39,281,2236,1.45,4,62837,0.43,1,593,0,High Risk,Stable financial behavior
+1692,vendor,64110,0.6,331,296,1.3,10,137512,0.17,0,637,1,Medium Risk,Low savings
+1693,shopkeeper,23979,0.56,78,279,1.09,1,86786,0.18,1,386,0,High Risk,Low savings
+1694,delivery_agent,38328,0.21,244,841,0.94,6,24758,0.48,5,474,0,High Risk,High missed payments
+1695,driver,22867,0.13,383,686,1.73,10,122667,0.22,0,399,0,High Risk,Stable financial behavior
+1696,delivery_agent,69234,0.23,305,2471,1.18,9,128119,0.05,5,656,1,Medium Risk,High missed payments
+1697,vendor,35851,0.36,330,787,1.25,8,120157,0.18,1,469,0,High Risk,Low savings
+1698,delivery_agent,41279,0.19,353,1138,1.28,6,102673,0.1,0,503,0,High Risk,Low savings
+1699,vendor,83402,0.18,370,137,1.17,11,117639,0.1,0,753,1,Low Risk,Low savings
+1700,vendor,25449,0.33,486,762,0.88,4,172904,0.08,1,410,0,High Risk,Low savings
+1701,vendor,86221,0.12,372,1799,0.68,3,152940,0.32,4,759,1,Low Risk,High missed payments
+1702,vendor,99080,0.16,395,1277,0.65,11,134869,0.14,3,839,1,Low Risk,High missed payments
+1703,vendor,15451,0.31,451,1986,1.64,3,192934,0.21,3,349,0,High Risk,High missed payments
+1704,driver,97178,0.13,442,1455,0.84,9,39728,0.44,3,831,1,Low Risk,High missed payments
+1705,shopkeeper,51316,0.3,343,650,0.58,7,123542,0.24,0,561,0,High Risk,Stable financial behavior
+1706,freelancer,73064,0.34,136,1549,1.7,9,113565,0.46,3,681,1,Medium Risk,High missed payments
+1707,shopkeeper,73761,0.33,198,2636,0.73,9,190929,0.27,0,689,1,Medium Risk,Stable financial behavior
+1708,vendor,48870,0.53,298,263,1.44,9,179255,0.23,4,540,0,High Risk,High missed payments
+1709,driver,40873,0.37,370,2171,1.01,9,170012,0.39,1,501,0,High Risk,Stable financial behavior
+1710,delivery_agent,68627,0.33,454,2158,0.69,9,145019,0.08,1,664,1,Medium Risk,Low savings
+1711,driver,76155,0.31,332,747,1.12,0,156352,0.09,0,703,1,Medium Risk,Low savings
+1712,vendor,35372,0.51,411,1292,0.52,4,122548,0.34,0,468,0,High Risk,Stable financial behavior
+1713,driver,13642,0.55,428,2109,1.76,1,153236,0.27,4,334,0,High Risk,High missed payments
+1714,driver,38001,0.53,247,2911,1.27,10,141289,0.41,3,477,0,High Risk,High missed payments
+1715,vendor,44064,0.44,93,2129,0.71,8,149068,0.46,4,504,0,High Risk,High missed payments
+1716,driver,24122,0.17,405,1233,0.86,6,99624,0.22,1,402,0,High Risk,Stable financial behavior
+1717,freelancer,34820,0.24,77,1050,1.17,9,169477,0.32,1,456,0,High Risk,Stable financial behavior
+1718,freelancer,78431,0.12,478,286,0.78,7,22821,0.28,5,716,1,Medium Risk,High missed payments
+1719,driver,65745,0.57,66,1254,0.9,5,75090,0.49,3,631,1,Medium Risk,High missed payments
+1720,delivery_agent,60081,0.43,176,2655,1.3,8,173588,0.42,1,608,1,Medium Risk,Stable financial behavior
+1721,vendor,80902,0.47,428,1531,1.75,5,161545,0.46,5,731,1,Medium Risk,High missed payments
+1722,freelancer,18711,0.26,217,1153,1.1,6,66454,0.16,0,365,0,High Risk,Low savings
+1723,delivery_agent,95132,0.52,293,696,1.58,6,193602,0.4,1,817,1,Low Risk,Stable financial behavior
+1724,driver,28793,0.23,436,2917,1.82,8,124273,0.17,2,431,0,High Risk,Low savings
+1725,delivery_agent,18199,0.1,125,522,0.82,10,124472,0.14,3,355,0,High Risk,High missed payments
+1726,shopkeeper,86253,0.29,280,161,1.71,7,175870,0.47,5,759,1,Low Risk,High missed payments
+1727,freelancer,46191,0.39,253,1895,1.64,0,151935,0.06,3,519,0,High Risk,High missed payments
+1728,driver,20211,0.34,499,1704,1.04,3,36148,0.48,3,379,0,High Risk,High missed payments
+1729,vendor,73069,0.53,297,432,1.98,6,106545,0.12,2,685,1,Medium Risk,Low savings
+1730,driver,98896,0.15,351,66,0.89,10,74459,0.42,4,837,1,Low Risk,High missed payments
+1731,vendor,66746,0.38,263,542,0.88,7,104224,0.17,0,649,1,Medium Risk,Low savings
+1732,driver,31542,0.36,264,1946,1.66,6,86189,0.21,3,438,0,High Risk,High missed payments
+1733,delivery_agent,41312,0.24,207,1559,1.15,11,159201,0.15,1,498,0,High Risk,Low savings
+1734,delivery_agent,55242,0.51,118,166,1.0,2,111954,0.31,0,574,0,High Risk,Stable financial behavior
+1735,delivery_agent,97893,0.48,442,1628,0.77,3,43118,0.21,1,834,1,Low Risk,Stable financial behavior
+1736,shopkeeper,65388,0.47,134,929,1.65,11,151515,0.35,0,641,1,Medium Risk,Stable financial behavior
+1737,vendor,37691,0.54,316,2212,1.68,6,178113,0.06,0,480,0,High Risk,Low savings
+1738,delivery_agent,87960,0.46,118,1868,1.35,7,109379,0.08,5,759,1,Low Risk,High missed payments
+1739,shopkeeper,94388,0.22,148,1622,1.94,6,41053,0.09,1,807,1,Low Risk,Low savings
+1740,vendor,32601,0.45,396,2911,0.98,5,116384,0.24,1,450,0,High Risk,Stable financial behavior
+1741,driver,28020,0.25,499,1698,0.83,8,188276,0.42,0,432,0,High Risk,Stable financial behavior
+1742,shopkeeper,18155,0.22,265,693,1.52,8,137545,0.45,3,362,0,High Risk,High missed payments
+1743,freelancer,79119,0.14,464,1409,1.64,10,193312,0.16,1,730,1,Medium Risk,Low savings
+1744,shopkeeper,91051,0.47,210,385,0.84,6,146675,0.31,2,786,1,Low Risk,Stable financial behavior
+1745,shopkeeper,46777,0.46,472,196,0.61,7,113749,0.4,2,536,0,High Risk,Stable financial behavior
+1746,vendor,29710,0.22,143,171,1.72,5,159363,0.18,0,428,0,High Risk,Low savings
+1747,driver,34532,0.47,223,130,1.96,0,36285,0.23,4,450,0,High Risk,High missed payments
+1748,freelancer,28601,0.56,214,2782,1.47,0,81589,0.29,0,421,0,High Risk,Stable financial behavior
+1749,delivery_agent,73227,0.15,164,2759,0.92,5,33944,0.11,0,682,1,Medium Risk,Low savings
+1750,delivery_agent,14967,0.22,269,2472,2.0,1,121041,0.06,3,338,0,High Risk,High missed payments
+1751,shopkeeper,94289,0.48,493,2160,1.84,7,108876,0.12,3,814,1,Low Risk,High missed payments
+1752,vendor,30022,0.24,80,553,1.27,0,115561,0.33,5,416,0,High Risk,High missed payments
+1753,vendor,53463,0.41,60,717,1.74,1,74391,0.08,4,554,0,High Risk,High missed payments
+1754,delivery_agent,84671,0.14,392,2546,1.72,7,21607,0.14,4,753,1,Low Risk,High missed payments
+1755,freelancer,15722,0.33,426,2965,1.9,11,22953,0.2,4,352,0,High Risk,High missed payments
+1756,driver,37413,0.47,179,1494,1.76,5,64941,0.09,4,466,0,High Risk,High missed payments
+1757,freelancer,91050,0.44,154,1395,1.47,11,81683,0.14,4,783,1,Low Risk,High missed payments
+1758,driver,95867,0.51,76,2777,1.41,9,129588,0.46,0,817,1,Low Risk,Stable financial behavior
+1759,delivery_agent,93596,0.54,276,1239,1.2,1,142080,0.06,0,803,1,Low Risk,Low savings
+1760,driver,76732,0.49,51,1670,1.44,1,31154,0.34,5,690,1,Medium Risk,High missed payments
+1761,vendor,22297,0.44,408,2030,1.69,10,145542,0.22,2,392,0,High Risk,Stable financial behavior
+1762,shopkeeper,78323,0.12,150,1722,1.95,6,160119,0.35,2,713,1,Medium Risk,Stable financial behavior
+1763,shopkeeper,33816,0.37,70,2558,1.2,4,108529,0.31,5,439,0,High Risk,High missed payments
+1764,delivery_agent,50695,0.12,107,508,1.36,4,34323,0.15,5,540,0,High Risk,High missed payments
+1765,vendor,29702,0.5,438,1262,1.17,7,57693,0.43,1,437,0,High Risk,Stable financial behavior
+1766,freelancer,35242,0.26,229,513,1.5,11,109170,0.27,0,467,0,High Risk,Stable financial behavior
+1767,vendor,65841,0.38,478,961,1.44,11,177364,0.42,4,648,1,Medium Risk,High missed payments
+1768,shopkeeper,77712,0.24,390,2476,0.53,6,65111,0.23,1,715,1,Medium Risk,Stable financial behavior
+1769,shopkeeper,95663,0.49,398,1075,1.31,11,59491,0.49,3,822,1,Low Risk,High missed payments
+1770,vendor,63574,0.54,69,2461,0.63,8,69336,0.4,0,624,1,Medium Risk,Stable financial behavior
+1771,vendor,95744,0.3,304,121,0.54,3,36905,0.48,5,811,1,Low Risk,High missed payments
+1772,shopkeeper,38482,0.53,366,1500,1.69,9,50273,0.28,2,486,0,High Risk,Stable financial behavior
+1773,freelancer,19171,0.23,87,2735,0.89,3,145191,0.26,0,362,0,High Risk,Stable financial behavior
+1774,delivery_agent,13696,0.37,197,1243,1.01,1,135936,0.39,5,324,0,High Risk,High missed payments
+1775,delivery_agent,30058,0.53,74,1898,0.6,2,177306,0.45,0,425,0,High Risk,Stable financial behavior
+1776,vendor,30313,0.26,435,2434,0.77,0,86538,0.48,0,439,0,High Risk,Stable financial behavior
+1777,delivery_agent,29149,0.58,170,2072,1.65,0,124570,0.2,0,423,0,High Risk,Stable financial behavior
+1778,shopkeeper,63521,0.16,465,2292,1.24,6,183645,0.41,3,634,1,Medium Risk,High missed payments
+1779,shopkeeper,55740,0.11,75,1061,1.82,4,113339,0.14,2,575,0,High Risk,Low savings
+1780,vendor,14956,0.55,218,702,1.1,2,141132,0.3,0,341,0,High Risk,Stable financial behavior
+1781,vendor,85731,0.13,372,1348,0.9,6,148993,0.13,5,754,1,Low Risk,High missed payments
+1782,vendor,92612,0.6,274,56,1.02,1,31330,0.21,3,792,1,Low Risk,High missed payments
+1783,freelancer,76641,0.58,50,954,1.57,2,92553,0.47,1,698,1,Medium Risk,Stable financial behavior
+1784,delivery_agent,73811,0.17,356,2078,1.33,0,192425,0.12,0,691,1,Medium Risk,Low savings
+1785,vendor,62160,0.37,310,2663,1.86,7,167083,0.33,3,621,1,Medium Risk,High missed payments
+1786,driver,61313,0.19,62,665,1.4,1,103537,0.32,4,602,1,Medium Risk,High missed payments
+1787,driver,73232,0.31,452,1923,1.24,6,80985,0.1,1,691,1,Medium Risk,Low savings
+1788,shopkeeper,25417,0.13,445,2670,1.68,10,37044,0.2,2,412,0,High Risk,Stable financial behavior
+1789,delivery_agent,34729,0.21,97,2696,1.92,8,189364,0.3,0,459,0,High Risk,Stable financial behavior
+1790,vendor,40099,0.28,458,819,1.03,5,142304,0.13,0,498,0,High Risk,Low savings
+1791,driver,39961,0.32,362,2339,0.87,1,156322,0.41,3,488,0,High Risk,High missed payments
+1792,delivery_agent,22602,0.59,420,1616,1.42,1,43289,0.49,2,391,0,High Risk,Stable financial behavior
+1793,shopkeeper,19256,0.5,340,1535,1.25,8,53087,0.15,4,366,0,High Risk,High missed payments
+1794,freelancer,96120,0.47,381,1490,1.98,9,95952,0.13,1,826,1,Low Risk,Low savings
+1795,delivery_agent,44681,0.37,143,815,1.19,7,56368,0.25,5,507,0,High Risk,High missed payments
+1796,delivery_agent,97440,0.52,310,433,0.61,8,140648,0.39,2,828,1,Low Risk,Stable financial behavior
+1797,freelancer,74789,0.27,327,2488,1.97,3,90815,0.18,0,699,1,Medium Risk,Low savings
+1798,delivery_agent,53361,0.45,408,2993,1.77,3,110693,0.06,3,569,0,High Risk,High missed payments
+1799,shopkeeper,74503,0.6,254,737,0.77,1,78900,0.29,4,683,1,Medium Risk,High missed payments
+1800,shopkeeper,44540,0.26,234,1199,1.86,9,35494,0.48,3,517,0,High Risk,High missed payments
+1801,freelancer,36536,0.44,224,96,1.01,0,136486,0.23,1,465,0,High Risk,Stable financial behavior
+1802,vendor,94700,0.52,487,2022,1.07,9,196238,0.24,2,818,1,Low Risk,Stable financial behavior
+1803,driver,73043,0.56,436,2716,1.86,3,176405,0.49,3,688,1,Medium Risk,High missed payments
+1804,vendor,88532,0.46,429,513,1.3,9,53050,0.36,5,776,1,Low Risk,High missed payments
+1805,delivery_agent,66575,0.24,358,1922,0.71,9,117799,0.37,5,644,1,Medium Risk,High missed payments
+1806,driver,12871,0.26,464,172,1.05,10,151016,0.3,3,336,0,High Risk,High missed payments
+1807,freelancer,56002,0.11,118,2231,1.58,7,108257,0.49,0,585,0,High Risk,Stable financial behavior
+1808,freelancer,59812,0.48,153,1692,0.76,1,68070,0.36,3,596,0,High Risk,High missed payments
+1809,driver,32626,0.12,295,890,1.39,11,25166,0.45,4,447,0,High Risk,High missed payments
+1810,shopkeeper,69979,0.53,210,1635,1.54,10,158193,0.36,2,666,1,Medium Risk,Stable financial behavior
+1811,driver,86057,0.16,249,2946,1.02,7,165749,0.38,1,762,1,Low Risk,Stable financial behavior
+1812,delivery_agent,76668,0.19,265,2704,1.54,0,107409,0.18,5,696,1,Medium Risk,High missed payments
+1813,shopkeeper,90070,0.34,483,1853,1.83,0,57664,0.19,3,787,1,Low Risk,High missed payments
+1814,freelancer,99390,0.47,261,72,1.21,3,149926,0.4,4,833,1,Low Risk,High missed payments
+1815,driver,52998,0.17,65,615,1.07,6,21293,0.18,5,552,0,High Risk,High missed payments
+1816,vendor,73814,0.32,421,1959,0.88,8,173515,0.3,5,688,1,Medium Risk,High missed payments
+1817,vendor,55607,0.34,381,2863,1.41,4,69212,0.16,1,585,0,High Risk,Low savings
+1818,delivery_agent,17812,0.21,254,1014,1.82,1,95276,0.42,5,353,0,High Risk,High missed payments
+1819,vendor,71844,0.16,414,2332,0.99,11,32559,0.1,4,678,1,Medium Risk,High missed payments
+1820,driver,80093,0.52,88,1045,1.09,6,85231,0.42,5,713,1,Medium Risk,High missed payments
+1821,driver,12179,0.35,138,1237,1.11,10,128277,0.32,5,317,0,High Risk,High missed payments
+1822,vendor,53798,0.11,479,1844,1.34,1,190116,0.13,3,573,0,High Risk,High missed payments
+1823,driver,84601,0.5,305,875,0.84,8,41747,0.29,3,750,1,Low Risk,High missed payments
+1824,delivery_agent,18275,0.59,303,265,1.73,8,181201,0.18,2,363,0,High Risk,Low savings
+1825,shopkeeper,60574,0.4,265,706,0.94,2,20037,0.2,0,610,1,Medium Risk,Stable financial behavior
+1826,delivery_agent,57857,0.35,417,1163,1.56,7,124294,0.21,4,596,0,High Risk,High missed payments
+1827,delivery_agent,30700,0.54,352,2037,1.27,10,117847,0.08,0,441,0,High Risk,Low savings
+1828,driver,49464,0.58,221,360,1.38,3,123742,0.49,0,547,0,High Risk,Stable financial behavior
+1829,shopkeeper,52351,0.48,186,606,0.77,2,68503,0.06,5,548,0,High Risk,High missed payments
+1830,driver,92534,0.32,433,2354,1.6,0,48207,0.35,1,804,1,Low Risk,Stable financial behavior
+1831,freelancer,23869,0.4,227,2630,0.78,4,53241,0.22,1,392,0,High Risk,Stable financial behavior
+1832,driver,70315,0.45,126,1606,0.67,10,151130,0.34,5,657,1,Medium Risk,High missed payments
+1833,driver,30954,0.2,237,101,1.32,3,116171,0.21,4,430,0,High Risk,High missed payments
+1834,driver,41555,0.32,64,1411,1.56,0,165906,0.35,0,493,0,High Risk,Stable financial behavior
+1835,shopkeeper,73353,0.51,341,1244,0.58,9,137302,0.38,2,688,1,Medium Risk,Stable financial behavior
+1836,driver,92190,0.43,368,1698,0.6,7,178262,0.36,0,802,1,Low Risk,Stable financial behavior
+1837,shopkeeper,55026,0.31,374,2397,1.7,7,92832,0.1,1,583,0,High Risk,Low savings
+1838,vendor,56976,0.43,263,721,1.71,7,41383,0.35,0,594,0,High Risk,Stable financial behavior
+1839,freelancer,90578,0.16,257,827,0.87,2,144291,0.18,3,781,1,Low Risk,High missed payments
+1840,shopkeeper,55095,0.3,218,881,1.42,5,175732,0.06,3,573,0,High Risk,High missed payments
+1841,vendor,24270,0.5,379,2329,1.16,11,22674,0.24,2,402,0,High Risk,Stable financial behavior
+1842,shopkeeper,40908,0.21,329,1910,1.45,11,134100,0.25,4,496,0,High Risk,High missed payments
+1843,shopkeeper,25523,0.19,354,1579,1.79,6,129369,0.26,0,412,0,High Risk,Stable financial behavior
+1844,freelancer,72433,0.58,195,2125,0.62,8,42820,0.37,3,675,1,Medium Risk,High missed payments
+1845,delivery_agent,57068,0.2,312,2022,1.67,4,176738,0.19,4,587,0,High Risk,High missed payments
+1846,delivery_agent,29991,0.23,53,1124,1.24,8,63794,0.19,3,421,0,High Risk,High missed payments
+1847,shopkeeper,20775,0.58,139,1766,1.35,5,153148,0.08,4,366,0,High Risk,High missed payments
+1848,driver,87801,0.47,109,1333,1.48,9,148544,0.36,4,763,1,Low Risk,High missed payments
+1849,vendor,94995,0.45,360,640,1.88,9,57555,0.31,3,816,1,Low Risk,High missed payments
+1850,driver,71250,0.53,65,2882,0.59,9,52406,0.21,5,659,1,Medium Risk,High missed payments
+1851,driver,26673,0.16,276,2717,0.54,3,60262,0.37,1,411,0,High Risk,Stable financial behavior
+1852,shopkeeper,37056,0.45,78,2036,0.77,0,111320,0.29,4,457,0,High Risk,High missed payments
+1853,shopkeeper,16614,0.35,200,2683,1.98,0,174288,0.26,5,342,0,High Risk,High missed payments
+1854,shopkeeper,17415,0.51,294,1051,1.57,9,50284,0.28,0,363,0,High Risk,Stable financial behavior
+1855,shopkeeper,98691,0.35,319,2281,1.42,4,171243,0.34,5,830,1,Low Risk,High missed payments
+1856,delivery_agent,53884,0.41,128,1096,0.57,2,110627,0.35,3,561,0,High Risk,High missed payments
+1857,shopkeeper,26964,0.34,482,2226,1.82,4,165405,0.18,5,414,0,High Risk,High missed payments
+1858,delivery_agent,47726,0.34,338,2388,1.72,4,181607,0.11,1,538,0,High Risk,Low savings
+1859,delivery_agent,47044,0.48,202,1905,1.5,0,109023,0.12,3,523,0,High Risk,High missed payments
+1860,shopkeeper,67149,0.41,326,550,1.01,7,184772,0.34,2,651,1,Medium Risk,Stable financial behavior
+1861,freelancer,47544,0.42,450,2283,0.61,4,61516,0.44,0,542,0,High Risk,Stable financial behavior
+1862,vendor,59976,0.33,328,528,1.37,4,35577,0.23,2,608,1,Medium Risk,Stable financial behavior
+1863,driver,42252,0.37,106,1644,1.58,8,35015,0.13,5,492,0,High Risk,High missed payments
+1864,delivery_agent,13832,0.47,235,2589,0.64,7,111104,0.39,4,330,0,High Risk,High missed payments
+1865,vendor,90437,0.51,447,562,1.45,0,134412,0.42,5,784,1,Low Risk,High missed payments
+1866,freelancer,44148,0.45,142,2564,0.93,2,111740,0.45,4,504,0,High Risk,High missed payments
+1867,driver,71240,0.56,325,2382,1.65,11,172308,0.32,2,678,1,Medium Risk,Stable financial behavior
+1868,driver,98454,0.51,207,650,1.31,6,86640,0.44,2,831,1,Low Risk,Stable financial behavior
+1869,delivery_agent,95076,0.38,324,1490,0.69,0,103190,0.06,4,805,1,Low Risk,High missed payments
+1870,shopkeeper,87116,0.44,230,1173,1.29,0,149516,0.1,1,762,1,Low Risk,Low savings
+1871,freelancer,63459,0.56,408,238,1.09,4,196776,0.09,0,632,1,Medium Risk,Low savings
+1872,delivery_agent,48402,0.41,489,1038,0.77,8,193441,0.37,3,545,0,High Risk,High missed payments
+1873,freelancer,67727,0.51,126,2987,1.76,5,154718,0.08,2,646,1,Medium Risk,Low savings
+1874,shopkeeper,48578,0.44,200,1931,0.52,9,107007,0.27,0,540,0,High Risk,Stable financial behavior
+1875,shopkeeper,32318,0.38,495,437,0.97,1,176978,0.26,3,447,0,High Risk,High missed payments
+1876,delivery_agent,85715,0.22,287,2338,0.52,10,67728,0.19,5,752,1,Low Risk,High missed payments
+1877,shopkeeper,87787,0.31,338,1855,0.64,8,34878,0.44,3,771,1,Low Risk,High missed payments
+1878,vendor,95029,0.58,280,2083,0.95,5,148925,0.13,2,810,1,Low Risk,Low savings
+1879,driver,30466,0.43,67,1804,0.58,4,29145,0.21,1,425,0,High Risk,Stable financial behavior
+1880,delivery_agent,55475,0.38,122,2514,1.39,4,108578,0.4,1,577,0,High Risk,Stable financial behavior
+1881,freelancer,70142,0.57,466,2273,0.63,11,38226,0.06,0,676,1,Medium Risk,Low savings
+1882,vendor,95160,0.39,465,436,1.55,2,22802,0.35,5,814,1,Low Risk,High missed payments
+1883,delivery_agent,36564,0.36,238,1544,0.58,5,44119,0.42,0,471,0,High Risk,Stable financial behavior
+1884,shopkeeper,32412,0.48,487,902,0.59,3,83560,0.47,4,447,0,High Risk,High missed payments
+1885,shopkeeper,61001,0.46,66,2760,0.96,11,77353,0.44,1,610,1,Medium Risk,Stable financial behavior
+1886,shopkeeper,67649,0.2,68,501,1.84,9,143001,0.19,0,651,1,Medium Risk,Low savings
+1887,shopkeeper,70957,0.34,268,2374,1.46,1,91641,0.31,4,666,1,Medium Risk,High missed payments
+1888,freelancer,45517,0.34,375,1808,1.66,2,71712,0.08,5,517,0,High Risk,High missed payments
+1889,vendor,23156,0.29,169,262,0.71,8,150085,0.17,3,384,0,High Risk,High missed payments
+1890,driver,33064,0.36,150,90,1.75,10,88285,0.09,0,450,0,High Risk,Low savings
+1891,freelancer,35711,0.31,83,1195,0.51,10,135278,0.19,4,453,0,High Risk,High missed payments
+1892,freelancer,40106,0.2,133,2391,0.82,8,194021,0.44,1,488,0,High Risk,Stable financial behavior
+1893,driver,75458,0.31,458,649,1.42,5,185201,0.21,3,702,1,Medium Risk,High missed payments
+1894,driver,26589,0.14,245,2074,1.06,9,44512,0.3,0,415,0,High Risk,Stable financial behavior
+1895,shopkeeper,99272,0.39,379,2638,1.98,9,122077,0.25,1,846,1,Low Risk,Stable financial behavior
+1896,freelancer,96511,0.53,251,2080,0.55,8,22064,0.26,3,817,1,Low Risk,High missed payments
+1897,delivery_agent,17214,0.46,393,1832,2.0,3,115614,0.49,2,361,0,High Risk,Stable financial behavior
+1898,driver,95731,0.28,390,1901,1.44,10,137639,0.18,1,824,1,Low Risk,Low savings
+1899,driver,37127,0.14,60,2548,1.34,4,50011,0.33,2,465,0,High Risk,Stable financial behavior
+1900,vendor,15141,0.2,396,1829,0.59,9,91152,0.24,5,342,0,High Risk,High missed payments
+1901,delivery_agent,38884,0.37,449,2887,0.91,5,30960,0.08,0,490,0,High Risk,Low savings
+1902,delivery_agent,12708,0.2,267,2431,1.89,8,141789,0.27,4,328,0,High Risk,High missed payments
+1903,driver,28375,0.37,494,1954,1.03,4,78920,0.42,0,432,0,High Risk,Stable financial behavior
+1904,shopkeeper,25088,0.22,302,2988,1.49,7,41387,0.09,1,405,0,High Risk,Low savings
+1905,vendor,67615,0.52,271,2141,2.0,10,166396,0.08,2,653,1,Medium Risk,Low savings
+1906,delivery_agent,55046,0.3,432,193,0.89,0,83960,0.12,2,579,0,High Risk,Low savings
+1907,driver,20014,0.22,418,382,1.36,4,142994,0.39,3,375,0,High Risk,High missed payments
+1908,delivery_agent,74425,0.51,129,1047,1.54,9,52628,0.38,0,693,1,Medium Risk,Stable financial behavior
+1909,vendor,13273,0.27,56,1469,0.75,0,141269,0.3,0,325,0,High Risk,Stable financial behavior
+1910,vendor,57135,0.16,321,104,0.72,9,67452,0.26,1,594,0,High Risk,Stable financial behavior
+1911,freelancer,40881,0.39,276,1380,1.18,5,61098,0.45,2,495,0,High Risk,Stable financial behavior
+1912,driver,88077,0.39,65,2967,1.08,6,190307,0.4,1,767,1,Low Risk,Stable financial behavior
+1913,vendor,18712,0.46,473,1496,1.57,11,106861,0.42,1,377,0,High Risk,Stable financial behavior
+1914,freelancer,84704,0.22,61,1490,0.6,4,47949,0.42,5,738,1,Medium Risk,High missed payments
+1915,freelancer,62874,0.32,340,2894,1.96,0,173893,0.34,2,625,1,Medium Risk,Stable financial behavior
+1916,delivery_agent,79087,0.24,290,2422,0.52,5,173104,0.26,1,719,1,Medium Risk,Stable financial behavior
+1917,delivery_agent,22297,0.14,70,1783,1.4,9,93537,0.44,2,381,0,High Risk,Stable financial behavior
+1918,freelancer,37128,0.54,227,1744,1.34,4,166375,0.47,1,473,0,High Risk,Stable financial behavior
+1919,delivery_agent,78368,0.46,476,129,0.7,5,136003,0.06,4,714,1,Medium Risk,High missed payments
+1920,vendor,97599,0.25,277,1034,0.73,10,163375,0.07,1,829,1,Low Risk,Low savings
+1921,shopkeeper,98499,0.4,322,2655,1.69,9,70701,0.48,1,840,1,Low Risk,Stable financial behavior
+1922,vendor,88958,0.2,337,914,1.83,6,70511,0.17,4,776,1,Low Risk,High missed payments
+1923,freelancer,42920,0.55,346,2814,0.92,6,100664,0.44,0,513,0,High Risk,Stable financial behavior
+1924,freelancer,21156,0.16,183,1637,1.16,1,169352,0.22,2,373,0,High Risk,Stable financial behavior
+1925,vendor,21108,0.1,332,521,1.03,11,59427,0.1,3,380,0,High Risk,High missed payments
+1926,delivery_agent,41845,0.35,453,2171,0.61,2,117180,0.09,4,498,0,High Risk,High missed payments
+1927,delivery_agent,12800,0.39,202,1626,1.51,11,123550,0.12,0,332,0,High Risk,Low savings
+1928,freelancer,52712,0.39,115,1552,1.74,5,158039,0.16,1,560,0,High Risk,Low savings
+1929,driver,12610,0.13,186,638,0.96,2,157733,0.27,5,318,0,High Risk,High missed payments
+1930,delivery_agent,87603,0.26,141,1460,1.99,1,97952,0.37,0,768,1,Low Risk,Stable financial behavior
+1931,vendor,43872,0.35,486,1955,0.61,3,86046,0.49,4,514,0,High Risk,High missed payments
+1932,delivery_agent,20728,0.21,366,613,1.49,4,126918,0.25,5,373,0,High Risk,High missed payments
+1933,vendor,30583,0.54,471,516,1.17,10,55200,0.28,1,444,0,High Risk,Stable financial behavior
+1934,freelancer,95774,0.14,308,648,1.17,9,87442,0.28,0,824,1,Low Risk,Stable financial behavior
+1935,delivery_agent,17263,0.34,152,1694,1.19,8,111070,0.29,3,350,0,High Risk,High missed payments
+1936,vendor,77450,0.45,104,1041,0.89,2,78168,0.28,2,700,1,Medium Risk,Stable financial behavior
+1937,freelancer,99285,0.23,306,1982,1.57,2,68322,0.05,2,836,1,Low Risk,Low savings
+1938,driver,29456,0.41,150,2834,1.58,5,188768,0.05,4,418,0,High Risk,High missed payments
+1939,vendor,75942,0.51,247,2345,0.92,4,90246,0.09,1,698,1,Medium Risk,Low savings
+1940,driver,23689,0.2,350,1654,1.75,5,189964,0.1,1,398,0,High Risk,Low savings
+1941,driver,42934,0.56,275,116,0.98,6,35583,0.37,2,506,0,High Risk,Stable financial behavior
+1942,shopkeeper,43276,0.38,480,2670,1.59,10,102720,0.14,0,521,0,High Risk,Low savings
+1943,delivery_agent,29873,0.25,286,2800,0.68,2,175925,0.45,1,430,0,High Risk,Stable financial behavior
+1944,vendor,23050,0.32,75,519,0.75,4,157181,0.47,3,380,0,High Risk,High missed payments
+1945,driver,76216,0.26,170,2590,0.97,7,79757,0.49,3,698,1,Medium Risk,High missed payments
+1946,shopkeeper,94444,0.46,447,1774,1.39,3,26659,0.47,1,817,1,Low Risk,Stable financial behavior
+1947,freelancer,94040,0.5,231,2760,1.47,9,21238,0.17,1,808,1,Low Risk,Low savings
+1948,vendor,31644,0.52,248,2383,1.09,1,141270,0.28,2,436,0,High Risk,Stable financial behavior
+1949,driver,72021,0.59,351,1681,0.62,3,139211,0.13,4,672,1,Medium Risk,High missed payments
+1950,delivery_agent,47125,0.5,304,2409,1.06,1,35064,0.41,2,530,0,High Risk,Stable financial behavior
+1951,shopkeeper,76899,0.4,171,2406,1.53,2,182187,0.45,4,698,1,Medium Risk,High missed payments
+1952,driver,52291,0.27,80,824,1.51,3,183024,0.43,3,553,0,High Risk,High missed payments
+1953,delivery_agent,45060,0.37,364,1186,0.74,3,156692,0.25,4,516,0,High Risk,High missed payments
+1954,driver,11538,0.12,334,2061,0.51,9,119790,0.39,2,325,0,High Risk,Stable financial behavior
+1955,vendor,46176,0.47,155,2553,1.63,8,122985,0.09,1,523,0,High Risk,Low savings
+1956,vendor,51520,0.32,273,1536,0.66,9,64258,0.07,4,552,0,High Risk,High missed payments
+1957,vendor,35675,0.11,322,181,0.62,5,155542,0.39,2,465,0,High Risk,Stable financial behavior
+1958,shopkeeper,28287,0.13,447,979,0.5,8,173075,0.24,3,424,0,High Risk,High missed payments
+1959,vendor,10174,0.29,281,978,1.15,3,178643,0.5,5,309,0,High Risk,High missed payments
+1960,delivery_agent,44998,0.39,469,2218,1.25,8,44668,0.09,4,521,0,High Risk,High missed payments
+1961,driver,63312,0.33,305,1270,1.46,10,97259,0.44,3,629,1,Medium Risk,High missed payments
+1962,freelancer,22112,0.41,491,1555,0.94,8,132192,0.27,3,390,0,High Risk,High missed payments
+1963,delivery_agent,85225,0.34,73,683,1.57,5,116576,0.42,0,753,1,Low Risk,Stable financial behavior
+1964,delivery_agent,54814,0.43,158,2994,0.75,4,125481,0.42,5,565,0,High Risk,High missed payments
+1965,vendor,95091,0.21,240,2869,1.75,2,131505,0.46,4,809,1,Low Risk,High missed payments
+1966,shopkeeper,60719,0.16,396,1112,1.36,4,183118,0.18,2,614,1,Medium Risk,Low savings
+1967,driver,43919,0.4,74,2663,1.38,2,25397,0.48,4,501,0,High Risk,High missed payments
+1968,shopkeeper,83155,0.34,236,2609,0.81,4,119925,0.12,4,735,1,Medium Risk,High missed payments
+1969,driver,81569,0.11,337,1234,0.61,4,103481,0.09,5,727,1,Medium Risk,High missed payments
+1970,driver,51328,0.29,165,338,1.2,1,173305,0.24,3,547,0,High Risk,High missed payments
+1971,shopkeeper,80482,0.15,387,2297,1.42,8,80308,0.42,3,732,1,Medium Risk,High missed payments
+1972,delivery_agent,34618,0.37,415,1861,0.64,6,21130,0.26,3,459,0,High Risk,High missed payments
+1973,driver,44675,0.3,451,577,1.93,5,144293,0.42,3,523,0,High Risk,High missed payments
+1974,shopkeeper,28919,0.41,86,966,1.97,4,34071,0.38,5,413,0,High Risk,High missed payments
+1975,driver,14173,0.5,331,1758,1.32,3,105517,0.14,2,337,0,High Risk,Low savings
+1976,freelancer,36400,0.25,186,1456,1.93,7,130240,0.48,1,471,0,High Risk,Stable financial behavior
+1977,delivery_agent,60445,0.58,276,1291,0.77,1,22118,0.08,0,608,1,Medium Risk,Low savings
+1978,vendor,80305,0.37,369,1160,0.54,7,151735,0.45,3,727,1,Medium Risk,High missed payments
+1979,driver,47564,0.41,377,848,0.56,0,82408,0.19,3,530,0,High Risk,High missed payments
+1980,freelancer,55814,0.44,453,1573,1.38,9,71786,0.28,0,594,0,High Risk,Stable financial behavior
+1981,vendor,89747,0.43,231,61,0.59,0,101271,0.24,3,773,1,Low Risk,High missed payments
+1982,vendor,98791,0.36,411,882,1.94,2,39158,0.13,1,840,1,Low Risk,Low savings
+1983,driver,37962,0.31,135,2938,0.71,4,51087,0.21,4,466,0,High Risk,High missed payments
+1984,shopkeeper,94892,0.13,463,2740,0.96,5,108114,0.14,0,821,1,Low Risk,Low savings
+1985,driver,95842,0.11,102,1291,1.73,3,39874,0.14,2,811,1,Low Risk,Low savings
+1986,freelancer,80533,0.28,397,1722,0.83,6,103443,0.13,0,734,1,Medium Risk,Low savings
+1987,vendor,66184,0.27,404,2203,0.86,6,60821,0.27,1,649,1,Medium Risk,Stable financial behavior
+1988,driver,92912,0.29,284,740,1.46,1,135675,0.41,5,794,1,Low Risk,High missed payments
+1989,shopkeeper,20578,0.17,496,577,0.91,1,80582,0.31,2,380,0,High Risk,Stable financial behavior
+1990,driver,28624,0.47,316,1545,0.83,1,142603,0.45,4,418,0,High Risk,High missed payments
+1991,delivery_agent,49194,0.53,336,2943,0.88,1,173859,0.34,3,540,0,High Risk,High missed payments
+1992,shopkeeper,10389,0.57,482,942,1.24,8,172777,0.36,0,327,0,High Risk,Stable financial behavior
+1993,freelancer,77391,0.35,149,436,1.95,4,89381,0.35,2,706,1,Medium Risk,Stable financial behavior
+1994,vendor,23794,0.45,136,1299,1.75,10,131800,0.25,0,396,0,High Risk,Stable financial behavior
+1995,driver,68002,0.53,452,2578,0.93,7,150805,0.36,4,656,1,Medium Risk,High missed payments
+1996,shopkeeper,45531,0.31,445,1827,1.05,4,195725,0.08,0,529,0,High Risk,Low savings
+1997,delivery_agent,62815,0.25,64,457,1.2,10,102018,0.44,2,619,1,Medium Risk,Stable financial behavior
+1998,shopkeeper,14986,0.57,464,1726,1.97,4,120592,0.4,1,352,0,High Risk,Stable financial behavior
+1999,delivery_agent,42298,0.36,476,947,0.76,0,111626,0.16,5,499,0,High Risk,High missed payments
+2000,freelancer,11481,0.35,150,760,1.04,5,106217,0.4,2,317,0,High Risk,Stable financial behavior
