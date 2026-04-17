@@ -1,5 +1,7 @@
 // Production build
 const API = "https://vibhava-backend.onrender.com";
+// Production build
+const API = "https://vibhava-backend.onrender.com";
 
 // ================= WEB3 & METAMASK SETUP =================
 const CONTRACT_ADDRESS = "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8";
@@ -91,7 +93,7 @@ const CONTRACT_ABI = [
 ];
 
 let provider, signer, smartContract;
-let currentRiskAppetite = 'stable'; // Default to stable only
+let currentRiskAppetite = 'stable'; 
 
 function updateStatus(message, isError = false) {
     const resDiv = document.getElementById("result");
@@ -238,7 +240,6 @@ async function loadMyLoans() {
     container.innerHTML = html;
 }
 
-// ---------------- WEB3: Pay EMI ----------------
 async function payEmi(loanId, borrowerId, emiAmount) {
     if (!smartContract) return updateStatus("Connect MetaMask first", true);
     updateStatus("Processing Payment Request...");
@@ -257,7 +258,6 @@ async function payEmi(loanId, borrowerId, emiAmount) {
     }
 }
 
-// ================= LOAN LOGIC =================
 async function getScore() {
     let res = await fetch(`${API}/score`);
     let data = await res.json();
@@ -328,15 +328,15 @@ async function submitLoan() {
 
 // ================= LENDER DASHBOARD WITH FILTER =================
 
-// Helper to switch risk appetite
 function setRiskAppetite(appetite) {
     currentRiskAppetite = appetite;
-    showLender(); // Re-render the dashboard to apply the filter
+    showLender(); 
 }
 
 async function showLender() {
     document.getElementById("profile").innerHTML = "";
     let lender = JSON.parse(localStorage.getItem("user"));
+    let lenderIncome = lender.monthly_income;
 
     let res = await fetch(`${API}/borrowers`);
     let data = await res.json();
@@ -351,38 +351,28 @@ async function showLender() {
         <div class="risk-appetite-container">
             <span style="font-size: 11px; color: var(--text-muted); font-weight: 600; letter-spacing: 1px;">YOUR RISK APPETITE</span>
             <div class="risk-toggle">
-                <button id="riskStable" 
-                    class="${currentRiskAppetite === 'stable' ? 'active-stable' : ''}" 
-                    onclick="setRiskAppetite('stable')">🛡️ STABLE ONLY</button>
-                <button id="riskAggressive" 
-                    class="${currentRiskAppetite === 'aggressive' ? 'active-aggressive' : ''}" 
-                    onclick="setRiskAppetite('aggressive')">🔥 AGGRESSIVE (ALL)</button>
+                <button class="${currentRiskAppetite === 'stable' ? 'active-stable' : ''}" onclick="setRiskAppetite('stable')">🛡️ STABLE ONLY</button>
+                <button class="${currentRiskAppetite === 'aggressive' ? 'active-aggressive' : ''}" onclick="setRiskAppetite('aggressive')">🔥 AGGRESSIVE (ALL)</button>
             </div>
         </div>
     `;
 
     let htmlCards = "";
     let displayCount = 0;
-    let lenderIncome = lender.monthly_income;
 
-    // Loop through all data but only display what matches the filter
     data.forEach((b, originalIndex) => {
         let P = b.requested_amount;
         let isHighRisk = P > (lenderIncome * 2);
         
-        // FILTER LOGIC: If set to 'stable', skip high risk profiles (Exceeds 2x Income)
-        if (currentRiskAppetite === 'stable' && isHighRisk) {
-            return; 
-        }
+        if (currentRiskAppetite === 'stable' && isHighRisk) return; 
 
         displayCount++;
 
-        // Calculate detail data
         let R = (b.interest_rate / 100) / 12, N = b.duration_months;
         let emi = Math.round(P * R * (Math.pow(1 + R, N)) / (Math.pow(1 + R, N) - 1));
         let totalInterest = Math.round((emi * N) - P);
 
-        // Incorporating User's 3-Tier Risk Badge Logic
+        // RISK BADGE & BORDER LOGIC
         let riskBadge = "";
         let borderLeftColor = "";
 
@@ -402,6 +392,11 @@ async function showLender() {
                 <div style="display:flex; justify-content:space-between; align-items:flex-start;">
                     <div>
                         <p style="margin:0; font-weight:700;">${b.name} (ID: ${b.user_id})</p>
+                        
+                        <p style="margin:5px 0; font-size:12px; color:var(--text-muted);">
+                            AI Credit Score: <span style="color:var(--primary); font-weight:bold;">${b.credit_score || 'Calculating...'}</span>
+                        </p>
+
                         <p style="margin:0; font-size:20px; font-weight:800; color:var(--primary);">₹${b.requested_amount}</p>
                     </div>
                     ${riskBadge}
@@ -443,11 +438,7 @@ async function showLender() {
 
 function toggleDetails(index) {
     let div = document.getElementById(`details${index}`);
-    if (div.style.display === "block") {
-        div.style.display = "none";
-    } else {
-        div.style.display = "block";
-    }
+    div.style.display = (div.style.display === "block") ? "none" : "block";
 }
 
 async function lend(index, amount, borrowerId) {
