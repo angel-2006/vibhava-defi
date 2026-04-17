@@ -73,7 +73,7 @@ Open `frontend/index.html` using Live Server
 
 ### 1. Open the Application
 
-* Use the deployed link provided in the submission
+* Use the deployed link: https://vibhava-defi.vercel.app/
 * The application will load in the browser
 
 ---
