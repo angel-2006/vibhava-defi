@@ -1,5 +1,5 @@
 // Production build
-const API = "hhttps://vibhava-backend.onrender.com";
+const API = "https://vibhava-backend.onrender.com";
 
 // ================= WEB3 & METAMASK SETUP =================
 const CONTRACT_ADDRESS = "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8";
